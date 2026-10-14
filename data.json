@@ -1,0 +1,2236 @@
+{
+  "meta": {
+    "title": "Italia 2026 en familia",
+    "travelers": "Edver, Marcela, Olga y Santiago",
+    "start": "2026-10-14",
+    "end": "2026-10-22",
+    "updated": "2026-10-14"
+  },
+  "cities": {
+    "viaje": {
+      "name": "En camino",
+      "short": "Viaje"
+    },
+    "venecia": {
+      "name": "Venecia",
+      "short": "Venecia"
+    },
+    "florencia": {
+      "name": "Florencia",
+      "short": "Florencia"
+    },
+    "roma": {
+      "name": "Roma",
+      "short": "Roma"
+    }
+  },
+  "hotels": {
+    "nh": {
+      "city": "venecia",
+      "name": "NH Venezia Santa Lucia",
+      "address": "Rio Terà Lista di Spagna 116/A, Cannaregio, 30121 Venezia, Italia",
+      "mapsQuery": "NH Venezia Santa Lucia, Lista di Spagna 116/A, Venezia",
+      "phone": "+39 041 524 24 88",
+      "notes": [
+        "Frente a la estación de tren Venezia Santa Lucia.",
+        "Check-in el 15 entre 20:00 y 21:00.",
+        "Desayuno incluido."
+      ],
+      "sources": [
+        "https://nh-hotels.com/en/hotel/nh-venezia-santa-lucia/map",
+        "https://www.travelweekly-asia.com/Hotels/Venice/NH-Venezia-Santa-Lucia-p56171675"
+      ]
+    },
+    "club": {
+      "city": "florencia",
+      "name": "c-hotels Club",
+      "address": "Via Santa Caterina da Siena 11, 50123 Firenze",
+      "mapsQuery": "c-hotels Club, Via Santa Caterina da Siena 11, Firenze",
+      "phone": "+39 055 217707",
+      "notes": [
+        "A unos 200 m de la estación Firenze Santa Maria Novella.",
+        "Check-in 15:00; guardan las maletas si llegan antes.",
+        "Desayuno buffet 7:00–10:00 (confirmar en recepción si está incluido)."
+      ],
+      "sources": [
+        "https://www.hotelclubflorence.com/",
+        "https://www.momondo.it/hotel/firenze/c-hotels-Club.mhd603367.ksp"
+      ]
+    },
+    "lux": {
+      "city": "roma",
+      "name": "Lux of the Vatican",
+      "address": "Viale Vaticano 71, 00136 Roma, Italia",
+      "mapsQuery": "Lux of the Vatican, Viale Vaticano 71, Roma",
+      "phone": "+39 348 467 6296",
+      "notes": [
+        "A 5 minutos a pie de los Museos Vaticanos.",
+        "Check-in 15:00; se pueden dejar maletas antes en la zona de equipaje.",
+        "Tasa turística: 72 € SOLO EN EFECTIVO (no aceptan tarjeta).",
+        "Al salir, las llaves se dejan en la caja fuerte especial.",
+        "Taxi al aeropuerto: Preguntar el precio ANTES de subir: el hotel (Viale Vaticano, Prati) probablemente queda fuera de las murallas Aurelianas, así que la tarifa fija de 55 € puede no aplicar; con taxímetro suele estar entre 50 y 70 €. Pedirlo en recepción la noche anterior para las 6:15."
+      ],
+      "sources": [
+        "https://www.turismoroma.it/en/hospitality/guest-house-o-affittacamere-lux-vatican",
+        "https://lux-vatican-rome.site/"
+      ]
+    }
+  },
+  "days": [
+    {
+      "date": "2026-10-14",
+      "city": "viaje",
+      "title": "Salida hacia Italia",
+      "hotel": null,
+      "events": [
+        {
+          "time": "16:25",
+          "text": "Edver y Marcela salen de Bogotá con Avianca, vía Madrid."
+        },
+        {
+          "time": "",
+          "text": "Olga y Santiago salen de Miami con ITA Airways (hora: ver su tiquete)."
+        }
+      ],
+      "notes": [
+        "Noche en el avión."
+      ],
+      "bring": [
+        "Pasaporte original",
+        "Tarjetas y algo de efectivo en euros",
+        "Adaptador de enchufe en el equipaje de mano",
+        "Medicamentos en el equipaje de mano",
+        "Ropa cómoda y una chaqueta liviana para el avión"
+      ]
+    },
+    {
+      "date": "2026-10-15",
+      "city": "venecia",
+      "title": "Llegada: Roma → Venecia",
+      "hotel": "nh",
+      "events": [
+        {
+          "time": "14:00",
+          "text": "Edver y Marcela llegan a Roma Fiumicino desde Madrid.",
+          "place": "Aeroporto di Roma Fiumicino"
+        },
+        {
+          "time": "",
+          "text": "Recoger las maletas y volver a facturarlas con ITA para el vuelo a Venecia.",
+          "note": "El vuelo nacional es aparte: hay que pasar otra vez por el mostrador de ITA."
+        },
+        {
+          "time": "17:20",
+          "text": "Vuelo ITA Fiumicino → Venecia (llega 18:25).",
+          "note": "Olga y Santiago llegan desde Miami: ver hora en su tiquete."
+        },
+        {
+          "time": "",
+          "text": "Bus ATVO o lancha hasta el Piazzale Roma.",
+          "place": "Piazzale Roma, Venezia"
+        },
+        {
+          "time": "",
+          "text": "Caminar al hotel (cruzando el puente hacia la estación de tren).",
+          "place": "NH Venezia Santa Lucia, Lista di Spagna 116/A, Venezia"
+        },
+        {
+          "time": "20:00",
+          "text": "Check-in en el NH Venezia Santa Lucia (entre 20:00 y 21:00)."
+        }
+      ],
+      "notes": [
+        "Esa noche solo algo cerca del hotel: Al Timon (cicchetti, abierto hasta tarde). Pasticceria Dal Mas cierra temprano: queda para el desayuno."
+      ],
+      "bring": [
+        "Pasaportes a mano para los controles",
+        "Código de la reserva: en el WhatsApp del grupo / correo de Olga o Marcela"
+      ]
+    },
+    {
+      "date": "2026-10-16",
+      "city": "venecia",
+      "title": "Venecia: día libre",
+      "hotel": "nh",
+      "events": [
+        {
+          "time": "",
+          "text": "Desayuno incluido en el hotel."
+        },
+        {
+          "time": "",
+          "text": "Sugerencia: vaporetto línea 1 por el Gran Canal, desde la estación (Ferrovia) hasta San Marco, sentados afuera."
+        },
+        {
+          "time": "",
+          "text": "Sugerencia: Plaza San Marcos y Basílica; regreso caminando por Rialto."
+        },
+        {
+          "time": "",
+          "text": "Descanso en el hotel y cena con cicchetti en Cannaregio."
+        },
+        {
+          "time": "",
+          "text": "Cena reservada: Vini da Gigio o Antiche Carampane (reservar solo una).",
+          "note": "Ver Comer → Venecia."
+        },
+        {
+          "time": "",
+          "text": "Comprar en la estación Santa Lucia el tren de mañana a Florencia (Frecciarossa de las ~9:26).",
+          "place": "Stazione Venezia Santa Lucia",
+          "note": "Importante: se compra hoy."
+        }
+      ],
+      "notes": [
+        "Revisar el pronóstico de acqua alta (marea alta) por la mañana: ver Consejos."
+      ],
+      "bring": [
+        "Zapatos cómodos y antideslizantes",
+        "Abono de vaporetto (se compra en la parada o en la app)"
+      ]
+    },
+    {
+      "date": "2026-10-17",
+      "city": "florencia",
+      "title": "Venecia → Florencia",
+      "hotel": "club",
+      "events": [
+        {
+          "time": "",
+          "text": "Desayuno y check-out del NH."
+        },
+        {
+          "time": "09:26",
+          "text": "Frecciarossa desde Venezia Santa Lucia (llega ~11:39 a Firenze S. M. Novella).",
+          "place": "Stazione Venezia Santa Lucia",
+          "note": "Asiento asignado; no hay que validar el tiquete. Llegar 20 min antes y mirar el andén (binario) en las pantallas."
+        },
+        {
+          "time": "11:39",
+          "text": "Llegada a Firenze Santa Maria Novella. Caminar 200 m al hotel.",
+          "place": "c-hotels Club, Via Santa Caterina da Siena 11, Firenze"
+        },
+        {
+          "time": "",
+          "text": "Dejar las maletas en el c-hotels Club (check-in 15:00)."
+        },
+        {
+          "time": "",
+          "text": "Tarde libre: almuerzo en el Mercato Centrale, Duomo por fuera, descanso."
+        }
+      ],
+      "notes": [
+        "Mañana se madruga: la cita en la Academia es a las 8:40."
+      ],
+      "bring": [
+        "Tiquetes del tren en el celular o impresos"
+      ]
+    },
+    {
+      "date": "2026-10-18",
+      "city": "florencia",
+      "title": "Florencia: Academia, Uffizi y Corredor Vasariano",
+      "hotel": "club",
+      "events": [
+        {
+          "time": "08:40",
+          "text": "Puerta n.º 39 de la Galería de la Academia. Tour en español a las 8:56 (1 h).",
+          "place": "Galleria dell'Accademia, Via Ricasoli 58, Firenze",
+          "note": "Llevar el QR en el celular."
+        },
+        {
+          "time": "11:00",
+          "text": "Entrar a los Uffizi (entre 11:00 y 11:45).",
+          "place": "Galleria degli Uffizi, Piazzale degli Uffizi 6, Firenze"
+        },
+        {
+          "time": "13:45",
+          "text": "EN PUNTO en la sala D19 de los Uffizi: Corredor Vasariano.",
+          "note": "No llegar tarde. El corredor termina del lado del Palacio Pitti / Jardín de Bóboli."
+        },
+        {
+          "time": "",
+          "text": "Tarde libre en el Oltrarno: almuerzo tardío, Bóboli o descanso.",
+          "place": "Palazzo Pitti, Firenze"
+        },
+        {
+          "time": "",
+          "text": "Comprar en la estación SMN el tren de mañana a Roma (11:14 o 11:48).",
+          "place": "Stazione Firenze Santa Maria Novella",
+          "note": "Importante: se compra hoy."
+        },
+        {
+          "time": "",
+          "text": "Cena reservada: Il Latini (bistecca alla fiorentina; de los pocos abiertos el domingo).",
+          "place": "Il Latini, Via dei Palchetti 6r, Firenze"
+        }
+      ],
+      "notes": [
+        "Día largo de museos: tomar agua y sentarse cuando se pueda."
+      ],
+      "bring": [
+        "QR de Academia, Uffizi y Corredor descargados en el celular",
+        "Pasaporte",
+        "Botella de agua pequeña"
+      ]
+    },
+    {
+      "date": "2026-10-19",
+      "city": "roma",
+      "title": "Florencia → Roma",
+      "hotel": "lux",
+      "events": [
+        {
+          "time": "",
+          "text": "Desayuno; check-out antes de las 11:00."
+        },
+        {
+          "time": "11:14",
+          "text": "Tren a Roma Termini (llega 12:40). Alternativa: 11:48 → 13:25.",
+          "place": "Stazione Firenze Santa Maria Novella"
+        },
+        {
+          "time": "12:40",
+          "text": "Taxi oficial (blanco) en la fila de taxis de Termini al hotel Lux of the Vatican.",
+          "place": "Lux of the Vatican, Viale Vaticano 71, Roma",
+          "note": "Cuidado con carteristas en Termini."
+        },
+        {
+          "time": "13:30",
+          "text": "Dejar las maletas en la zona de equipaje del hotel; check-in 15:00."
+        },
+        {
+          "time": "16:00",
+          "text": "Opcional: Museos Vaticanos (entradas NO compradas: comprar solo en el sitio oficial) o paseo por Prati y Castel Sant'Angelo por fuera.",
+          "place": "Musei Vaticani, Viale Vaticano, Roma",
+          "note": "Castel Sant'Angelo (el museo) cierra los lunes. Museos Vaticanos: última entrada 18:00."
+        }
+      ],
+      "notes": [
+        "Pagar la tasa turística (72 €) solo en efectivo."
+      ],
+      "bring": [
+        "72 € en efectivo para la tasa turística",
+        "Tiquetes del tren"
+      ],
+      "reminders": [
+        "Llevar 72 € en EFECTIVO para la tasa turística del hotel: no aceptan tarjeta."
+      ]
+    },
+    {
+      "date": "2026-10-20",
+      "city": "roma",
+      "title": "Roma: Cúpula de San Pedro",
+      "hotel": "lux",
+      "events": [
+        {
+          "time": "",
+          "text": "Mañana libre: Castel Sant'Angelo, Piazza Navona y Pantheon (7 €), o descanso en Prati."
+        },
+        {
+          "time": "14:30",
+          "text": "Cúpula de San Pedro con ascensor + Basílica.",
+          "place": "Cupola di San Pietro, Città del Vaticano",
+          "note": "La hora de la Basílica es 1 h antes o después (viene en el correo con los QR). Después del ascensor hay 320 escalones. No hay guardarropa: ir sin bolsos grandes."
+        },
+        {
+          "time": "15:00",
+          "text": "Recoger las entradas de la audiencia en la Puerta de Bronce (columnata derecha). Abre 8:30–13:00 y 15:00–19:00.",
+          "place": "Portone di Bronzo, Città del Vaticano"
+        }
+      ],
+      "notes": [
+        "Código de vestimenta: hombros y rodillas cubiertos.",
+        "Hacer el check-in en línea de Avianca (regreso) desde hoy."
+      ],
+      "bring": [
+        "QR de Cúpula y Basílica",
+        "Ropa que cubra hombros y rodillas",
+        "Pasaportes"
+      ],
+      "reminders": [
+        "Cúpula: después del ascensor quedan 320 escalones. No hay guardarropa: ir sin bolsos grandes."
+      ]
+    },
+    {
+      "date": "2026-10-21",
+      "city": "roma",
+      "title": "Roma: audiencia del Papa y Coliseo",
+      "hotel": "lux",
+      "events": [
+        {
+          "time": "07:30",
+          "text": "Llegar a la Plaza de San Pedro (entre 7:30 y 8:00) para el control de seguridad.",
+          "place": "Piazza San Pietro, Città del Vaticano"
+        },
+        {
+          "time": "10:00",
+          "text": "Audiencia general del Papa (10:00)."
+        },
+        {
+          "time": "12:00",
+          "text": "Taxi del Vaticano al Coliseo (~25 min).",
+          "note": "Llevar algo de comer (fruta, barras, un panino): no hay tiempo de almorzar antes del Coliseo."
+        },
+        {
+          "time": "12:45",
+          "text": "Estar en la entrada Piazza del Colosseo – Valadier (15 min antes).",
+          "place": "Colosseo, Piazza del Colosseo, Roma",
+          "note": "Cada uno con su PASAPORTE ORIGINAL: las entradas son nominativas."
+        },
+        {
+          "time": "13:00",
+          "text": "Coliseo Full Experience con arena."
+        },
+        {
+          "time": "",
+          "text": "Foro Romano y Palatino (incluidos ese día)."
+        },
+        {
+          "time": "15:30",
+          "text": "Almuerzo tardío (15:30–16:00) en un lugar abierto toda la tarde: La Bottega del Caffè o Antico Forno ai Serpenti (Monti), o Mercato Centrale (Termini).",
+          "note": "La mayoría de las trattorias cierran la cocina hacia las 15:00. Ver Comer → Roma."
+        },
+        {
+          "time": "",
+          "text": "Cena de despedida (reservada): Armando al Pantheon o Roscioli.",
+          "note": "Pedir en recepción el taxi para mañana a las 6:15 y preguntar el precio. Hacer el check-in en línea del vuelo de ITA."
+        }
+      ],
+      "notes": [
+        "Día exigente: zapatos cómodos, agua, protector solar y sombrero."
+      ],
+      "bring": [
+        "Algo de comer para el mediodía",
+        "Entradas de la audiencia (en papel)",
+        "Pasaporte original (cada uno)",
+        "QR del Coliseo",
+        "Agua"
+      ],
+      "reminders": [
+        "Coliseo: las entradas son nominativas. Cada uno lleva su PASAPORTE ORIGINAL.",
+        "Llevar algo de comer: no hay tiempo de almorzar antes del Coliseo."
+      ]
+    },
+    {
+      "date": "2026-10-22",
+      "city": "viaje",
+      "title": "Regreso a casa",
+      "hotel": null,
+      "events": [
+        {
+          "time": "06:15",
+          "text": "Taxi al aeropuerto de Fiumicino (pedido la noche anterior).",
+          "note": "Preguntar el precio ANTES de subir: el hotel (Viale Vaticano, Prati) probablemente queda fuera de las murallas Aurelianas, así que la tarifa fija de 55 € puede no aplicar; con taxímetro suele estar entre 50 y 70 €. Pedirlo en recepción la noche anterior para las 6:15. Dejar las llaves del hotel en la caja fuerte especial."
+        },
+        {
+          "time": "09:00",
+          "text": "Edver y Marcela: Fiumicino → Barcelona → Bogotá."
+        },
+        {
+          "time": "10:35",
+          "text": "Olga y Santiago: Fiumicino → Miami."
+        }
+      ],
+      "notes": [
+        "¡Buen viaje de regreso!"
+      ],
+      "bring": [
+        "Pasaportes",
+        "Pases de abordar en el celular",
+        "Revisar la caja fuerte de la habitación antes de salir"
+      ]
+    }
+  ],
+  "checklist": [
+    {
+      "id": "pasaportes",
+      "text": "Pasaportes"
+    },
+    {
+      "id": "tarjetas",
+      "text": "Tarjetas (y avisar al banco del viaje)"
+    },
+    {
+      "id": "adaptador",
+      "text": "Adaptador de enchufe"
+    },
+    {
+      "id": "efectivo72",
+      "text": "72 € en efectivo para la tasa de Roma"
+    },
+    {
+      "id": "res-venecia",
+      "text": "Reservar cena del viernes 16 en Venecia (Vini da Gigio o Antiche Carampane)"
+    },
+    {
+      "id": "res-latini",
+      "text": "Reservar Il Latini para el domingo 18 (Florencia)"
+    },
+    {
+      "id": "res-despedida",
+      "text": "Reservar cena de despedida del miércoles 21 (Armando en línea o Roscioli)"
+    },
+    {
+      "id": "tren17",
+      "text": "Comprar el tren del sábado 17 (el viernes 16, en la estación de Venecia)"
+    },
+    {
+      "id": "tren19",
+      "text": "Comprar el tren del lunes 19 (el domingo 18, en la estación de Florencia)"
+    },
+    {
+      "id": "qr-academia",
+      "text": "QR de la Academia descargado en el celular"
+    },
+    {
+      "id": "qr-uffizi",
+      "text": "QR de los Uffizi y del Corredor descargados"
+    },
+    {
+      "id": "qr-cupula",
+      "text": "QR de la Cúpula y la Basílica descargados"
+    },
+    {
+      "id": "qr-coliseo",
+      "text": "QR del Coliseo descargado"
+    },
+    {
+      "id": "audiencia",
+      "text": "Recoger entradas de la audiencia (martes 20, desde las 15:00)"
+    },
+    {
+      "id": "checkin-avianca",
+      "text": "Check-in en línea Avianca (desde el martes 20)"
+    },
+    {
+      "id": "checkin-ita",
+      "text": "Check-in en línea ITA (desde el miércoles 21)"
+    },
+    {
+      "id": "taxi22",
+      "text": "Taxi al aeropuerto pedido en recepción para el jueves 22 a las 6:15 (preguntar el precio)"
+    }
+  ],
+  "food": {
+    "venecia": {
+      "restaurants": [
+        {
+          "name": "Cantina Do Mori",
+          "type": "Bacaro histórico (cicchetti y vino)",
+          "area": "Rialto (San Polo)",
+          "price": "€",
+          "order": "Francobolli (mini sándwiches cuadrados), baccalà mantecato, una ombra (copa) de vino de la casa",
+          "reserve": "no",
+          "closed": "Domingo",
+          "hours": "Lun–sáb 8:00–19:30 (la barra cierra puntual a las 19:30)",
+          "rating": "4.7 (TableJourney, datos revisados 13-oct-2026; nº de reseñas Google: verificar)",
+          "mapsQuery": "Cantina Do Mori, Sestiere San Polo 429, Venezia",
+          "url": null,
+          "note": "Se toma de pie en la barra; suele ser solo efectivo. Llegar antes de las 18:30 para encontrar más cicchetti. Tel. +39 041 522 5401.",
+          "sources": [
+            "https://tablejourney.com/italy/venice/street-food/cantina-do-mori/",
+            "https://veneziaautentica.com/venice-bar-bacaro-cantina-do-mori/",
+            "https://www.gamberorossointernational.com/?p=520075"
+          ]
+        },
+        {
+          "name": "All'Arco",
+          "type": "Bacaro (cicchetti), solo mañana/mediodía",
+          "area": "Rialto (San Polo, junto al mercado)",
+          "price": "€",
+          "order": "Cicchetti del día preparados al momento por Francesco y Matteo Pinto (con producto del mercado de Rialto)",
+          "reserve": "no",
+          "closed": "Domingo (algunas fichas indican también miércoles: verificar)",
+          "hours": "Lun–sáb aprox. 10:00–14:30 (solo hasta media tarde)",
+          "rating": "4.7 Google (1.666) según Restaurant Guru, ago-2026",
+          "mapsQuery": "All'Arco, Calle dell'Occhialer 436, San Polo, Venezia",
+          "url": null,
+          "note": "SIGUE ABIERTO: reseñas de Google de mediados de 2026. Local diminuto, de pie, efectivo. Ideal combinar con la visita al mercado de Rialto por la mañana. Tel. +39 041 520 5666.",
+          "sources": [
+            "https://restaurantguru.com/AllArco-Venice",
+            "https://www.dissapore.com/ristoranti/allarco-a-venezia-recensione-del-bacaro/",
+            "https://veneziaautentica.com/venice-bacaro-bar-osteria-all-arco/"
+          ]
+        },
+        {
+          "name": "Cantina Do Spade",
+          "type": "Bacaro / osteria histórica (cicchetti y platos)",
+          "area": "Rialto (San Polo)",
+          "price": "€€",
+          "order": "Polpette (albóndigas) fritas, sarde in saor, anchoas marinadas, calamares rellenos",
+          "reserve": "recomendado",
+          "closed": "verificar (fuentes discrepan: diario vs. domingo cerrado)",
+          "hours": "Aprox. 10:00–15:00 y 18:00–22:00 (verificar)",
+          "rating": "verificar",
+          "mapsQuery": "Cantina Do Spade, Calle de le Do Spade, San Polo 859, Venezia",
+          "url": null,
+          "note": "Una de las pocas de Rialto con mesas para sentarse además de barra. Tel. +39 041 521 0583.",
+          "sources": [
+            "https://venicexplorer.com/the-city/navigate-venice/bars/cantina-do-spade",
+            "https://www.dissapore.com/ristoranti/cantina-do-spade-a-venezia-recensione-di-un-bacaro-storico/"
+          ]
+        },
+        {
+          "name": "Al Timon",
+          "type": "Bacaro / enoteca con cicchetti y carnes a la brasa",
+          "area": "Cannaregio (Fondamenta dei Ormesini, cerca del Ghetto)",
+          "price": "€€",
+          "order": "Cicchetti en la barra y una copa sentados en la barca amarrada en el canal; tabla de embutidos",
+          "reserve": "no (para la barra); recomendado para cenar en mesa",
+          "closed": "verificar (Restaurant Guru: martes; Dissapore: miércoles; otras fuentes: abierto a diario)",
+          "hours": "Tarde-noche aprox. 16:00/18:00 – 01:00",
+          "rating": "4.4 Google (3.696) según Restaurant Guru",
+          "mapsQuery": "Al Timon, Fondamenta dei Ormesini 2754, Cannaregio, Venezia",
+          "url": "https://www.altimon.it",
+          "note": "Muy cerca del hotel y del Ghetto: perfecto para el aperitivo al atardecer. Se llena; llegar temprano. Tel. +39 041 524 6066.",
+          "sources": [
+            "https://restaurantguru.com/Al-Timon-Venice",
+            "https://www.dissapore.com/ristoranti/al-timon-bragozzo-a-venezia-recensione-del-bacaro",
+            "https://www.timeout.com/venice/restaurants/al-timon"
+          ],
+          "booking": "Jueves 15 al llegar (~21:00): sin reserva, cerca del hotel"
+        },
+        {
+          "name": "Ca' d'Oro alla Vedova",
+          "type": "Osteria tradicional / bacaro",
+          "area": "Cannaregio (junto a la parada Ca' d'Oro)",
+          "price": "€€",
+          "order": "Polpette (las famosas albóndigas de la casa), sarde in saor, spaghetti con mariscos",
+          "reserve": "sí (para mesa); en barra no",
+          "closed": "Jueves (según Foodle; verificar)",
+          "hours": "Mediodía y noche (horario exacto: verificar)",
+          "rating": "4.1 Google (Wanderlog; nº de reseñas: verificar)",
+          "mapsQuery": "Ca' d'Oro alla Vedova, Ramo Ca' d'Oro 3912, Cannaregio, Venezia",
+          "url": null,
+          "note": "OJO: cerrado el jueves 15-oct si se confirma el cierre semanal. Las polpette se pueden comer de pie en la barra con una copa. Tel. +39 041 528 5324.",
+          "sources": [
+            "https://wanderlog.com/place/details/499799/ca-doro-alla-vedova",
+            "https://foodle.pro/restaurants/venice/ca-d-oro-alla-vedova",
+            "https://www.gamberorosso.it/notizie/rubriche/storie/polpette-della-vedova-venezia/",
+            "https://www.diffordsguide.com/pubs-and-bars/1345/venice/osteria-ca-doro-alla-vedova"
+          ]
+        },
+        {
+          "name": "Vini da Gigio",
+          "type": "Trattoria clásica veneciana — CENA ESPECIAL",
+          "area": "Cannaregio (Fondamenta San Felice / Calle Stua)",
+          "price": "€€€",
+          "order": "Pescado y mariscos de la laguna, también carnes; pedir consejo con la gran carta de vinos",
+          "reserve": "sí (online no se permite reservar para el mismo día; grupos de más de 4 solo por teléfono)",
+          "closed": "Lunes y martes",
+          "hours": "Mié–dom 12:00–14:30 y 19:00–22:30",
+          "rating": "4.4 Google (En Primeur Club; nº de reseñas: verificar)",
+          "mapsQuery": "Vini da Gigio, Calle Stua 3628A, Cannaregio, Venezia",
+          "url": "https://www.vinidagigio.it/",
+          "note": "Abierto jue–sáb de nuestras fechas. Reservar YA (online o +39 041 528 5140). Recomendado por Michelin y Gambero Rosso.",
+          "sources": [
+            "https://www.vinidagigio.it/",
+            "https://guide.michelin.com/it/it/veneto/venezia/ristorante/vini-da-gigio",
+            "https://www.gamberorosso.it/?p=81635",
+            "https://www.enprimeurclub.com/restaurants/vini-da-gigio-venice-restaurant"
+          ],
+          "booking": "RESERVAR · cena del viernes 16 (esta o Antiche Carampane, solo una)"
+        },
+        {
+          "name": "Antiche Carampane",
+          "type": "Trattoria de pescado y mariscos",
+          "area": "Rialto (San Polo)",
+          "price": "€€€",
+          "order": "Spaghetti con gambas, frituras de pescado, moeche (cangrejo de muda) si hay temporada",
+          "reserve": "sí",
+          "closed": "Domingo y lunes",
+          "hours": "Mar–sáb 12:30–14:30 y 19:30–22:00",
+          "rating": "4.4 Google (1.101) según Restaurant Guru",
+          "mapsQuery": "Antiche Carampane, Rio Terà de le Carampane 1911, San Polo, Venezia",
+          "url": null,
+          "note": "Recomendado en la Guía Michelin. Precio aprox. 40–90 € por persona. Escondido en callejuelas: usar Maps. Tel. +39 041 524 0165.",
+          "sources": [
+            "https://restaurantguru.com/Antiche-Carampane-Venice",
+            "https://guide.michelin.com/ch/it/veneto/venezia/ristorante/antiche-carampane",
+            "https://www.dissapore.com/locali/schede-locali/antiche-carampane-venezia"
+          ],
+          "booking": "RESERVAR · cena del viernes 16 (esta o Vini da Gigio, solo una)"
+        },
+        {
+          "name": "Osteria Anice Stellato",
+          "type": "Osteria de pescado de la laguna (cocina veneciana moderna)",
+          "area": "Cannaregio (Fondamenta de la Sensa)",
+          "price": "€€€",
+          "order": "Bigoli in salsa, anchoas marinadas, calamares en su tinta",
+          "reserve": "recomendado",
+          "closed": "Lunes (domingo: fuentes discrepan, verificar)",
+          "hours": "Aprox. 12:15–14:00 y 19:00–22:00 (verificar)",
+          "rating": "verificar",
+          "mapsQuery": "Osteria Anice Stellato, Fondamenta de la Sensa 3272, Cannaregio, Venezia",
+          "url": null,
+          "note": "Barrio tranquilo, lejos de turistas, mesas junto al canal. Cambió de gestión en 2024 (Dissapore).",
+          "sources": [
+            "https://www.dissapore.com/locali/schede-locali/osteria-anice-stellato-venezia/",
+            "https://www.dissapore.com/ristoranti/le-nuove-aperture-di-venezia-dal-fine-dining-alla-pizza-da-provare-in-autunno-2024/",
+            "https://www.enprimeurclub.com/restaurants/anice-stellato"
+          ]
+        }
+      ],
+      "cafes": [
+        {
+          "name": "Pasticceria Dal Mas",
+          "type": "Pastelería-café histórica (desde 1906)",
+          "area": "Cannaregio (Lista di Spagna, a pasos del hotel)",
+          "price": "€",
+          "order": "Espresso o cappuccino con cornetto; dulces venecianos (pan dei dogi)",
+          "reserve": "no",
+          "closed": "No cierra (abre todos los días)",
+          "hours": "Lun–vie 6:30–19:30; sáb desde 7:00; dom desde 7:30 (verificar)",
+          "rating": "verificar",
+          "mapsQuery": "Pasticceria Dal Mas, Rio Terà Lista di Spagna 150, Venezia",
+          "url": "https://www.dalmaspasticceria.it",
+          "note": "El desayuno ideal al salir del hotel; al lado está su chocolatería.",
+          "sources": [
+            "https://www.dissapore.com/locali/schede-locali/pasticceria-dal-mas-venezia/",
+            "https://tablejourney.com/italy/venice/bakeries/pasticceria-dal-mas/"
+          ],
+          "booking": "Para el desayuno: cierra temprano"
+        },
+        {
+          "name": "Gelatoteca Suso",
+          "type": "Heladería artesanal",
+          "area": "San Marco (junto al puente de Rialto)",
+          "price": "€",
+          "order": "Helado artesanal; sabores de la casa",
+          "reserve": "no",
+          "closed": "No cierra (diario)",
+          "hours": "Aprox. 10:00/10:30 – 22:30/23:00 (verificar)",
+          "rating": "verificar",
+          "mapsQuery": "Gelatoteca Suso, Calle della Bissa 5453, San Marco, Venezia",
+          "url": "https://suso.gelatoteca.it",
+          "note": "Suele haber fila, pero avanza rápido. Tel. +39 041 241 2275.",
+          "sources": [
+            "https://nomadette.com/?p=397",
+            "https://devourtours.com/blog/best-gelato-in-venice/",
+            "https://www.atly.com/gluten-free/location/Suso.md"
+          ]
+        },
+        {
+          "name": "Gelateria Nico",
+          "type": "Heladería histórica con terraza sobre el agua",
+          "area": "Dorsoduro (Zattere)",
+          "price": "€",
+          "order": "Gianduiotto (bloque de helado de chocolate-avellana con nata montada)",
+          "reserve": "no",
+          "closed": "verificar",
+          "hours": "Aprox. 7:00–22:00 todos los días (verificar)",
+          "rating": "verificar",
+          "mapsQuery": "Gelateria Nico, Fondamenta Zattere al Ponte Lungo 922, Venezia",
+          "url": null,
+          "note": "Combinar con el atardecer en las Zattere. Tel. +39 041 522 5293.",
+          "sources": [
+            "https://venicexplorer.com/the-city/navigate-venice/cafes/gelateria-nico",
+            "https://www.gamberorosso.it/notizie/rubriche/storie/gelateria-da-nico-venezia-gianduiotto-storia/"
+          ]
+        }
+      ],
+      "verifiedOn": "2026-10-14",
+      "intro": "Reservas: viernes 16, Vini da Gigio o Antiche Carampane (solo una). Jueves 15: algo cerca del hotel (Al Timon)."
+    },
+    "florencia": {
+      "restaurants": [
+        {
+          "name": "Trattoria Mario",
+          "type": "Trattoria histórica fiorentina (desde 1953), mesas compartidas",
+          "area": "San Lorenzo (detrás del Mercato Centrale) — ~700 m del hotel",
+          "price": "verificar",
+          "order": "Bistecca alla fiorentina (solo la sirven al punto 'al sangue'), primo con su ragù de 4 horas, ribollita; platos del día (p. ej. lunes: trippa, fegato, fagioli all'uccelletto)",
+          "reserve": "no (al almuerzo no se reserva: dan el nombre en la puerta y se espera turno); la cena del viernes sí se reserva por teléfono 055 218550 de 7:00 a 11:00",
+          "closed": "Domingo y festivos (CERRADO dom 18 oct). Abierto sáb 17 y lun 19 al almuerzo",
+          "hours": "Solo almuerzo, lunes a sábado 12:00–15:30; además cena los viernes (excepto julio)",
+          "rating": "verificar",
+          "mapsQuery": "Trattoria Mario, Via Rosina 2r, Firenze",
+          "url": "http://www.trattoriamario.com/",
+          "note": "Llegar antes de las 12:00 para hacer fila. Guías indican que solo acepta efectivo (verificar). Buena opción para el almuerzo del lunes 19.",
+          "sources": [
+            "http://www.trattoriamario.com/",
+            "https://tablejourney.com/neighborhood/florence/san-lorenzo/italian/",
+            "https://www.dissapore.com/ristoranti/trattoria-mario-a-firenze-recensione-nei-paradossi-piu-inconfessabili-della-fiorentinita/"
+          ]
+        },
+        {
+          "name": "Trattoria Sostanza (\"Il Troia\")",
+          "type": "Trattoria histórica (más de 150 años), muy pequeña",
+          "area": "Santa Maria Novella / Via del Porcellana — cerca del hotel",
+          "price": "verificar",
+          "order": "Pollo al burro (pollo a la mantequilla), tortino di carciofi (tortilla de alcachofas), bistecca; de postre el merengue con nata y fresitas",
+          "reserve": "sí (imprescindible)",
+          "closed": "Sábado y domingo (CERRADO sáb 17 y dom 18 oct). Solo opción el lunes 19",
+          "hours": "Lunes a viernes 12:30–14:00 y 19:30–21:45 (una fuente dice que abre también sábado: verificar)",
+          "rating": "verificar",
+          "mapsQuery": "Trattoria Sostanza, Via del Porcellana 25r, Firenze",
+          "url": null,
+          "note": "Solo efectivo según Dissapore y otras guías. Tel. +39 055 212691. Reservar ya para el lunes 19 (almuerzo o cena).",
+          "sources": [
+            "https://joinpearl.co/restaurants/florence-italy/trattoria-sostanza",
+            "https://mesprestiges.com/en/firenze/places/trattoria-sostanza",
+            "https://www.theworlds50best.com/discovery/Establishments/Italy/Florence/Trattoria-Sostanza-Troia.html",
+            "https://www.afar.com/places/trattoria-sostanza-firenze",
+            "https://www.dissapore.com/ristoranti/trattoria-sostanza-a-firenze-recensione-come-si-mangia-dal-troia/"
+          ]
+        },
+        {
+          "name": "Buca Mario",
+          "type": "Restaurante histórico en sótano (buca), cocina toscana clásica",
+          "area": "Piazza degli Ottaviani, junto a Santa Maria Novella — muy cerca del hotel",
+          "price": "verificar",
+          "order": "Bistecca alla fiorentina, pappa al pomodoro, vino toscano",
+          "reserve": "sí (reservar con antelación, sobre todo fin de semana)",
+          "closed": "Domingo (CERRADO dom 18 oct). Abierto sáb 17 y lun 19 por la noche",
+          "hours": "Solo cena, lunes a sábado desde las 19:00",
+          "rating": "verificar",
+          "mapsQuery": "Buca Mario, Piazza degli Ottaviani 16r, Firenze",
+          "url": "https://www.bucamario.com/",
+          "note": "Más formal y elegante que una trattoria; buena opción para la cena de llegada (sáb 17). Tel. +39 055 214179.",
+          "sources": [
+            "https://www.bucamario.com/",
+            "https://foodle.pro/restaurants/florence/buca-mario-restaurant"
+          ]
+        },
+        {
+          "name": "Il Latini",
+          "type": "Trattoria tradicional ruidosa y familiar, mesas compartidas",
+          "area": "Via dei Palchetti (entre Santa Maria Novella y el Arno) — ~10 min a pie del hotel",
+          "price": "verificar",
+          "order": "Bistecca alla fiorentina, ribollita, embutidos toscanos, vino de la casa",
+          "reserve": "recomendado (reservar directamente con el restaurante)",
+          "closed": "Lunes (CERRADO lun 19 oct). Abierto domingo 18",
+          "hours": "Mar–vie solo cena 19:30–22:30; sáb y dom almuerzo 12:30–14:30 y cena 19:30–22:30",
+          "rating": "verificar",
+          "mapsQuery": "Il Latini, Via dei Palchetti 6r, Firenze",
+          "url": "https://www.illatini.com/",
+          "note": "Una de las pocas buenas opciones de bistecca abiertas el domingo por la noche (dom 18). Listado en la Guía Michelin.",
+          "sources": [
+            "https://www.illatini.com/",
+            "https://guide.michelin.com/sg/en/toscana/firenze/restaurant/il-latini"
+          ],
+          "booking": "RESERVAR · cena del domingo 18"
+        },
+        {
+          "name": "Trattoria 4 Leoni",
+          "type": "Trattoria toscana con terraza",
+          "area": "Oltrarno — Piazza della Passera, a pocos pasos del Palazzo Pitti (salida del Corridoio Vasariano)",
+          "price": "verificar",
+          "order": "Fiocchetti de pera (pasta rellena de pera, su plato famoso), bistecca alla fiorentina",
+          "reserve": "recomendado",
+          "closed": "Ninguno según su web (abierto todos los días)",
+          "hours": "Todos los días 12:00–24:00 (web oficial; otras fuentes difieren ligeramente: verificar)",
+          "rating": "verificar",
+          "mapsQuery": "Trattoria 4 Leoni, Via de' Vellutini 1r, Firenze",
+          "url": "https://www.4leoni.com/",
+          "note": "Ideal para comer tarde el domingo 18 al salir del corredor por el lado Pitti/Boboli (horario continuo). Tel. +39 055 218562.",
+          "sources": [
+            "https://www.4leoni.com/",
+            "https://mesprestiges.com/en/firenze/places/trattoria-4-leoni",
+            "https://visitflorence.com/it/mangiare-e-bere-a-firenze/trattoria-i-4-leoni.html"
+          ]
+        },
+        {
+          "name": "Il Santo Bevitore",
+          "type": "Trattoria/enoteca toscana moderna (Guía Michelin)",
+          "area": "Oltrarno — Via Santo Spirito, ~10 min a pie del Palazzo Pitti",
+          "price": "verificar",
+          "order": "Clásicos toscanos de temporada (ribollita, pichón asado); al lado está su enoteca Santino",
+          "reserve": "sí (reservar directamente con el restaurante)",
+          "closed": "Ninguno según Michelin (abierto todos los días)",
+          "hours": "Cena todos los días 19:30–23:30; almuerzo 12:30–14:30 aparece solo en algunas versiones de la ficha Michelin (verificar)",
+          "rating": "verificar",
+          "mapsQuery": "Il Santo Bevitore, Via Santo Spirito 64r, Firenze",
+          "url": null,
+          "note": "Buena cena en el Oltrarno si se quedan al atardecer en Piazzale Michelangelo o Boboli. Tel. +39 055 211264.",
+          "sources": [
+            "https://guide.michelin.com/gb/en/toscana/firenze/restaurant/il-santo-bevitore"
+          ]
+        },
+        {
+          "name": "Mercato Centrale (primer piso — food hall)",
+          "type": "Mercado gastronómico con puestos variados (pasta, pizza, carne, vino, lampredotto)",
+          "area": "San Lorenzo — ~700 m del hotel",
+          "price": "€",
+          "order": "Lo que apetezca de los puestos; en la planta baja (mercado tradicional) está Da Nerbone, clásico del panino de lampredotto",
+          "reserve": "no",
+          "closed": "Ninguno (abierto todos los días). OJO: Da Nerbone y la planta baja cierran el domingo",
+          "hours": "Primer piso: todos los días 9:00–23:00 (web oficial). Da Nerbone (planta baja): lun–sáb aprox. 7/8:00–14/15:00 (fuentes difieren)",
+          "rating": "verificar",
+          "mapsQuery": "Mercato Centrale, Piazza del Mercato Centrale, Via dell'Ariento, Firenze",
+          "url": "https://www.mercatocentrale.it/firenze/",
+          "note": "Plan fácil y flexible para cualquier noche, incluida la del domingo. Para Da Nerbone llegar antes de las 13:00 (se agota el lampredotto).",
+          "sources": [
+            "https://www.mercatocentrale.it/firenze/info/",
+            "https://aziende.virgilio.it/firenze-fi/nerbone",
+            "https://doeatbetterexperience.com/it/blog/guida-mercato-centrale-firenze/"
+          ]
+        },
+        {
+          "name": "All'Antico Vinaio",
+          "type": "Panini toscanos (schiacciata rellena)",
+          "area": "Via dei Neri (cerca de los Uffizi / Piazza della Signoria)",
+          "price": "€",
+          "order": "Schiacciata con embutidos toscanos (finocchiona, mortadela), crema de pistacho, pecorino",
+          "reserve": "no",
+          "closed": "verificar (las fuentes difieren; fuentes recientes indican abierto todos los días)",
+          "hours": "verificar (se citan 11:30–15:00 y 18:00–21:30; otras fuentes dan horario continuo hasta 22:30)",
+          "rating": "verificar",
+          "mapsQuery": "All'Antico Vinaio, Via dei Neri 65r, Firenze",
+          "url": null,
+          "note": "Varios locales en la misma calle (nº 65, 74, 76, 78). Suele haber fila; es buena opción rápida antes o después de los Uffizi.",
+          "sources": [
+            "https://www.firenzemadeintuscany.com/it/place/all-antico-vinaio/",
+            "https://atmosfy.io/listing/269954/tuscany/florence/alla-antico-vinaio"
+          ]
+        },
+        {
+          "name": "L'Antico Trippaio (carrito de lampredotto)",
+          "type": "Puesto callejero de lampredotto y trippa",
+          "area": "Piazza dei Cimatori (entre el Duomo y Piazza della Signoria)",
+          "price": "€",
+          "order": "Panino al lampredotto con salsa verde y picante (o con pimienta negra); trippa alla fiorentina",
+          "reserve": "no",
+          "closed": "Lunes según directorio (verificar) — posiblemente CERRADO lun 19 oct",
+          "hours": "Domingo 9:00–20:00 según directorio actualizado jul-2026 (verificar resto de días)",
+          "rating": "verificar",
+          "mapsQuery": "L'Antico Trippaio, Piazza dei Cimatori, Firenze",
+          "url": null,
+          "note": "Alternativa a Da Nerbone para probar lampredotto el domingo (Nerbone cierra domingos).",
+          "sources": [
+            "https://www.oraridiapertura24.it/filiale/Firenze-L%2527%2520Antico%2520Trippaio-4027841P.html",
+            "https://flawless.life/it/italia/firenze/dove-mangiare-la-trippa-a-firenze"
+          ]
+        }
+      ],
+      "cafes": [
+        {
+          "name": "La Sorbettiera",
+          "type": "Gelateria artesanal fiorentina (fundada 2007 en Piazza Tasso)",
+          "area": "Varias tiendas: Via de' Banchi 49r (junto a Santa Maria Novella, muy cerca del hotel), Via Mazzetta 9a (Oltrarno, junto a Santo Spirito / cerca de Pitti), Piazza Tasso 11r y Via de' Bardi 69r",
+          "price": "€",
+          "order": "Su famoso fiordilatte salato \"Oltrarno\"; helado entre dos galletas (\"mattonella\")",
+          "reserve": "no",
+          "closed": "verificar",
+          "hours": "verificar (Piazza Tasso: aprox. 12:30–23:00, domingo desde 11:00 según Dissapore)",
+          "rating": "verificar",
+          "mapsQuery": "La Sorbettiera, Via de' Banchi 49r, Firenze",
+          "url": "https://www.lasorbettiera.it/",
+          "note": "La tienda de Via de' Banchi queda de camino al hotel; la de Via Mazzetta, a pocos minutos del Palazzo Pitti tras el corredor.",
+          "sources": [
+            "https://www.lasorbettiera.it/lebotteghe/",
+            "https://www.dissapore.com/locali/schede-locali/la-sorbettiera-gelateria-artigianale-a-firenze/"
+          ]
+        },
+        {
+          "name": "Vivoli",
+          "type": "Gelateria histórica (desde 1929-1932)",
+          "area": "Via Isola delle Stinche 7r, cerca de Santa Croce",
+          "price": "€",
+          "order": "Affogato al caffè (helado bañado en café); helados clásicos",
+          "reserve": "no",
+          "closed": "Lunes (CERRADO lun 19 oct, verificar)",
+          "hours": "Martes a domingo 8:00–21:00 aprox. (verificar)",
+          "rating": "verificar",
+          "mapsQuery": "Vivoli, Via Isola delle Stinche 7r, Firenze",
+          "url": null,
+          "note": "Combina con la visita a Santa Croce.",
+          "sources": [
+            "https://www.dissapore.com/locali/schede-locali/vivoli-gelateria-artigianale-a-firenze/",
+            "https://www.gamberorosso.it/ristoranti/scheda-bar/vivoli"
+          ]
+        },
+        {
+          "name": "Caffè Gilli",
+          "type": "Café histórico (desde 1733), pastelería",
+          "area": "Piazza della Repubblica 39r (entre el Duomo y Ponte Vecchio)",
+          "price": "€€",
+          "order": "Capuchino o chocolate caliente con pastelería; tomarlo en barra es mucho más barato que en mesa/terraza",
+          "reserve": "no",
+          "closed": "Ninguno (abierto todos los días según guías)",
+          "hours": "Todos los días 7:30–24:00 aprox. (verificar)",
+          "rating": "verificar",
+          "mapsQuery": "Caffè Gilli, Piazza della Repubblica 39r, Firenze",
+          "url": null,
+          "note": "En barra el precio es aprox. la mitad que en mesa (Tablejourney).",
+          "sources": [
+            "https://mesprestiges.com/en/firenze/places/caffe-gilli",
+            "https://tablejourney.com/italy/florence/cafes/",
+            "https://www.dissapore.com/locali/schede-locali/caffe-gilli-firenze"
+          ]
+        }
+      ],
+      "verifiedOn": "2026-10-14",
+      "intro": "Reserva: domingo 18, Il Latini (bistecca). El domingo cierran Trattoria Mario, Sostanza y Buca Mario."
+    },
+    "roma": {
+      "restaurants": [
+        {
+          "name": "Pizzarium Bonci",
+          "type": "Pizza al taglio y fritos (supplì, polpette)",
+          "area": "Prati / Trionfale (a pocas cuadras del hotel)",
+          "price": "€",
+          "order": "Pizza al taglio por peso (berenjena frita, cebolla con prosciutto cotto), supplì y polpette di bollito",
+          "reserve": "no",
+          "closed": "Fuentes en conflicto: Turismo Roma y Dissapore dicen cerrado los lunes; Mes Prestiges (jun 2026) dice abierto a diario. Lunes 19 oct: verificar",
+          "hours": "aprox. 11:00–22:00 (verificar)",
+          "rating": "verificar",
+          "mapsQuery": "Pizzarium Bonci, Via della Meloria 43, Roma",
+          "url": "https://www.bonci.it/",
+          "note": "Solo de pie, se pide en el mostrador y se toma número; suele haber fila. Ideal para almorzar el martes 20 antes de la cúpula (14:30). Tel. 06 3974 5416",
+          "sources": [
+            "https://www.bonci.it/",
+            "https://www.turismoroma.it/en/hospitality/pizzarium",
+            "https://mesprestiges.com/en/roma/places/pizzarium-bonci",
+            "https://www.theinfatuation.com/rome/reviews/pizzarium"
+          ]
+        },
+        {
+          "name": "Osteria dell'Angelo",
+          "type": "Trattoria romana",
+          "area": "Prati (Della Vittoria), cerca del hotel",
+          "price": "€€",
+          "order": "Carbonara, amatriciana, coda alla vaccinara",
+          "reserve": "recomendado",
+          "closed": "Según Turismo Roma: domingo solo cena; otra fuente (Foodle) dice domingo cerrado. Verificar",
+          "hours": "Lun–sáb 12:30–14:30 y 19:30–23:00; dom 19:30–23:00 (Turismo Roma)",
+          "rating": "verificar",
+          "mapsQuery": "Osteria dell'Angelo, Via Giovanni Bettolo 24, Roma",
+          "url": null,
+          "note": "Trattoria de barrio frecuentada por locales; se habla de menú a precio fijo, pero el precio actual no se pudo verificar. Tel. 06 372 9470",
+          "sources": [
+            "https://www.turismoroma.it/en/hospitality/osteria-dellangelo",
+            "https://foodle.pro/restaurants/rome/osteria-dell-angelo"
+          ]
+        },
+        {
+          "name": "Supplizio",
+          "type": "Supplì y fritos romanos (para llevar)",
+          "area": "Centro (Via dei Banchi Vecchi, cerca de Piazza Navona)",
+          "price": "€",
+          "order": "Supplì clásico (arroz, tomate y mozzarella)",
+          "reserve": "no",
+          "closed": "Domingo",
+          "hours": "Lun–sáb 12:00–15:30 y 17:00–21:30 (fuente agregadora, verificar)",
+          "rating": "verificar",
+          "mapsQuery": "Supplizio, Via dei Banchi Vecchi 143, Roma",
+          "url": null,
+          "note": "Parada rápida camino entre Castel Sant'Angelo y Piazza Navona/Campo de' Fiori",
+          "sources": [
+            "https://foodle.pro/restaurants/rome/supplizio"
+          ]
+        },
+        {
+          "name": "Roscioli Salumeria con Cucina",
+          "type": "Salumeria-restaurante romano",
+          "area": "Campo de' Fiori (Via dei Giubbonari 21)",
+          "price": "€€€",
+          "order": "Carbonara, cacio e pepe, embutidos y quesos de la casa",
+          "reserve": "sí (obligatoria en la práctica; reserva online en su web)",
+          "closed": "Abierto todos los días según su web",
+          "hours": "Restaurante 12:30–15:30 y 19:00–23:30; tienda 9:00–23:30",
+          "rating": "verificar",
+          "mapsQuery": "Roscioli Salumeria con Cucina, Via dei Giubbonari 21, Roma",
+          "url": "https://www.salumeriaroscioli.com/",
+          "note": "Buena opción para la cena de despedida del miércoles 21 (abierto). Pedir mesa en la planta baja. Tel. +39 06 687 5287",
+          "sources": [
+            "https://www.salumeriaroscioli.com/",
+            "https://www.gamberorosso.it/luoghi/locali/wine-bar/salumeria-roscioli",
+            "https://afar.com/places/salumeria-roscioli-rome"
+          ],
+          "booking": "RESERVAR · despedida miércoles 21 (esta o Armando)"
+        },
+        {
+          "name": "Armando al Pantheon",
+          "type": "Trattoria romana histórica",
+          "area": "Pantheon (Salita de' Crescenzi 31)",
+          "price": "€€",
+          "order": "Cacio e pepe, carbonara, platos romanos tradicionales",
+          "reserve": "sí (solo online desde su web)",
+          "closed": "Sábado noche y domingo",
+          "hours": "Almuerzo 12:30–15:00; cena 18:00–23:00 lun–vie",
+          "rating": "verificar",
+          "mapsQuery": "Armando al Pantheon, Salita de' Crescenzi 31, Roma",
+          "url": "https://www.armandoalpantheon.it/",
+          "note": "Recomendado para la CENA DE DESPEDIDA del miércoles 21 (abierto). Reservar ya: se llena con semanas de anticipación. Tel. 06 688 03 034 (las reservas solo online)",
+          "sources": [
+            "https://www.armandoalpantheon.it/",
+            "https://guide.michelin.com/ch/it/lazio/roma/ristorante/da-armando-al-pantheon"
+          ],
+          "booking": "RESERVAR en línea · despedida miércoles 21 (esta o Roscioli)"
+        },
+        {
+          "name": "Da Enzo al 29",
+          "type": "Trattoria romana",
+          "area": "Trastevere (Via dei Vascellari 29)",
+          "price": "€€",
+          "order": "Cacio e pepe, carbonara, amatriciana",
+          "reserve": "no (no aceptan reservas; por orden de llegada)",
+          "closed": "Domingo",
+          "hours": "Lun–sáb 12:00–15:00 y 18:30–22:30 (web oficial)",
+          "rating": "verificar",
+          "mapsQuery": "Da Enzo al 29, Via dei Vascellari 29, Roma",
+          "url": "https://www.daenzoal29.com/",
+          "note": "Llegar 15–20 min antes de la apertura para evitar largas filas. Combina con el paseo nocturno por Trastevere",
+          "sources": [
+            "https://www.daenzoal29.com/",
+            "https://www.turismoroma.it/it/accoglienza/da-enzo-al-29",
+            "https://mesprestiges.com/en/roma/places/da-enzo-al-29"
+          ]
+        },
+        {
+          "name": "Felice a Testaccio",
+          "type": "Trattoria romana histórica (desde 1936)",
+          "area": "Testaccio (Via Mastro Giorgio 29)",
+          "price": "€€€",
+          "order": "Tonnarelli cacio e pepe (mezclados en la mesa), rigatoni alla carbonara, saltimbocca alla romana",
+          "reserve": "sí (obligatoria según Michelin)",
+          "closed": "Abierto todos los días según Mes Prestiges (jun 2026); verificar",
+          "hours": "12:30–15:30 y 19:00–23:30",
+          "rating": "verificar",
+          "mapsQuery": "Felice a Testaccio, Via Mastro Giorgio 29, Roma",
+          "url": "https://www.feliceatestaccio.com/",
+          "note": "Alternativa para la cena de despedida (miércoles). Más lejos del hotel: ir en taxi. Tel. +39 06 574 6800",
+          "sources": [
+            "https://mesprestiges.com/en/roma/places/felice-a-testaccio",
+            "https://guide.michelin.com/it/it/notizia/dining-out/felice-a-testaccio-dal-1936-caposaldo-della-vera-cucina-capitolina"
+          ]
+        },
+        {
+          "name": "La Taverna dei Fori Imperiali",
+          "type": "Trattoria (romana y del centro-sur)",
+          "area": "Monti (Via della Madonna dei Monti 9), a pasos del Coliseo",
+          "price": "€€",
+          "order": "Cacio e pepe, carbonara, ravioli de burrata",
+          "reserve": "sí",
+          "closed": "Martes",
+          "hours": "12:30–15:00 y 19:30–22:30 (cocina cierra a las 15:00)",
+          "rating": "verificar",
+          "mapsQuery": "La Taverna dei Fori Imperiali, Via della Madonna dei Monti 9, Roma",
+          "url": null,
+          "note": "OJO miércoles 21: si el Coliseo es a las 13:00, al salir la cocina ya puede estar cerrada. Reservar a las 12:00–12:30 ANTES del Coliseo o ir a cenar. Plan B tarde: Ai Tre Scalini (Via Panisperna 251, bodega abierta todo el día según fuentes; horario de cocina a verificar, tel. 06 4890 7495). Tel. Taverna +39 06 679 8643",
+          "sources": [
+            "https://www.theinfatuation.com/rome/reviews/taverna-dei-fori-imperiali",
+            "https://www.timeout.com/rome/restaurants/taverna-dei-fori-imperiali",
+            "https://www.petitfute.com/v39823-rome/c1165-restaurants/c1031-cuisines-du-monde/636491-la-taverna-dei-fori-imperiali.html?page=2",
+            "https://mesprestiges.com/en/roma/places/ai-tre-scalini",
+            "https://turismoroma.it/en/hospitality/ai-tre-scalini"
+          ]
+        },
+        {
+          "name": "La Bottega del Caffè",
+          "type": "Café-bistró (panini, pizza, pasta)",
+          "area": "Monti (Piazza della Madonna dei Monti)",
+          "price": "€€",
+          "order": "El plato cocinado del día o un panino; terraza en la plaza",
+          "reserve": "no",
+          "closed": "Ninguno (abierto todos los días según Time Out)",
+          "hours": "8:00–2:00 (Time Out); horario de cocina por la tarde: verificar",
+          "rating": "verificar",
+          "mapsQuery": "La Bottega del Caffè, Piazza della Madonna dei Monti 5, Roma",
+          "url": null,
+          "note": "A unos 10 min a pie del Coliseo. Abierto todo el día: sirve para comer después del Foro.",
+          "booking": "Miércoles 21 · almuerzo tardío 15:30–16:00, sin reserva",
+          "sources": [
+            "https://www.timeout.com/rome/restaurants/la-bottega-del-caffe",
+            "https://wanderlog.com/place/details/388328"
+          ]
+        },
+        {
+          "name": "Antico Forno ai Serpenti",
+          "type": "Panadería: pizza al taglio, panes y dulces",
+          "area": "Monti (Via dei Serpenti)",
+          "price": "€",
+          "order": "Pizza al taglio (la de porcini y gorgonzola es la más citada)",
+          "reserve": "no",
+          "closed": "Domingo con horario reducido (verificar)",
+          "hours": "Lun–sáb 7:00–20:00 (Mes Prestiges, jun-2026; verificar)",
+          "rating": "verificar",
+          "mapsQuery": "Antico Forno ai Serpenti, Via dei Serpenti 122, Roma",
+          "url": null,
+          "note": "Para comer algo rápido y económico, de pie o para llevar. Tel. +39 06 4542 7920.",
+          "booking": "Miércoles 21 · almuerzo tardío 15:30–16:00, sin reserva",
+          "sources": [
+            "https://mesprestiges.com/en/roma/places/antico-forno-ai-serpenti",
+            "https://wanderlog.com/place/details/1344813"
+          ]
+        },
+        {
+          "name": "Mercato Centrale Roma",
+          "type": "Mercado gastronómico (varios puestos)",
+          "area": "Termini (Via Giolitti 36)",
+          "price": "€–€€",
+          "order": "Pasta fresca, pizza, fritos: cada uno elige su puesto",
+          "reserve": "no",
+          "closed": "Ninguno",
+          "hours": "Todos los días 7:30–23:30 (sitio oficial)",
+          "rating": "verificar",
+          "mapsQuery": "Mercato Centrale Roma, Via Giovanni Giolitti 36, Roma",
+          "url": "https://mercatocentrale.it/roma/",
+          "note": "Desde el Coliseo: metro B, Colosseo → Termini (2 paradas). La opción más segura si se hace tarde.",
+          "booking": "Miércoles 21 · almuerzo tardío 15:30–16:00, sin reserva",
+          "sources": [
+            "https://mercatocentrale.it/roma/info/"
+          ]
+        }
+      ],
+      "cafes": [
+        {
+          "name": "Old Bridge",
+          "type": "Gelatería",
+          "area": "Frente a las murallas del Vaticano (Viale dei Bastioni di Michelangelo 5)",
+          "price": "€",
+          "order": "Gelato clásico; pedir con panna",
+          "reserve": "no",
+          "closed": "Ninguno indicado",
+          "hours": "aprox. 11:00–01:30 (fuentes varían, verificar)",
+          "rating": "verificar",
+          "mapsQuery": "Old Bridge Gelateria, Viale dei Bastioni di Michelangelo 5, Roma",
+          "url": "https://www.gelateriaoldbridge.com/",
+          "note": "A la salida de los Museos Vaticanos. Una fuente indica solo efectivo",
+          "sources": [
+            "https://www.cylex-italia.it/roma/old-bridge-gelateria-14533615.html",
+            "https://restaurantguru.com/Old-Bridge-Rome-2"
+          ]
+        },
+        {
+          "name": "Sciascia Caffè 1919",
+          "type": "Café histórico / tostador",
+          "area": "Prati (Via Fabio Massimo 80/A)",
+          "price": "€",
+          "order": "Caffè al cioccolato (taza bañada en chocolate) y cornetto",
+          "reserve": "no",
+          "closed": "verificar",
+          "hours": "verificar",
+          "rating": "verificar",
+          "mapsQuery": "Sciascia Caffè 1919, Via Fabio Massimo 80, Roma",
+          "url": "https://www.sciasciacaffe1919.it/",
+          "note": "Ideal para el desayuno, cerca del hotel. Tel. 06 321 1580",
+          "sources": [
+            "https://www.turismoroma.it/en/hospitality/sciascia-caff%C3%A8-1919"
+          ]
+        },
+        {
+          "name": "Fatamorgana (Monti)",
+          "type": "Gelatería artesanal",
+          "area": "Monti (Piazza degli Zingari 5)",
+          "price": "€",
+          "order": "Sabores creativos y opciones sin gluten",
+          "reserve": "no",
+          "closed": "verificar",
+          "hours": "verificar",
+          "rating": "verificar",
+          "mapsQuery": "Fatamorgana, Piazza degli Zingari 5, Roma",
+          "url": "https://www.gelateriafatamorgana.it/",
+          "note": "Postre perfecto después del almuerzo en Monti el miércoles 21. Alternativa clásica en el centro: Giolitti (Via degli Uffici del Vicario 40, cerca del Pantheon)",
+          "sources": [
+            "https://www.romeing.it/it/migliori-gelaterie-di-roma/",
+            "https://www.turismoroma.it/it/accoglienza/fatamorgana",
+            "https://turismoroma.it/it/luoghi/giolitti"
+          ]
+        }
+      ],
+      "verifiedOn": "2026-10-14",
+      "intro": "Reserva: cena de despedida el miércoles 21, Armando al Pantheon (en línea) o Roscioli. Ese día, almuerzo tardío (15:30–16:00) en un lugar con cocina abierta toda la tarde."
+    }
+  },
+  "sights": {
+    "venecia": {
+      "items": [
+        {
+          "name": "Gran Canal en vaporetto línea 1",
+          "distance": "Parada Ferrovia, frente a la estación (2–3 min a pie del hotel)",
+          "hours": "Servicio todo el día",
+          "price": "Billete 75 min: 9,50 €; pase 24 h: 25 €; 48 h: 35 €",
+          "reserve": "no (validar el billete antes de subir)",
+          "time": "Trayecto Ferrovia → San Marco: verificar duración (línea lenta, para en todas las paradas)",
+          "mapsQuery": "Ferrovia vaporetto stop, Venezia",
+          "note": "La línea 1 recorre todo el Gran Canal; intentar sentarse afuera en la parte delantera o trasera. Con 2+ trayectos al día compensa el pase de 24 h.",
+          "sources": [
+            "https://actv.avmspa.it/it/content/urbano-venezia-0"
+          ]
+        },
+        {
+          "name": "Ghetto judío de Venecia (Cannaregio)",
+          "distance": "Aprox. 10 min a pie (verificar en Maps)",
+          "hours": "Barrio siempre accesible; Museo Ebraico cerrado sábados y fiestas judías (horario: verificar en ghettovenezia.com)",
+          "price": "Museo: 12 € entrada / sinagogas solo con visita guiada aprox. 15 € (verificar)",
+          "reserve": "recomendado para la visita guiada a las sinagogas",
+          "time": "1–1,5 h",
+          "mapsQuery": "Campo del Ghetto Novo, Cannaregio, Venezia",
+          "note": "El primer gueto del mundo (1516). Sábado 17-oct el museo cierra: ir jueves o viernes. Tel. museo +39 041 715359.",
+          "sources": [
+            "https://www.nomadotravel.app/it/attractions/jewish-museum-venice",
+            "https://museionline.info/musei/museo-ebraico-di-venezia"
+          ]
+        },
+        {
+          "name": "Puente y mercado de Rialto",
+          "distance": "Aprox. 25–30 min a pie o vaporetto 1 hasta Rialto (verificar)",
+          "hours": "Puente siempre abierto; mercado de pescado por la mañana (horario: verificar)",
+          "price": "Gratis",
+          "reserve": "no",
+          "time": "1 h",
+          "mapsQuery": "Ponte di Rialto, Venezia",
+          "note": "Ir por la mañana para ver el mercado y tomar cicchetti en All'Arco o Do Mori.",
+          "sources": []
+        },
+        {
+          "name": "Piazza San Marco y Basílica",
+          "distance": "Aprox. 40–45 min a pie o vaporetto 1 hasta San Marco (verificar)",
+          "hours": "Lun–sáb: verificar en tickets.basilicasanmarco.it; domingo y festivos 14:00–16:45 última entrada (cierre 17:15)",
+          "price": "Basílica 10 €; Basílica + Pala d'Oro 20 €; Basílica + Museo/Loggia dei Cavalli 20 €; entrada completa 30 €; Campanile 15 €",
+          "reserve": "sí — reserva online nominativa (fecha y hora) en tickets.basilicasanmarco.it; en taquilla no se puede reservar",
+          "time": "1,5–2 h (plaza + basílica)",
+          "mapsQuery": "Basilica di San Marco, Piazza San Marco, Venezia",
+          "note": "Hombros y rodillas cubiertos. El precio subió de 6 a 10 € desde el 1-jul-2025. Hay visitas nocturnas especiales a la Basílica y la cripta.",
+          "sources": [
+            "https://tickets.basilicasanmarco.it/it/support/prices",
+            "https://basilicasanmarco.skiperformance.com/it/support/faq",
+            "https://www.avvenire.it/economia/lavoro/troppi-turisti-dal-1-luglio-ingressi-limitati-alla-basilica-di-san-marco_92539"
+          ]
+        },
+        {
+          "name": "Paseo en góndola",
+          "distance": "Paradas de góndola (stazi) en Rialto, San Marco y otros puntos",
+          "hours": "Día y noche",
+          "price": "Tarifa más citada: 90 € por góndola 30 min de día; aprox. 110 € de noche (después de 19:00). Precio por barca (hasta 5 personas), no por persona. Tarifa oficial: verificar en el cartel del stazio",
+          "reserve": "no",
+          "time": "30–35 min",
+          "mapsQuery": "Stazio Gondole Rialto, Venezia",
+          "note": "Los 4 caben en una góndola: ~22,50 €/persona de día. Acordar precio y duración ANTES de subir. Alternativa económica: traghetto (cruce del Gran Canal en góndola) por 2 €.",
+          "sources": [
+            "https://www.nomadotravel.app/es/guides/gondola-ride-venice-guide",
+            "https://thebettervacation.com/es/Venecia/Paseo-en-g%C3%B3ndola-por-Venecia/",
+            "https://www.invenicetoday.com/curiosita/gondola-Venezia/tariffe-giro-gondola.htm"
+          ]
+        },
+        {
+          "name": "Atardecer en las Zattere",
+          "distance": "Al otro lado del Gran Canal (Dorsoduro); vaporetto o aprox. 30–40 min a pie (verificar)",
+          "hours": "Atardecer en octubre: verificar hora exacta",
+          "price": "Gratis",
+          "reserve": "no",
+          "time": "1 h",
+          "mapsQuery": "Fondamenta Zattere al Ponte Lungo, Venezia",
+          "note": "Paseo amplio frente al canal de la Giudecca; terminar con un gianduiotto en Gelateria Nico.",
+          "sources": [
+            "https://venicexplorer.com/the-city/navigate-venice/cafes/gelateria-nico"
+          ]
+        },
+        {
+          "name": "Murano y Burano (medio día)",
+          "distance": "Línea 12 desde Fondamente Nove (aprox. 25 min a pie del hotel, verificar)",
+          "hours": "Línea 12 aprox. cada 30–40 min; menos frecuencia después de 17:30",
+          "price": "Incluido en el pase de 24 h/48 h; billete suelto 9,50 €",
+          "reserve": "no",
+          "time": "Medio día: Fondamente Nove → Murano (~25–30 min) → Burano (~35–45 min)",
+          "mapsQuery": "Fondamente Nove vaporetto stop, Venezia",
+          "note": "Plan: 9:00 salir a Murano (soplado de vidrio), 11:15 barco a Burano, almuerzo y casas de colores, volver hacia las 14:30. Desde Ferrovia también hay líneas 4.1/4.2 a Fondamente Nove/Murano (más lentas). Comprobar horarios de otoño en ACTV.",
+          "sources": [
+            "https://venicexplorer.com/the-city/blog/how-to-travel-venice-murano-burano-torcello-route-timing",
+            "https://www.parkingmycar.it/blog/come-arrivare-a-murano/"
+          ]
+        }
+      ],
+      "verifiedOn": "2026-10-14"
+    },
+    "florencia": {
+      "items": [
+        {
+          "name": "Basilica di Santa Maria Novella",
+          "distance": "~320 m (≈5 min a pie)",
+          "hours": "Lun–jue 9:00–17:30; vie 11:00–17:30; sáb 9:00–17:00; dom 13:00–17:00. Última entrada 1 h antes del cierre",
+          "price": "€7,50 entrada completa (basílica + museo + claustros)",
+          "reserve": "no necesaria",
+          "time": "1 h",
+          "mapsQuery": "Basilica di Santa Maria Novella, Piazza di Santa Maria Novella, Firenze",
+          "note": "Frescos de Ghirlandaio y la Trinidad de Masaccio. Puede cerrar antes por celebraciones religiosas.",
+          "sources": [
+            "https://www.smn.it/en/visit/",
+            "https://www.smn.it/en/tickets/"
+          ]
+        },
+        {
+          "name": "Mercato di San Lorenzo (puestos de cuero) y Basilica di San Lorenzo",
+          "distance": "~760 m (≈10 min a pie)",
+          "hours": "Puestos al aire libre: lun–sáb aprox. 8:00–18:00 (verificar domingo)",
+          "price": "Gratis (mercado)",
+          "reserve": "no",
+          "time": "45 min – 1 h",
+          "mapsQuery": "Mercato di San Lorenzo, Via dell'Ariento, Firenze",
+          "note": "Regatear; la calidad del cuero varía mucho. OJO lunes 19: una ordenanza municipal de 2025 deja el área sin puestos ciertos lunes (todos los lunes en ene/feb/mar/ago/nov y el 1º y 3º lunes en otros meses); el 19 de octubre es el 3º lunes → verificar.",
+          "sources": [
+            "https://www.nomadotravel.app/it/attractions/san-lorenzo-market",
+            "https://www.lanazione.it/firenze/san-lorenzo-chiusura-mercato-af10e815",
+            "https://www.florencetourism.org/san-lorenzo-market-florence/"
+          ]
+        },
+        {
+          "name": "Duomo (Santa Maria del Fiore) y Cúpula de Brunelleschi",
+          "distance": "~1,0 km (≈15 min a pie)",
+          "hours": "Catedral (gratis): lun–sáb 10:15–15:45, cerrada a visitantes los domingos. Cúpula: domingo y festivos último turno 16:30",
+          "price": "Brunelleschi Pass €30 (cúpula + campanario + baptisterio + museo + Santa Reparata); Giotto Pass €20 (campanario, baptisterio, museo, Santa Reparata); Ghiberti Pass €15 (baptisterio, museo, Santa Reparata). Validez 3 días, una entrada por monumento",
+          "reserve": "sí — la franja horaria de la cúpula es OBLIGATORIA (incluida en el pass, no se puede cambiar ni cancelar; tolerancia 5 min)",
+          "time": "Cúpula 1 h; complejo completo 2–3 h",
+          "mapsQuery": "Cattedrale di Santa Maria del Fiore, Piazza del Duomo, Firenze",
+          "note": "La subida a la cúpula son 463 escalones sin ascensor — valorar condición física. Comprar solo en la web oficial (los revendedores cobran el doble). La web oficial (duomo.firenze.it) bloqueó la consulta automática: verificar precios allí.",
+          "sources": [
+            "https://www.florenz.info/en/brunelleschi-pass/",
+            "https://www.italy-museum.com/it/firenze/brunelleschi-pass",
+            "https://www.chicksandtrips.net/cupola-del-brunelleschi/"
+          ]
+        },
+        {
+          "name": "Ponte Vecchio",
+          "distance": "~1,1 km (≈15 min a pie)",
+          "hours": "Siempre accesible",
+          "price": "Gratis",
+          "reserve": "no",
+          "time": "20–30 min",
+          "mapsQuery": "Ponte Vecchio, Firenze",
+          "note": "El Corridoio Vasariano pasa por encima del puente; mejor luz al atardecer, vista desde el Ponte Santa Trinita.",
+          "sources": [
+            "https://www.uffizi.it/en/boboli-garden"
+          ]
+        },
+        {
+          "name": "Giardino di Boboli",
+          "distance": "~1,4 km hasta el Palazzo Pitti (≈20 min a pie); justo a la salida del Corridoio Vasariano",
+          "hours": "Desde 8:15. En octubre con horario de verano (hasta el 25 oct) cierra 18:30; última entrada 1 h antes (17:30). Cerrado 1er y último lunes del mes (5 y 26 oct) → abierto dom 18 y lun 19",
+          "price": "€10 comprado el mismo día en taquilla; €13 comprado con antelación; combinado Pitti + Boboli €22 (mismo día) / €25 (anticipado)",
+          "reserve": "no obligatoria",
+          "time": "1,5–2 h",
+          "mapsQuery": "Giardino di Boboli, Piazza de' Pitti 1, Firenze",
+          "note": "Ideal para seguir tras el corredor el domingo 18. Mucha pendiente y gravilla: calzado cómodo. Cerró 7–8 oct 2026 por alerta meteorológica: revisar avisos en uffizi.it.",
+          "sources": [
+            "https://www.uffizi.it/en/boboli-garden"
+          ]
+        },
+        {
+          "name": "Basilica di Santa Croce",
+          "distance": "~1,8 km (≈24 min a pie)",
+          "hours": "Lun–sáb 9:30–17:30; domingos y festivos 14:00–17:30. Última entrada 17:00",
+          "price": "€10 entrada completa (+€1 de gestión si se compra online); reducida €6; audioguía €6 en sitio / €4 online",
+          "reserve": "no obligatoria (recomendable online)",
+          "time": "1–1,5 h",
+          "mapsQuery": "Basilica di Santa Croce, Piazza di Santa Croce 16, Firenze",
+          "note": "Tumbas de Miguel Ángel, Galileo y Maquiavelo. Entrada por Largo Bargellini (lateral izquierdo). Código de vestimenta: hombros y rodillas cubiertos.",
+          "sources": [
+            "https://www.santacroceopera.it/organizza-la-visita/",
+            "https://www.travel365.it/visita-basilica-santa-croce-firenze.htm"
+          ]
+        },
+        {
+          "name": "Piazzale Michelangelo al atardecer",
+          "distance": "~2,6 km (≈35 min a pie, con subida final empinada)",
+          "hours": "Siempre accesible. Atardecer el 18 oct 2026: 18:29 (crepúsculo civil hasta 18:56)",
+          "price": "Gratis",
+          "reserve": "no",
+          "time": "45 min – 1 h",
+          "mapsQuery": "Piazzale Michelangelo, Firenze",
+          "note": "Para no subir a pie: buses 12 y 13 de Autolinee Toscane (el 13 se puede tomar cerca de la estación SMN, parada Fratelli Rossi, o en Piazza Beccaria). Tarifa y frecuencia: verificar en la app/web de Autolinee Toscane (se citan €1,70 en tierra y más caro a bordo). Desde Boboli se puede bajar por el lado de San Niccolò. El taxi es la opción más cómoda para el regreso.",
+          "sources": [
+            "https://api.sunrise-sunset.org/json?lat=43.7629&lng=11.2650&date=2026-10-18&formatted=0&tzid=Europe/Rome",
+            "https://www.italiarail.com/sights/piazzale-michelangelo",
+            "https://www.nomadotravel.app/it/guides/getting-around-florence",
+            "https://italyplanner.com/florence-bus-guide.html"
+          ]
+        }
+      ],
+      "verifiedOn": "2026-10-14"
+    },
+    "roma": {
+      "items": [
+        {
+          "name": "Museos Vaticanos y Capilla Sixtina",
+          "distance": "aprox. 5 min a pie (la entrada está en el mismo Viale Vaticano)",
+          "hours": "Lun–sáb 8:00–20:00, última entrada 18:00 (las salas se desalojan 30 min antes del cierre). Domingos cerrado salvo el último del mes",
+          "price": "€20 en taquilla; €25 con reserva online 'salta la fila' (€20 + €5)",
+          "reserve": "sí — solo en tickets.museivaticani.va (evitar sitios clones con precios inflados)",
+          "time": "3–4 h",
+          "mapsQuery": "Musei Vaticani, Viale Vaticano, Roma",
+          "note": "Lunes 19 por la tarde: abierto. Entrar no después de ~15:00 para verlo con calma. Hombros y rodillas cubiertos para la Capilla Sixtina",
+          "sources": [
+            "https://www.museivaticani.va/content/museivaticani/it/info/orari-musei-vaticani.html",
+            "https://www.museivaticani.va/content/museivaticani/it/organizza-visita/tariffe-e-biglietti.html"
+          ]
+        },
+        {
+          "name": "Castel Sant'Angelo",
+          "distance": "aprox. 1,5 km (≈20–25 min a pie, verificar en Maps)",
+          "hours": "Mar–dom 9:00–19:30, última entrada 18:30. CERRADO LUNES (el lunes 19 oct no abre; los 'lunedì di Castello' son solo el primer lunes del mes)",
+          "price": "€18 entrada completa (desde 1 jul 2026); menores de 18 gratis",
+          "reserve": "recomendado",
+          "time": "1,5–2 h",
+          "mapsQuery": "Castel Sant'Angelo, Lungotevere Castello 50, Roma",
+          "note": "Terraza con vista a San Pedro. Combina con el martes 20 por la mañana antes de la cúpula. Call center +39 06 399 671 00",
+          "sources": [
+            "https://cultura.gov.it/luogo/castel-santangelo"
+          ]
+        },
+        {
+          "name": "Piazza Navona",
+          "distance": "aprox. 2,5 km (≈30–35 min a pie)",
+          "hours": "Plaza abierta siempre",
+          "price": "Gratis",
+          "reserve": "no",
+          "time": "30–45 min",
+          "mapsQuery": "Piazza Navona, Roma",
+          "note": "Fuente de los Cuatro Ríos de Bernini. Evitar comer en los restaurantes de la misma plaza (trampas turísticas)",
+          "sources": [
+            "https://www.turismoroma.it/"
+          ]
+        },
+        {
+          "name": "Campo de' Fiori",
+          "distance": "aprox. 2,5 km (≈30–35 min a pie)",
+          "hours": "Mercado lun–sáb 7:00–14:00; plaza siempre abierta",
+          "price": "Gratis",
+          "reserve": "no",
+          "time": "30 min",
+          "mapsQuery": "Campo de' Fiori, Roma",
+          "note": "Mejor por la mañana con el mercado. Roscioli está a 2 min",
+          "sources": [
+            "https://siviaggia.it/idee-di-viaggio/mercato-campo-de-fiori/332874/",
+            "https://turismoroma.it/it/node/34960"
+          ]
+        },
+        {
+          "name": "Panteón",
+          "distance": "aprox. 2,8 km (≈35–40 min a pie)",
+          "hours": "Todos los días 9:00–19:00, última entrada 18:30; taquillas cierran 18:00",
+          "price": "€7 (subió de €5 a €7 el 1 jul 2026); 18–25 años €2; menores de 18 gratis",
+          "reserve": "no hay 'salta la fila'; boletos en museiitaliani.it, app Musei Italiani o taquillas/tótems en sitio",
+          "time": "30–45 min",
+          "mapsQuery": "Pantheon, Piazza della Rotonda, Roma",
+          "note": "Giolitti (gelato) y Armando al Pantheon están a pasos",
+          "sources": [
+            "https://cultura.gov.it/luogo/pantheon?page=1",
+            "https://www.voloscontato.it/italia/visitare-il-pantheon-costera-di-piu-quanto-pagherai-da-ora.php"
+          ]
+        },
+        {
+          "name": "Trastevere de noche",
+          "distance": "aprox. 3 km (≈35–40 min a pie o taxi corto)",
+          "hours": "Barrio abierto; ambiente desde ~19:00",
+          "price": "Gratis",
+          "reserve": "no",
+          "time": "2 h (paseo + cena)",
+          "mapsQuery": "Piazza di Santa Maria in Trastevere, Roma",
+          "note": "Callejuelas, Santa Maria in Trastevere iluminada; cenar en Da Enzo al 29 (no reservan, llegar temprano; cerrado domingo)",
+          "sources": [
+            "https://www.daenzoal29.com/"
+          ]
+        },
+        {
+          "name": "Fontana di Trevi",
+          "distance": "aprox. 3,3 km (≈40–45 min a pie o taxi)",
+          "hours": "Boleto requerido todos los días 9:00–22:00 para entrar a la zona baja junto a la fuente",
+          "price": "€2 por persona para acceder a la zona del pilón (vigente desde 2 feb 2026); la plaza de arriba es gratis",
+          "reserve": "no necesario; se compra online en el sitio oficial, Infopoints o en la entrada (solo tarjeta)",
+          "time": "20–30 min",
+          "mapsQuery": "Fontana di Trevi, Piazza di Trevi, Roma",
+          "note": "Ir temprano (antes de las 9:00, cuando aún no se cobra) o de noche para menos gente. Cuidado con carteristas",
+          "sources": [
+            "https://www.turismoroma.it/en/news/trevi-fountain-new-entry-fee-one-romes-symbols",
+            "https://www.romeing.it/trevi-fountain-new-rules-2026/"
+          ]
+        },
+        {
+          "name": "Plaza de España (Escalinata)",
+          "distance": "aprox. 3,2 km (≈40 min a pie; metro A desde Ottaviano a Spagna)",
+          "hours": "Siempre abierta",
+          "price": "Gratis",
+          "reserve": "no",
+          "time": "20–30 min",
+          "mapsQuery": "Scalinata di Trinità dei Monti, Piazza di Spagna, Roma",
+          "note": "Prohibido sentarse en la escalinata (reglamento municipal desde 2019; multas reportadas de €250 a €400, verificar vigencia)",
+          "sources": [
+            "https://www.wantedinrome.com/news/rome-bans-sitting-on-spanish-steps.html",
+            "https://www.finestresullarte.info/en/news/rome-sitting-and-lying-down-forbidden-on-the-spanish-steps-of-trinita-dei-monti"
+          ]
+        }
+      ],
+      "verifiedOn": "2026-10-14"
+    }
+  },
+  "tips": [
+    {
+      "section": "Transporte",
+      "items": [
+        {
+          "title": "Trenes de alta velocidad (Frecciarossa e Italo)",
+          "text": "Los billetes de Frecciarossa/Frecciargento e Italo llevan fecha, hora y asiento asignado; no se validan en las máquinas: basta mostrar el QR (en el celular o impreso) al revisor. La reserva de asiento es obligatoria en los Frecce. Lleven siempre un documento de identidad, porque el personal puede pedirlo con cualquier billete.",
+          "sources": [
+            "https://untolditaly.com/how-to-travel-by-train-in-italy/",
+            "https://www.trenitalia.com/en/information/travelling-on-regional-trains.html"
+          ]
+        },
+        {
+          "title": "Trenes regionales: validar el billete de papel",
+          "text": "Regla vigente de Trenitalia: el billete regional de PAPEL (comprado en taquilla, máquina o estanco) debe validarse en las máquinas de la estación de salida ANTES de subir; luego hay 4 horas para terminar el viaje. El billete regional digital comprado en la app/web se valida solo a la hora del tren elegido, y el 'Biglietto Regionale Elettronico' ya viene validado. Si la máquina no funciona, avisen al revisor al subir. Subir con un billete de papel sin validar se considera viajar sin billete (multa).",
+          "sources": [
+            "https://www.trenitalia.com/en/information/travelling-on-regional-trains.html",
+            "https://www.trenitalia.com/en/information/faqs-section.html",
+            "https://www.gov.uk/foreign-travel-advice/italy/safety-and-security"
+          ]
+        },
+        {
+          "title": "Apps útiles",
+          "text": "Trenitalia e Italo (comprar y llevar billetes de tren en el celular); FREENOW e itTaxi (pedir taxis con licencia en Roma, Florencia y otras ciudades, con pago en la app); Google Maps (horarios de metro, bus y vaporetto). En Roma también existe el servicio oficial ChiamaTaxi de Roma Capitale (060609).",
+          "sources": [
+            "https://www.trenitalia.com",
+            "https://www.italotreno.com",
+            "https://www.boundlessroads.com/taxi-apps-in-italy/",
+            "https://www.thelocal.it/20260825/what-you-need-to-know-about-taking-a-taxi-in-rome"
+          ]
+        },
+        {
+          "title": "Taxi oficial en Roma",
+          "text": "Los taxis oficiales de Roma son BLANCOS, con el letrero TAXI en el techo, el símbolo de Roma Capitale en las puertas delanteras y el número de licencia en las puertas, atrás y dentro del carro. Tomen taxi solo en las filas oficiales (en Fiumicino: zona de Llegadas, T1 y T3) o por app; ignoren a quien les ofrezca 'taxi' dentro del aeropuerto o la estación. Verifiquen que el taxímetro esté encendido (salvo en tarifa fija).",
+          "sources": [
+            "https://romamobilita.it/muoversi-a-roma/taxi/",
+            "https://www.adr.it/web/aeroporti-di-roma-en/pax-fco-taxi"
+          ]
+        },
+        {
+          "title": "Tarifa fija Fiumicino – centro de Roma: 55 € (solo dentro de las murallas)",
+          "text": "Fiumicino ↔ centro histórico (dentro de las Murallas Aurelianas): 55 € por carro (no por persona), en ambos sentidos, con equipaje y suplementos incluidos. Otras tarifas fijas desde Fiumicino: estación Ostiense 50 €, estación Tiburtina 60 €, aeropuerto de Ciampino 55 €, puerto de Civitavecchia 130 €. Para 4 personas con maletas, confirmen que el carro tenga espacio (puede requerir dos taxis o una van). Las tarifas las fija el Comune y pueden cambiar sin aviso. Para el hotel de Roma (Prati, probablemente fuera de las murallas): preguntar el precio antes de subir; con taxímetro suele estar entre 50 y 70 €.",
+          "sources": [
+            "https://www.adr.it/web/aeroporti-di-roma-en/pax-fco-taxi",
+            "https://www.comune.roma.it/web/it/notizia/ok-giunta-roma-1000-nuove-licenze-taxi.page"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "Dinero",
+      "items": [
+        {
+          "title": "Coperto (cubierto)",
+          "text": "Muchos restaurantes cobran 'coperto' (pan y servicio de mesa) por persona; es legal si aparece claramente en la carta. Revisen la carta y la cuenta antes de pagar. En la región del Lazio (Roma) una ley regional lo prohíbe. Monto típico: verificar en cada carta.",
+          "sources": [
+            "https://www.gamberorosso.it/notizie/attualita/coperto-ristorante",
+            "https://www.linkiesta.it/2021/11/coperto-ristorante-pagare-ristorante/"
+          ]
+        },
+        {
+          "title": "Propinas",
+          "text": "En Italia la propina NO es obligatoria ni se espera como en EE. UU. Si el servicio fue bueno, basta redondear o dejar unas monedas o un pequeño extra. Si la cuenta ya incluye 'servizio', no hace falta dejar más.",
+          "sources": [
+            "https://www.gamberorosso.it/notizie/attualita/coperto-ristorante"
+          ]
+        },
+        {
+          "title": "Pago con tarjeta (obligación POS)",
+          "text": "Por ley, comercios y profesionales en Italia deben aceptar tarjetas de débito y crédito; si se niegan, se exponen a una multa de 30 € + 4 % del valor (D.L. 36/2022, art. 18, vigente desde el 30/06/2022), salvo falla técnica del datáfono. Igual conviene llevar algo de efectivo para cafés, propinas, baños públicos y pequeños comercios. Cambios a la norma en 2025–2026: verificar.",
+          "sources": [
+            "https://www.ecnews.it/fiscale/in-pratica/guida-agli-adempimenti/sanzioni-per-mancato-utilizzo-del-pos-ed-estensione-della-fattura-elettronica/",
+            "https://www.investireoggi.it/sanzioni-per-obbligo-pos-attivita-obbligate-ed-escluse/"
+          ]
+        },
+        {
+          "title": "Cajeros: usar los de bancos (Bancomat), evitar Euronet",
+          "text": "Saquen dinero en cajeros de bancos italianos (Bancomat dentro o junto a una sucursal) o Postamat de Correos. Eviten los cajeros independientes tipo Euronet, frecuentes en zonas turísticas, que cobran comisiones altas y ofrecen conversiones de moneda desfavorables. Revisen antes con su banco las comisiones por retiro en el exterior.",
+          "sources": [
+            "https://europeforvisitors.com/venice/articles/venice-euronet-atms.htm",
+            "https://italyhandbook.com/avoiding-atm-withdrawal-fees-in-italy/"
+          ]
+        },
+        {
+          "title": "Siempre cobrar en EUROS (rechazar la conversión dinámica)",
+          "text": "Cuando el datáfono o el cajero pregunte si quieren pagar en dólares/pesos o en euros, elijan SIEMPRE EUROS. Según la Comisión Europea, pagar en moneda local suele ser lo más barato; la conversión a su moneda (DCC) normalmente cuesta más. Tienen derecho a rechazarla.",
+          "sources": [
+            "https://europa.eu/youreurope/citizens/consumers/shopping/pricing-payments/index_en.htm"
+          ]
+        },
+        {
+          "title": "Impuesto turístico en el hotel",
+          "text": "Las grandes ciudades italianas cobran una tasa turística por persona y noche que normalmente se paga en el hotel (a menudo en efectivo) y no suele estar incluida en la reserva. Pidan recibo. Montos exactos por ciudad: verificar con cada hotel.",
+          "sources": [
+            "https://www.gov.uk/foreign-travel-advice/italy/safety-and-security"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "Seguridad",
+      "items": [
+        {
+          "title": "Carteristas: dónde tener más cuidado",
+          "text": "Italia tiene criminalidad baja, pero hay mucho robo de bolsos y carteristas en centros históricos y atracciones. Zonas señaladas: estación Termini y metro línea A en Roma (Termini, Repubblica, Barberini, Spagna), buses 40 y 64, alrededores de la Fontana di Trevi, y en Venecia los vaporetti llenos, embarcaderos y máquinas de billetes. Lleven bolsos cerrados y por delante, no guarden todo junto, y dejen pasaportes y efectivo extra en la caja fuerte del hotel (lleven una copia y un documento con foto: la policía puede pedirlo).",
+          "sources": [
+            "https://www.gov.uk/foreign-travel-advice/italy/safety-and-security",
+            "https://italyplanner.com/italy-pickpocket-prevention-guide",
+            "https://iamnotmakingthisup.net/37720/pickpockets-2-0/"
+          ]
+        },
+        {
+          "title": "Estafas comunes",
+          "text": "Pulseras de la 'amistad' que les amarran a la muñeca y luego cobran; rosas 'de regalo' (sobre todo a parejas en Trevi) por las que después piden 10–15 €; personas con 'peticiones' o firmas en carpeta mientras un cómplice saca la billetera; 'gladiadores' disfrazados en el Coliseo que cobran agresivamente por la foto. Regla: no acepten nada en la mano, digan 'No, grazie' firme y sigan caminando. No compren a vendedores ambulantes sin licencia: es ilegal y puede haber multa.",
+          "sources": [
+            "https://www.intrepidtravel.com/adventures/how-to-avoid-scams-in-rome/",
+            "https://carpediemtours.com/blog/common-scams-in-rome",
+            "https://www.gov.uk/foreign-travel-advice/italy/safety-and-security"
+          ]
+        },
+        {
+          "title": "Fontana di Trevi: ahora con entrada de 2 €",
+          "text": "Desde el 2 de febrero de 2026, bajar a la zona junto a la pileta de la Fontana di Trevi cuesta 2 € (todos los días de 9:00 a 22:00; en la entrada solo con tarjeta, también en línea y en infopoints). La plaza sigue siendo libre. Está prohibido meterse o bañarse en las fuentes.",
+          "sources": [
+            "https://www.turismoroma.it/en/news/trevi-fountain-new-entry-fee-one-romes-symbols",
+            "https://www.gov.uk/foreign-travel-advice/italy/safety-and-security"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "Vaticano",
+      "items": [
+        {
+          "title": "Código de vestimenta",
+          "text": "Para Museos Vaticanos, Capilla Sixtina, Basílica de San Pedro y Jardines: no se admiten prendas sin mangas o escotadas, shorts por encima de la rodilla, minifaldas ni sombreros/gorras. Hombros y rodillas cubiertos (hombres y mujeres). Un pañuelo o chal en el bolso ayuda.",
+          "sources": [
+            "https://www.museivaticani.va/content/museivaticani/en/organizza-visita/consigli-utili.html"
+          ]
+        },
+        {
+          "title": "Seguridad y maletas",
+          "text": "Hay control con detector de metales. Museos Vaticanos: deben dejar en el guardarropa (gratis) maletas, bolsos y paquetes de más de 40 × 35 × 15 cm, morrales (salvo los pequeños pegados al cuerpo), sombrillas largas, cuchillos/tijeras/herramientas, y comida y bebida. Basílica de San Pedro: no se permiten equipajes voluminosos ni morrales grandes, y NO hay guardarropa en la basílica. Si siguen de los Museos a la Basílica, no dejen cosas en el guardarropa de los Museos: lo mejor es ir livianos.",
+          "sources": [
+            "https://www.museivaticani.va/content/museivaticani/en/organizza-visita/consigli-utili.html",
+            "https://m.museivaticani.va/content/dam/museivaticani/pdf/visita_musei/servizi_visitatori/Regolamento_guardaroba_en.pdf",
+            "https://www.basilicasanpietro.va/en/faq/are-there-any-restrictions-regarding-baggage",
+            "https://www.basilicasanpietro.va/en/faq/is-there-a-cloakroom-or-luggage-storage-in-st-peters-basilica"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "Venecia",
+      "items": [
+        {
+          "title": "Contributo di accesso: NO aplica en sus fechas",
+          "text": "La tasa de acceso a Venecia de 2026 (5–10 € para excursionistas de un día) se aplicó solo 60 días entre el 3 de abril y el 26 de julio de 2026, de 8:30 a 16:00. El Comune informa que la experimentación 2026 terminó y que desde el 27 de julio ya no se aplica. Para el 15–22 de octubre de 2026 no hay que pagarla. (Además, quienes duermen en el municipio estaban exentos.)",
+          "sources": [
+            "https://live.comune.venezia.it/it/2026/03/venezia-aperto-il-portale-il-contributo-di-accesso-2026",
+            "https://cda.veneziaunica.it/en/access-fee",
+            "https://www.comune.venezia.it/it/cda-info"
+          ]
+        },
+        {
+          "title": "Acqua alta en octubre",
+          "text": "El otoño es temporada de acqua alta: el viento siroco y las mareas vivas pueden inundar zonas bajas como Piazza San Marco y Rialto, normalmente por pocas horas alrededor del pico de marea. Con más de 110 cm suenan sirenas unas horas antes (1 tono = 110 cm, 2 = 120 cm, 3 = 130 cm). Las barreras MOSE se levantan ante mareas altas previstas. Si hay alerta, lleven botas de caucho o cubrebotas (se venden en la ciudad) y planeen visitas fuera de las horas del pico.",
+          "sources": [
+            "https://www.invenicetoday.com/servizi/marea-Venezia.htm",
+            "https://comune.venezia.it/sites/comune.venezia.it/files/documenti/Centro_Maree/Tavolo_tecnico_20241003.pdf",
+            "https://www.gov.uk/foreign-travel-advice/italy/safety-and-security"
+          ]
+        },
+        {
+          "title": "Cómo consultar el pronóstico de marea",
+          "text": "Fuente oficial: Centro Previsioni e Segnalazioni Maree del Comune di Venezia (www.comune.venezia.it/maree). App gratuita 'hi!tide Venice' (iOS/Android), con datos oficiales del Centro Maree: marea actual, pronóstico de 2 días y paradas de vaporetto afectadas.",
+          "sources": [
+            "https://www.comune.venezia.it/maree",
+            "https://apps.apple.com/app/id469821030"
+          ]
+        },
+        {
+          "title": "Normas y multas en Venecia",
+          "text": "El reglamento de policía urbana prohíbe comer o beber sentado en el suelo y sentarse o acostarse en puentes, escalinatas, riberas, monumentos y brocales de pozos (multas reportadas de 100–200 € y alejamiento o 'DASPO urbano'); bañarse o lanzarse a los canales (multa reportada de 350 €); tirar basura. Coman en bares, restaurantes o bancas públicas. Montos exactos vigentes: verificar.",
+          "sources": [
+            "https://www.finestresullarte.info/attualita/venezia-nuovo-regolamento-urbano-divieti",
+            "https://www.gov.uk/foreign-travel-advice/italy/safety-and-security"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "Agua y salud",
+      "items": [
+        {
+          "title": "Agua potable en Roma: los 'nasoni'",
+          "text": "Las fuentecitas públicas de hierro de Roma ('nasoni', unas 2.800) dan agua potable gratis y fresca. Si tapan con el dedo el chorro de abajo, el agua sale por el agujerito de arriba para beber. Lleven una botella reutilizable.",
+          "sources": [
+            "https://www.turismoroma.it/it/page/i-nasoni-le-fontanelle-di-roma",
+            "https://www.turismoroma.it/en/news/three-new-nasoni-installed-along-sacra-parco-archeologico-del-colosseo"
+          ]
+        },
+        {
+          "title": "Farmacias",
+          "text": "Las farmacias se reconocen por la cruz verde (luminosa) en la fachada. Funcionan por turnos: en la puerta de cada farmacia se publica cuál está de turno de noche o en festivo en la zona. Lleven sus medicamentos con receta en el empaque original. (Detalle de la señal de cruz verde: verificar.)",
+          "sources": [
+            "https://www.napolike.it/come-trovare-una-farmacia-di-turno-a-napoli-24-ore-su-24"
+          ]
+        },
+        {
+          "title": "Emergencias: 112",
+          "text": "El 112 es el número único europeo de emergencias; es gratuito desde fijo o celular, incluso sin SIM o sin saldo, y deriva la llamada a ambulancia, policía o bomberos. También existen 118 (ambulancia), 113 (policía) y 115 (bomberos).",
+          "sources": [
+            "https://www.salute.gov.it/new/it/tema/112-118-e-pronto-soccorso/numero-unico-europeo-le-emergenze-nue-112/",
+            "https://www.cia.gov/the-world-factbook/countries/italy/travel-facts"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "Enchufes",
+      "items": [
+        {
+          "title": "Tipos C, F y L – 230 V / 50 Hz",
+          "text": "Italia usa enchufes tipo C, F y L (dos o tres patas redondas) a 230 V y 50 Hz. Colombia y EE. UU. usan tipos A/B (patas planas) a 110–120 V y 60 Hz. Necesitan adaptador (uno universal o tipo C/L).",
+          "sources": [
+            "https://www.worldstandards.eu/electricity/plug-voltage-by-country/italy/",
+            "https://www.ixigo.com/travel-guide/plug-and-adapter/colombia"
+          ]
+        },
+        {
+          "title": "Revisar el voltaje de los cargadores",
+          "text": "Miren la etiqueta del cargador: si dice 'INPUT 100–240V ~ 50/60Hz' (la mayoría de cargadores de celular, tablet y portátil) solo necesitan el adaptador de forma. Si dice solo 110–120V (secadores, planchas de pelo, algunas máquinas de afeitar), necesitarían un convertidor de voltaje; mejor no llevarlos.",
+          "sources": [
+            "https://www.worldstandards.eu/electricity/plug-voltage-by-country/italy/"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "Clima",
+      "items": [
+        {
+          "title": "Octubre: templado, con algunos días de lluvia",
+          "text": "Promedios de octubre (normales 1991–2020): Venecia 18,5 °C máx / 10,5 °C mín; Florencia 21,5 / 10,9; Roma 22,2–22,8 / 12,1–12,4. Entre 7 y 9 días con lluvia en el mes. Mañanas y noches frescas, mediodías agradables. Ver detalle por ciudad en 'weather'.",
+          "sources": [
+            "https://en.wikipedia.org/wiki/Venice",
+            "https://en.wikipedia.org/wiki/Florence",
+            "https://en.wikipedia.org/wiki/Rome",
+            "https://scia.isprambiente.it/"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "Vuelos",
+      "items": [
+        {
+          "title": "Check-in en línea Avianca",
+          "text": "Abre 48 horas antes de la salida (24 horas si el vuelo es desde/hacia EE. UU., Puerto Rico o Canadá) en avianca.com o la app; cierra 60 minutos antes en vuelos internacionales. No está disponible si tienen servicios especiales asignados o tramos en código compartido (en ese caso, en el aeropuerto). Una página de ayuda de Avianca aún dice '24 horas': verificar en la reserva.",
+          "sources": [
+            "https://www.avianca.com/en/my-booking/services/online-check-in",
+            "https://www.avianca.com/co/en/your-booking/check-in/",
+            "https://help.avianca.com/hc/es-419/articles/4416649334811--C%C3%B3mo-puedo-hacer-check-in-"
+          ]
+        },
+        {
+          "title": "Check-in en línea ITA Airways",
+          "text": "Abre 48 horas antes de la salida (24 horas para vuelos desde/hacia Estados Unidos, p. ej. Roma–Miami) en ita-airways.com o la app; cierra 60 minutos antes en vuelos internacionales (40 min en nacionales). Algunos aeropuertos no permiten check-in en línea: revisar.",
+          "sources": [
+            "https://www.ita-airways.com/xx/en/support/support-faq/check-in-faq",
+            "https://www.ita-airways.com/en_us/fly-ita/check-in/online-check-in/online-check-in-boarding-pass.html"
+          ]
+        },
+        {
+          "title": "Llegar al aeropuerto",
+          "text": "Avianca recomienda llegar 3 horas antes en vuelos internacionales. Calculen el tiempo de taxi a Fiumicino (preguntar el precio antes de subir; con taxímetro suele estar entre 50 y 70 €).",
+          "sources": [
+            "https://www.avianca.com/es/sobre-nosotros/noticias-corporativas/2022/diciembre-15",
+            "https://www.adr.it/web/aeroporti-di-roma-en/pax-fco-taxi"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "Venecia: datos útiles",
+      "items": [
+        {
+          "title": "Tasa de acceso (contributo di accesso) 2026",
+          "text": "En 2026 se aplica 60 días entre el 3 de abril y el 26 de julio (8:30–16:00). NO aplica en octubre 2026, así que no hay que pagar nada para el 15–17 de octubre. Además, los huéspedes que pernoctan en un hotel de Venecia están exentos.",
+          "sources": [
+            "https://www.thelocal.it/20251209/calendar-when-will-you-need-to-pay-a-fee-to-visit-venice-in-2026",
+            "https://cda.veneziaunica.it/en/access-fee"
+          ]
+        },
+        {
+          "title": "Precios vaporetto ACTV",
+          "text": "Billete 75 minutos: 9,50 €. Pase 24 h (Venezia Daily Pass): 25 €. 48 h: 35 €. 72 h: 45 €. 7 días: 65 €. Validan desde la primera validación; hay que validar en cada embarque. No incluyen el aeropuerto (suplemento aerobus 7 € ida / 13 € ida y vuelta). Billetes comprados a bordo solo con tarjeta.",
+          "sources": [
+            "https://actv.avmspa.it/it/content/urbano-venezia-0"
+          ]
+        },
+        {
+          "title": "Pronóstico de acqua alta",
+          "text": "Consultar el Centro Previsioni e Segnalazioni Maree del Comune di Venezia (comune.venezia.it/maree) o la app oficial hi!tide Venice (nivel actual y previsión de 2 días, por zonas y paradas ACTV). Previsiones a 72 h. Si suenan sirenas: aviso de marea alta; los tonos electrónicos posteriores indican el nivel esperado (más tonos = más agua). En octubre puede haber acqua alta.",
+          "sources": [
+            "https://www.comune.venezia.it/it/maree",
+            "https://apps.appfollow.io/ios/hi-tide-venice/469821030?country=us",
+            "https://italyheaven.co.uk/?p=5720"
+          ]
+        },
+        {
+          "title": "Multas por sentarse/comer en escalones",
+          "text": "El reglamento de policía urbana prohíbe sentarse o comer/beber sentado en el suelo, puentes, escalones, monumentos y bordes de canales: multas aprox. de 100 a 200 € y posible DASPO urbano (alejamiento). Las cifras exactas vigentes: verificar. Comer de pie o en bancos/mesas de locales.",
+          "sources": [
+            "https://www.finestresullarte.info/es/noticias/venecia-prohibido-sentarse-en-las-escaleras-y-comer-en-la-calle-mano-dura-del-ayuntamiento-en-nombre-del-decoro",
+            "https://www.finestresullarte.info/attualita/venezia-daspo-contro-i-turisti-cafoni"
+          ]
+        },
+        {
+          "title": "Aeropuerto Marco Polo → Piazzale Roma (bus)",
+          "text": "ACTV Aerobus (línea 5): billete 10 € (75 min), ida y vuelta 18 €; combinado Aerobus + vaporetto 90 min: 18 €. ATVO Venice Airport Bus Express: aprox. 10 € ida / 18 € ida y vuelta (verificar en atvo.it), unos 17–20 min, cada 20–30 min. Desde Piazzale Roma al hotel: unos 10 min a pie cruzando el puente de la Constitución (verificar).",
+          "sources": [
+            "https://actv.avmspa.it/it/content/urbano-venezia-0",
+            "https://www.atvo.it/servizi-erogati/servizi-aereoportuali/venice-airport-bus-express",
+            "https://www.invenicetoday.com/%5C%5C%5C%5C/servizi/Atvo/Aeroporto-Marco-Polo-Piazzale-Roma-Venezia-autobus-diretto.htm"
+          ]
+        },
+        {
+          "title": "Aeropuerto → Venecia en barco (Alilaguna)",
+          "text": "Alilaguna: 18 € ida / 32 € ida y vuelta (incluye 1 maleta grande + 1 de mano; extra 4 €). La Línea Arancio para en Guglie (Cannaregio, cerca del hotel) y sigue por el Gran Canal a Rialto. Más lento que el bus (duración: verificar).",
+          "sources": [
+            "https://www.alilaguna.it/biglietti/tariffe",
+            "https://www.alilaguna.it/"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "Florencia: datos útiles",
+      "items": [
+        {
+          "title": "Domingo 18 y lunes 19 de octubre",
+          "text": "Domingo 18: cerrados Trattoria Mario, Trattoria Sostanza, Buca Mario y Da Nerbone (planta baja del Mercato Centrale); la catedral del Duomo no admite visitantes el domingo (sí la cúpula con reserva). Abiertos el domingo: Il Latini (almuerzo y cena), 4 Leoni, Il Santo Bevitore (cena), Mercato Centrale primer piso. Lunes 19: cerrados Il Latini, Vivoli (verificar) y probablemente L'Antico Trippaio (verificar); posibles puestos de San Lorenzo ausentes (3er lunes del mes).",
+          "sources": [
+            "http://www.trattoriamario.com/",
+            "https://www.bucamario.com/",
+            "https://www.illatini.com/",
+            "https://joinpearl.co/restaurants/florence-italy/trattoria-sostanza",
+            "https://www.florenz.info/en/brunelleschi-pass/"
+          ]
+        },
+        {
+          "title": "Tasa turística (imposta di soggiorno)",
+          "text": "El hotel es 4 estrellas: €7 por persona y noche (máx. 7 noches consecutivas; exentos menores de 12 años). Para 4 adultos × 2 noches = €56 en total. Se paga en el hotel, aparte del precio de la reserva (verificar si ya está incluida). Tarifas vigentes desde 1-feb-2025 (Delibera 535/2024), sin cambios a marzo 2026.",
+          "sources": [
+            "https://chekin.com/it/blog/tassa-di-soggiorno-a-firenze/",
+            "https://www.hotelclubflorence.com/"
+          ]
+        },
+        {
+          "title": "Tren Frecciarossa Firenze SMN – Roma Termini",
+          "text": "Trayecto directo de alta velocidad: aprox. 1 h 30 min – 1 h 35 min (232 km). La estación SMN está a ~200 m del hotel. Revisar horario exacto en Trenitalia/Italo.",
+          "sources": [
+            "https://everyrail.com/it/treni/firenze-roma/",
+            "https://www.e656.net/orario/treno/9591.html"
+          ]
+        },
+        {
+          "title": "Cambio de hora",
+          "text": "Italia vuelve al horario de invierno el domingo 25 de octubre de 2026; durante su estancia (17–19 oct) rige aún el horario de verano (Boboli cierra 18:30 y el sol se pone hacia las 18:29).",
+          "sources": [
+            "https://www.uffizi.it/en/boboli-garden",
+            "https://api.sunrise-sunset.org/json?lat=43.7629&lng=11.2650&date=2026-10-18&formatted=0&tzid=Europe/Rome"
+          ]
+        },
+        {
+          "title": "Bistecca alla fiorentina",
+          "text": "Se vende por peso (normalmente mínimo ~1 kg, para 2 personas) y se sirve poco hecha; en Trattoria Mario solo 'al sangue'. Preguntar el precio por kg y el peso antes de pedir (dato del peso mínimo: verificar en cada local).",
+          "sources": [
+            "http://www.trattoriamario.com/"
+          ]
+        },
+        {
+          "title": "Pago en efectivo",
+          "text": "Trattoria Sostanza no acepta tarjeta (Dissapore) y Trattoria Mario figura como solo efectivo en guías (verificar). Llevar efectivo en euros.",
+          "sources": [
+            "https://www.dissapore.com/ristoranti/trattoria-sostanza-a-firenze-recensione-come-si-mangia-dal-troia/",
+            "https://tablejourney.com/neighborhood/florence/san-lorenzo/italian/"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "Roma: datos útiles",
+      "items": [
+        {
+          "title": "Taxi aeropuerto Fiumicino",
+          "text": "Tarifa fija oficial Fiumicino ↔ Roma centro DENTRO de las murallas Aurelianas: 55 € por carro, suplementos incluidos (Aeroporti di Roma). OJO: Preguntar el precio ANTES de subir: el hotel (Viale Vaticano, Prati) probablemente queda fuera de las murallas Aurelianas, así que la tarifa fija de 55 € puede no aplicar; con taxímetro suele estar entre 50 y 70 €. Pedirlo en recepción la noche anterior para las 6:15. Usar solo taxis blancos oficiales.",
+          "sources": [
+            "https://www.adr.it/web/aeroporti-di-roma-en/pax-fco-taxi",
+            "https://www.sicurauto.it/news/taxi-roma-per-fiumicino-e-ciampino-quanto-costa/"
+          ]
+        },
+        {
+          "title": "Impuesto turístico (contributo di soggiorno)",
+          "text": "Lux of the Vatican está registrado en Turismo Roma como 'Guest House o Affittacamere' (no como hotel con estrellas). Para guest house/affittacamere la tarifa es €7, €6 o €5 por persona y noche según la categoría (1ª, 2ª o 3ª) — la categoría exacta del alojamiento: verificar en el check-in. Máximo 10 noches; exentos menores de 10 años. Para 4 adultos × 3 noches: entre €60 y €84 en total. Se paga normalmente en el alojamiento, aparte de la reserva.",
+          "sources": [
+            "https://www.turismoroma.it/en/hospitality/guest-house-o-affittacamere-lux-vatican",
+            "https://turismoroma.it/it/accoglienza/contributo-di-soggiorno-nella-citt%C3%A0-di-roma-capitale",
+            "https://chekin.com/it/blog/tassa-di-soggiorno-roma/"
+          ]
+        },
+        {
+          "title": "Audiencia general del Papa (miércoles 21)",
+          "text": "Boletos gratuitos, solicitados con antelación a la Prefectura de la Casa Pontificia. Se recogen en el Portone di Bronzo (Puerta de Bronce, bajo la columnata derecha de la Plaza de San Pedro) la tarde anterior (martes 20) de 15:00 a 19:00. La audiencia es a las 10:00: llegar entre 7:30 y 8:00 por los controles de seguridad tipo aeropuerto. En días fríos o de lluvia puede trasladarse al Aula Pablo VI.",
+          "sources": [
+            "https://c.vatican.va/content/romancuria/en/uffici/prefettura-della-casa-pontificia/struttura.html",
+            "https://www.romeing.it/?p=131662",
+            "https://romewise.com/vatican/how-to-get-the-popular-papal-audience-tickets/"
+          ]
+        },
+        {
+          "title": "Código de vestimenta (San Pedro, Museos Vaticanos, audiencia)",
+          "text": "Hombros y rodillas cubiertos; no se permiten camisetas sin mangas, shorts ni faldas cortas. Se aplica estrictamente y se puede negar la entrada.",
+          "sources": [
+            "https://www.trvlogue.com/en/st-peters-basilica-visit-guide",
+            "https://mamalovesrome.com/visiting-st-peter-basilica/"
+          ]
+        },
+        {
+          "title": "Bolsos y seguridad en el Vaticano",
+          "text": "Control de seguridad tipo aeropuerto a la entrada de San Pedro. No se admiten maletas ni bolsos grandes, trípodes ni objetos cortantes; mochilas pequeñas sí, sujetas a inspección. Llevar solo un bolso pequeño (medidas exactas: verificar).",
+          "sources": [
+            "https://www.trvlogue.com/en/st-peters-basilica-visit-guide",
+            "https://mamalovesrome.com/visiting-st-peter-basilica/"
+          ]
+        },
+        {
+          "title": "Cúpula de San Pedro (martes 20, 14:30)",
+          "text": "551 escalones a pie, o ascensor hasta la terraza y luego 320 escalones por una escalera de caracol cada vez más estrecha (no apta para claustrofobia ni problemas de rodilla/corazón). Precio en taquilla aprox. €10 a pie / €12 con ascensor según guías — verificar precio oficial 2026. Entrada a la basílica gratuita.",
+          "sources": [
+            "https://thebettervacation.com/it/Roma/Salita-sulla-cupola-della-Basilica-di-San-Pietro/",
+            "https://www.visititaly.eu/it/tickets/basilica-di-san-pietro"
+          ]
+        },
+        {
+          "title": "Coliseo (miércoles 21, 13:00)",
+          "text": "Del 1 al 24 de octubre de 2026: última entrada 17:30, el Parque cierra 18:30 (desde el 25 oct la última entrada pasa a 15:30). Boletos nominativos con franja horaria en ticketing.colosseo.it; llevar pasaporte.",
+          "sources": [
+            "https://colosseo.it/orari/",
+            "https://colosseo.it/biglietti/"
+          ]
+        },
+        {
+          "title": "Cierres a tener en cuenta",
+          "text": "Lunes 19: Castel Sant'Angelo cerrado; Pizzarium posiblemente cerrado (verificar). Martes 20: La Taverna dei Fori Imperiali cerrada (no afecta el plan). Miércoles 21: Da Cesare al Casaletto cerrado (descartado para despedida); Armando al Pantheon, Roscioli, Da Enzo al 29 y Felice abiertos. Mercato Trionfale (cerca del hotel): lun–sáb 7:00–14:00, mar y vie hasta 19:00.",
+          "sources": [
+            "https://cultura.gov.it/luogo/castel-santangelo",
+            "https://www.turismoroma.it/en/hospitality/pizzarium",
+            "https://turismoroma.it/it/node/130424",
+            "https://turismoroma.it/it/luoghi/mercato-rionale-trionfale"
+          ]
+        }
+      ]
+    }
+  ],
+  "phrases": [
+    {
+      "it": "Buongiorno / Buonasera",
+      "es": "Buenos días / Buenas tardes-noches",
+      "pron": "buon-YOR-no / buo-na-SÉ-ra"
+    },
+    {
+      "it": "Per favore",
+      "es": "Por favor",
+      "pron": "per fa-VÓ-re"
+    },
+    {
+      "it": "Grazie (mille)",
+      "es": "Gracias (mil gracias)",
+      "pron": "GRÁ-tsie (MÍ-le)"
+    },
+    {
+      "it": "Mi scusi",
+      "es": "Disculpe / Perdón",
+      "pron": "mi SCÚ-si"
+    },
+    {
+      "it": "Quanto costa?",
+      "es": "¿Cuánto cuesta?",
+      "pron": "CUÁN-to CÓS-ta"
+    },
+    {
+      "it": "Il conto, per favore",
+      "es": "La cuenta, por favor",
+      "pron": "il CÓN-to, per fa-VÓ-re"
+    },
+    {
+      "it": "Dov'è il bagno?",
+      "es": "¿Dónde está el baño?",
+      "pron": "do-VÉ il BÁ-ño"
+    },
+    {
+      "it": "Un tavolo per quattro",
+      "es": "Una mesa para cuatro",
+      "pron": "un TÁ-vo-lo per CUÁ-tro"
+    },
+    {
+      "it": "Acqua naturale / frizzante",
+      "es": "Agua sin gas / con gas",
+      "pron": "Á-cua na-tu-RÁ-le / frit-TSÁN-te"
+    },
+    {
+      "it": "Posso pagare con la carta?",
+      "es": "¿Puedo pagar con tarjeta?",
+      "pron": "PÓ-so pa-GÁ-re con la CÁR-ta"
+    },
+    {
+      "it": "A che ora parte il treno per…?",
+      "es": "¿A qué hora sale el tren para…?",
+      "pron": "a ke Ó-ra PÁR-te il TRÉ-no per"
+    },
+    {
+      "it": "No, grazie",
+      "es": "No, gracias (para vendedores insistentes)",
+      "pron": "no, GRÁ-tsie"
+    },
+    {
+      "it": "Aiuto! / Chiamate la polizia",
+      "es": "¡Ayuda! / Llamen a la policía",
+      "pron": "a-IÚ-to / kia-MÁ-te la po-li-TSÍ-a"
+    },
+    {
+      "it": "Ho perso il passaporto",
+      "es": "Perdí el pasaporte",
+      "pron": "o PÉR-so il pa-sa-PÓR-to"
+    }
+  ],
+  "weather": [
+    {
+      "city": "Venecia",
+      "high": "18,5 °C",
+      "low": "10,5 °C",
+      "rainDays": "6,7 días (72 mm)",
+      "wear": "Capas: camiseta + suéter liviano + chaqueta impermeable o rompevientos; zapatos cómodos y antideslizantes que aguanten humedad; si hay alerta de acqua alta, cubrebotas o botas de caucho. Noches frescas y húmedas junto al agua.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Venice",
+        "https://www.isprambiente.gov.it/"
+      ]
+    },
+    {
+      "city": "Florencia",
+      "high": "21,5 °C",
+      "low": "10,9 °C",
+      "rainDays": "8,8 días (105 mm)",
+      "wear": "Ropa por capas, chaqueta impermeable liviana o paraguas plegable, zapatos cerrados cómodos para el empedrado; algo para cubrir hombros en iglesias (Duomo).",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Florence",
+        "https://www.ncei.noaa.gov/products/wmo-climate-normals"
+      ]
+    },
+    {
+      "city": "Roma",
+      "high": "22,2–22,8 °C",
+      "low": "12,1–12,4 °C",
+      "rainDays": "7,3 días (88 mm)",
+      "wear": "De día manga corta o camisa liviana, suéter o chaqueta ligera para la noche, paraguas plegable; pantalón largo o falda bajo la rodilla y hombros cubiertos para el Vaticano e iglesias; zapatos muy cómodos (se camina mucho).",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Rome",
+        "https://scia.isprambiente.it/",
+        "https://www.ncei.noaa.gov/products/wmo-climate-normals"
+      ]
+    }
+  ],
+  "emergency": {
+    "general": [
+      {
+        "title": "112 – Número único de emergencias",
+        "text": "Gratis desde cualquier celular, incluso sin SIM o sin saldo. Para ambulancia, policía o bomberos. También: 118 ambulancia, 113 Polizia, 115 bomberos."
+      },
+      {
+        "title": "Línea 1522 (violencia contra la mujer)",
+        "text": "Línea gratuita 24 h en Italia, difundida por el Consulado de Colombia en Roma; chat en www.1522.eu."
+      },
+      {
+        "title": "Antes de viajar",
+        "text": "Guarden foto o escaneo del pasaporte en el celular y en el correo; anoten los números de sus bancos para bloquear tarjetas; ciudadanos de EE. UU. pueden inscribirse en STEP (step.state.gov); colombianos pueden registrarse en el Registro Consular de la Cancillería."
+      },
+      {
+        "title": "Con una denuncia NO se puede salir de Italia",
+        "text": "La denuncia policial no sirve como documento de viaje: hay que tramitar un pasaporte o documento de emergencia en la embajada o consulado."
+      }
+    ],
+    "contacts": [
+      {
+        "name": "Embajada de Colombia en Italia (Roma)",
+        "address": "Via Giuseppe Pisanelli, 4 – 00196 Roma",
+        "phone": "+39 06 3612131 / 06 3614348 / 06 3202405",
+        "note": "Lunes a viernes 8:30–17:30. Para pasaportes y trámites consulares hay que ir al Consulado General en Roma. El sitio oficial no publica un celular de emergencias fuera de horario: verificar. Canal en línea de la Cancillería (chat/llamada): cancilleria.gov.co/help/contactus; línea Cancillería +57 601 3826999 (horario: verificar).",
+        "url": "https://italia.embajada.gov.co",
+        "sources": [
+          "https://italia.embajada.gov.co/acerca/datos_contacto",
+          "https://www.cancilleria.gov.co/help/contactus"
+        ]
+      },
+      {
+        "name": "Consulado General de Colombia en Roma",
+        "address": "Piazzale Flaminio, 9 (1er piso, int. 2) – 00196 Roma (metro A: Flaminio)",
+        "phone": "+39 06 3222722 (la página de contacto de la Embajada lista también 06 3216070 y 06 3222747)",
+        "note": "Correo: croma@cancilleria.gov.co. Atención presencial lunes a viernes 8:00–14:00 según su web (la página de la Embajada indica 8:30–13:30 y 15:00–16:00, con cita): verificar horario. Expide pasaporte de emergencia (vigencia 7 meses) en caso fortuito o fuerza mayor. Circunscripción exacta (si cubre Venecia y Florencia): verificar.",
+        "url": "https://roma.consulado.gov.co",
+        "sources": [
+          "https://roma.consulado.gov.co",
+          "https://italia.embajada.gov.co/acerca/datos_contacto",
+          "https://www.cancilleria.gov.co/taxonomy/term/7855"
+        ]
+      },
+      {
+        "name": "Consulado de Colombia en Milán",
+        "address": "Via Tivoli 3 – 20121 Milano",
+        "phone": "+39 02 72003872 / 02 8051765 / 02 86912133",
+        "note": "Correo: cmilan@cancilleria.gov.co. Atención telefónica lunes a viernes 15:00–17:00 según su web. Si es el competente para el Véneto (Venecia): verificar.",
+        "url": "https://milan.consulado.gov.co",
+        "sources": [
+          "https://milan.consulado.gov.co",
+          "https://italia.embajada.gov.co/acerca/datos_contacto"
+        ]
+      },
+      {
+        "name": "Embajada de EE. UU. en Roma – American Citizen Services",
+        "address": "Via Vittorio Veneto 121 – 00187 Roma",
+        "phone": "+39 06 46741 (desde Italia 06-46741; desde EE. UU. 011-39-06-46741)",
+        "note": "Emergencias fuera de horario en Roma y Florencia: llamar a la central y pedir el Duty Officer. Pasaportes de emergencia: lunes a viernes 8:30–12:00 sin cita (walk-in).",
+        "url": "https://it.usembassy.gov/contact/",
+        "sources": [
+          "https://it.usembassy.gov/contact/"
+        ]
+      },
+      {
+        "name": "Consulado General de EE. UU. en Florencia",
+        "address": "Lungarno Vespucci, 38 – 50123 Firenze",
+        "phone": "+39 055 266 951",
+        "note": "Pasaportes de emergencia: lunes a viernes 8:30–11:30 sin cita. Emergencias fuera de horario: central de Roma +39 06 46741.",
+        "url": "https://it.usembassy.gov/contact/",
+        "sources": [
+          "https://it.usembassy.gov/contact/"
+        ]
+      },
+      {
+        "name": "Consulado General de EE. UU. en Milán (para Venecia)",
+        "address": "Via Principe Amedeo, 2/10 – 20121 Milano",
+        "phone": "+39 02 290351 (desde EE. UU. 011-39-02-290351)",
+        "note": "Emergencias fuera de horario del distrito de Milán: este número. Pasaporte de emergencia solo con cita (no walk-in). La Agencia Consular de Venecia (aeropuerto Marco Polo) NO tramita pasaportes de emergencia: solo Roma, Milán, Florencia o Nápoles.",
+        "url": "https://it.usembassy.gov/contact/",
+        "sources": [
+          "https://it.usembassy.gov/contact/"
+        ]
+      }
+    ],
+    "lostPassport": [
+      "1. Vayan a la estación de Carabinieri o a la Questura/Commissariato de Polizia más cercano a poner la denuncia ('denuncia di furto' o 'di smarrimento'). Lleven copia del pasaporte si la tienen y pidan copia sellada de la denuncia.",
+      "2. Colombianos: vayan en persona al Consulado General de Colombia en Roma (Piazzale Flaminio 9, tel. +39 06 3222722, croma@cancilleria.gov.co) con la denuncia, cédula o copia del pasaporte, y fotos; soliciten pasaporte de emergencia (vigencia 7 meses) o el que indique el consulado. Requisitos, costo y tiempos: verificar con el consulado.",
+      "3. Ciudadanos de EE. UU.: pasaporte de emergencia en la Embajada en Roma (L–V 8:30–12:00 sin cita) o en el Consulado de Florencia (L–V 8:30–11:30 sin cita); en Milán solo con cita. Lleven denuncia, foto tipo pasaporte, documento de identidad y prueba del viaje (itinerario). Formularios y tarifa: verificar en it.usembassy.gov.",
+      "4. Con la denuncia o una fotocopia NO se puede volar: necesitan el documento nuevo antes del vuelo de regreso.",
+      "5. Informen a la aerolínea (Avianca / ITA) el nuevo número de pasaporte antes de hacer el check-in."
+    ],
+    "lostLuggage": [
+      "1. NO salgan del aeropuerto sin reportarlo: vayan al mostrador de 'Baggage Assistance' / 'Lost & Found' de la aerolínea en Llegadas y llenen el PIR (Property Irregularity Report).",
+      "2. Guarden el número de referencia PIR (ej. FCOAZ12345), la etiqueta del equipaje (sticker que les dieron al documentar) y el pasabordo.",
+      "3. ITA Airways: si no aparece en 2 días, enviar lista detallada del contenido con número PIR y de etiqueta a bif@ita-airways.com; a los 45 días se considera perdida y el reclamo de compensación se hace con el formulario de ITA (plazo 2 años). Si llega tarde, reclamar dentro de 21 días de recibirla. Info: https://www.ita-airways.com/en_us/support/baggage-assistance/lost-baggage.html",
+      "4. Avianca: llenar el PIR en su oficina antes de salir del aeropuerto; si ya salieron, por 'quejas y reclamos' en avianca.com o en la oficina de equipajes. Plazo máximo 21 días calendario. Rastreo: https://www.avianca.com/ar/es/te-ayudamos/soluciones-en-linea/rastreador-equipaje/ ; reclamos: https://avianca.com/co/es/te-ayudamos/soluciones-en-linea/sugerencias-reclamos",
+      "5. Guarden los recibos de compras de primera necesidad (ropa, artículos de aseo) para pedir reembolso."
+    ],
+    "verifiedOn": "2026-10-14"
+  },
+  "tipsVerifiedOn": "2026-10-14"
+}

@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <rect width="512" height="512" rx="96" fill="#f7f1e6"/>
+  <path d="M96 400V250a160 160 0 0 1 320 0v150" fill="none" stroke="#1f1a14" stroke-width="22"/>
+  <text x="256" y="372" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-style="italic" font-weight="700" font-size="220" fill="#1f1a14">It</text>
+  <rect x="96" y="412" width="107" height="36" fill="#0b6b62"/>
+  <rect x="203" y="412" width="106" height="36" fill="#a8471f"/>
+  <rect x="309" y="412" width="107" height="36" fill="#8f6110"/>
+</svg>
