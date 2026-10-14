@@ -33,13 +33,19 @@
       "phone": "+39 041 524 24 88",
       "notes": [
         "Frente a la estación de tren Venezia Santa Lucia.",
-        "Check-in el 15 entre 20:00 y 21:00.",
-        "Desayuno incluido."
+        "Desayuno incluido.",
+        "En el check-in: pasaporte + la tarjeta con la que se pagó.",
+        "Tasa municipal (unos 36 €) se paga en el hotel.",
+        "Salida (check-out) hasta las 12:00."
       ],
       "sources": [
         "https://nh-hotels.com/en/hotel/nh-venezia-santa-lucia/map",
         "https://www.travelweekly-asia.com/Hotels/Venice/NH-Venezia-Santa-Lucia-p56171675"
-      ]
+      ],
+      "passId": "hotel-nh",
+      "short": "NH Santa Lucia",
+      "checkin": "15:00",
+      "checkout": "12:00"
     },
     "club": {
       "city": "florencia",
@@ -48,14 +54,21 @@
       "mapsQuery": "c-hotels Club, Via Santa Caterina da Siena 11, Firenze",
       "phone": "+39 055 217707",
       "notes": [
-        "A unos 200 m de la estación Firenze Santa Maria Novella.",
-        "Check-in 15:00; guardan las maletas si llegan antes.",
-        "Desayuno buffet 7:00–10:00 (confirmar en recepción si está incluido)."
+        "A 200 m de la estación Firenze Santa Maria Novella.",
+        "Guardan las maletas si llegan antes de las 15:00.",
+        "Desayuno NO incluido según la confirmación (15 € por persona): preguntar en recepción.",
+        "Tasa municipal: 56 € SOLO CON TARJETA (no aceptan efectivo).",
+        "En el check-in: pasaporte + la tarjeta con la que se pagó.",
+        "Salida (check-out) hasta las 11:00."
       ],
       "sources": [
         "https://www.hotelclubflorence.com/",
         "https://www.momondo.it/hotel/firenze/c-hotels-Club.mhd603367.ksp"
-      ]
+      ],
+      "passId": "hotel-club",
+      "short": "c-hotels Club",
+      "checkin": "15:00",
+      "checkout": "11:00"
     },
     "lux": {
       "city": "roma",
@@ -65,86 +78,144 @@
       "phone": "+39 348 467 6296",
       "notes": [
         "A 5 minutos a pie de los Museos Vaticanos.",
-        "Check-in 15:00; se pueden dejar maletas antes en la zona de equipaje.",
-        "Tasa turística: 72 € SOLO EN EFECTIVO (no aceptan tarjeta).",
-        "Al salir, las llaves se dejan en la caja fuerte especial.",
-        "Taxi al aeropuerto: Preguntar el precio ANTES de subir: el hotel (Viale Vaticano, Prati) probablemente queda fuera de las murallas Aurelianas, así que la tarifa fija de 55 € puede no aplicar; con taxímetro suele estar entre 50 y 70 €. Pedirlo en recepción la noche anterior para las 6:15."
+        "Se pueden dejar las maletas antes del check-in (15:00).",
+        "Tasa turística: 72 € EN EFECTIVO (nos dijeron que no aceptan tarjeta).",
+        "En el check-in: pasaporte + la tarjeta con la que se pagó.",
+        "Al salir el jueves 22, las llaves van en la caja fuerte especial.",
+        "Taxi al aeropuerto: pedirlo en recepción la noche anterior y preguntar el precio (con taxímetro suele estar entre 50 y 70 €)."
       ],
       "sources": [
         "https://www.turismoroma.it/en/hospitality/guest-house-o-affittacamere-lux-vatican",
         "https://lux-vatican-rome.site/"
-      ]
+      ],
+      "passId": "hotel-lux",
+      "short": "Lux of the Vatican",
+      "checkin": "15:00",
+      "checkout": "10:00"
     }
   },
   "days": [
     {
       "date": "2026-10-14",
       "city": "viaje",
-      "title": "Salida hacia Italia",
+      "title": "¡Salimos para Italia!",
       "hotel": null,
       "events": [
         {
-          "time": "16:25",
-          "text": "Edver y Marcela salen de Bogotá con Avianca, vía Madrid."
+          "t": "16:25",
+          "who": "papas",
+          "icon": "✈️",
+          "title": "Vuelo AV182 Bogotá → Madrid",
+          "detail": "Llega a Madrid mañana a las 9:05 (hora de España).",
+          "pass": "vuelo-edver",
+          "pass2": "vuelo-marcela"
         },
         {
-          "time": "",
-          "text": "Olga y Santiago salen de Miami con ITA Airways (hora: ver su tiquete)."
+          "t": "19:50",
+          "who": "tios",
+          "icon": "✈️",
+          "title": "Vuelo AZ631 Miami → Roma (ITA)",
+          "detail": "Hora de Miami. Llega a Roma Fiumicino mañana a las 12:00."
         }
       ],
-      "notes": [
-        "Noche en el avión."
+      "tips": [
+        "Noche en el avión: duerman lo que puedan.",
+        "Pasaportes y medicamentos en el equipaje de mano."
       ],
       "bring": [
-        "Pasaporte original",
-        "Tarjetas y algo de efectivo en euros",
-        "Adaptador de enchufe en el equipaje de mano",
-        "Medicamentos en el equipaje de mano",
-        "Ropa cómoda y una chaqueta liviana para el avión"
+        "Pasaporte",
+        "Tarjetas y algo de euros",
+        "Adaptador de enchufe",
+        "Medicamentos",
+        "Chaqueta liviana"
       ]
     },
     {
       "date": "2026-10-15",
       "city": "venecia",
-      "title": "Llegada: Roma → Venecia",
+      "title": "Llegada a Italia y vuelo a Venecia",
       "hotel": "nh",
       "events": [
         {
-          "time": "14:00",
-          "text": "Edver y Marcela llegan a Roma Fiumicino desde Madrid.",
-          "place": "Aeroporto di Roma Fiumicino"
+          "t": "11:35",
+          "who": "papas",
+          "icon": "✈️",
+          "title": "Vuelo AV6208 Madrid → Roma",
+          "detail": "Lo opera ITA. Llega a Roma Fiumicino a las 14:00.",
+          "pass": "vuelo-edver",
+          "pass2": "vuelo-marcela"
         },
         {
-          "time": "",
-          "text": "Recoger las maletas y volver a facturarlas con ITA para el vuelo a Venecia.",
-          "note": "El vuelo nacional es aparte: hay que pasar otra vez por el mostrador de ITA."
+          "t": "12:00",
+          "who": "tios",
+          "icon": "🛬",
+          "title": "Llegan a Roma Fiumicino",
+          "detail": "Desde Miami. Esperan a Edver y Marcela (llegan a las 14:00).",
+          "place": {
+            "name": "Aeropuerto de Roma Fiumicino",
+            "q": "Aeroporto di Roma Fiumicino"
+          }
         },
         {
-          "time": "17:20",
-          "text": "Vuelo ITA Fiumicino → Venecia (llega 18:25).",
-          "note": "Olga y Santiago llegan desde Miami: ver hora en su tiquete."
+          "t": "14:00",
+          "icon": "🧳",
+          "title": "Recoger maletas y volver a facturar con ITA",
+          "detail": "El vuelo a Venecia es aparte: hay que pasar otra vez por el mostrador de ITA.",
+          "place": {
+            "name": "Aeropuerto de Roma Fiumicino",
+            "q": "Aeroporto di Roma Fiumicino"
+          }
         },
         {
-          "time": "",
-          "text": "Bus ATVO o lancha hasta el Piazzale Roma.",
-          "place": "Piazzale Roma, Venezia"
+          "t": "17:20",
+          "icon": "✈️",
+          "title": "Vuelo ITA Roma → Venecia",
+          "detail": "Llega a las 18:25."
         },
         {
-          "time": "",
-          "text": "Caminar al hotel (cruzando el puente hacia la estación de tren).",
-          "place": "NH Venezia Santa Lucia, Lista di Spagna 116/A, Venezia"
+          "t": "18:45",
+          "icon": "🚌",
+          "title": "Del aeropuerto al Piazzale Roma",
+          "detail": "Bus (ATVO o Aerobus ACTV, unos 10 €, 20 min) o lancha Alilaguna línea naranja (18 €, para cerca del hotel en Guglie).",
+          "place": {
+            "name": "Piazzale Roma",
+            "q": "Piazzale Roma, Venezia"
+          },
+          "go": "transit",
+          "sug": true
         },
         {
-          "time": "20:00",
-          "text": "Check-in en el NH Venezia Santa Lucia (entre 20:00 y 21:00)."
+          "t": "20:00",
+          "icon": "🏨",
+          "title": "Check-in en el NH Santa Lucia",
+          "detail": "Caminando desde Piazzale Roma: unos 10 min cruzando el puente hacia la estación.",
+          "place": {
+            "name": "NH Venezia Santa Lucia",
+            "q": "NH Venezia Santa Lucia, Lista di Spagna 116/A, Venezia"
+          },
+          "go": "walking",
+          "pass": "hotel-nh",
+          "call": "nh"
+        },
+        {
+          "t": "21:00",
+          "icon": "🍷",
+          "title": "Algo de comer cerca del hotel",
+          "detail": "Al Timon (cicchetti, abierto hasta tarde). Sin reserva.",
+          "place": {
+            "name": "Al Timon",
+            "q": "Al Timon, Fondamenta dei Ormesini 2754, Venezia"
+          },
+          "go": "walking",
+          "sug": true
         }
       ],
-      "notes": [
-        "Esa noche solo algo cerca del hotel: Al Timon (cicchetti, abierto hasta tarde). Pasticceria Dal Mas cierra temprano: queda para el desayuno."
+      "tips": [
+        "Hora de los relojes: Italia va 7 horas adelante de Bogotá y 6 de Miami."
       ],
       "bring": [
-        "Pasaportes a mano para los controles",
-        "Código de la reserva: en el WhatsApp del grupo / correo de Olga o Marcela"
+        "Pasaporte a mano",
+        "Tarjeta con la que se pagó el hotel"
       ]
     },
     {
@@ -154,122 +225,253 @@
       "hotel": "nh",
       "events": [
         {
-          "time": "",
-          "text": "Desayuno incluido en el hotel."
+          "t": "08:00",
+          "icon": "☕",
+          "title": "Desayuno incluido en el hotel",
+          "sug": true
         },
         {
-          "time": "",
-          "text": "Sugerencia: vaporetto línea 1 por el Gran Canal, desde la estación (Ferrovia) hasta San Marco, sentados afuera."
+          "t": "09:30",
+          "icon": "🛶",
+          "title": "Vaporetto línea 1 por el Gran Canal",
+          "detail": "Desde la parada Ferrovia (frente al hotel) hasta San Marco. Siéntense afuera. Pase de 24 h: 25 €.",
+          "place": {
+            "name": "Parada Ferrovia",
+            "q": "Ferrovia vaporetto stop, Venezia"
+          },
+          "go": "walking",
+          "sug": true
         },
         {
-          "time": "",
-          "text": "Sugerencia: Plaza San Marcos y Basílica; regreso caminando por Rialto."
+          "t": "11:00",
+          "icon": "⛪",
+          "title": "Plaza San Marcos y Basílica",
+          "detail": "Basílica 10 € con reserva en línea. Hombros y rodillas cubiertos.",
+          "place": {
+            "name": "Basilica di San Marco",
+            "q": "Basilica di San Marco, Venezia"
+          },
+          "go": "transit",
+          "sug": true
         },
         {
-          "time": "",
-          "text": "Descanso en el hotel y cena con cicchetti en Cannaregio."
+          "t": "13:00",
+          "icon": "🥪",
+          "title": "Almuerzo de cicchetti en Rialto",
+          "detail": "All'Arco (hasta 14:30) o Cantina Do Mori. De pie y en efectivo.",
+          "place": {
+            "name": "All'Arco",
+            "q": "All'Arco, Calle dell'Occhialer 436, Venezia"
+          },
+          "go": "walking",
+          "sug": true
         },
         {
-          "time": "",
-          "text": "Cena reservada: Vini da Gigio o Antiche Carampane (reservar solo una).",
-          "note": "Ver Comer → Venecia."
+          "t": "15:00",
+          "icon": "🛏️",
+          "title": "Descanso en el hotel",
+          "place": {
+            "name": "NH Venezia Santa Lucia",
+            "q": "NH Venezia Santa Lucia, Lista di Spagna 116/A, Venezia"
+          },
+          "go": "transit",
+          "sug": true
         },
         {
-          "time": "",
-          "text": "Comprar en la estación Santa Lucia el tren de mañana a Florencia (Frecciarossa de las ~9:26).",
-          "place": "Stazione Venezia Santa Lucia",
-          "note": "Importante: se compra hoy."
+          "t": "17:00",
+          "icon": "🚆",
+          "title": "Comprar el tren de mañana a Florencia",
+          "detail": "En la estación Santa Lucia (frente al hotel): taquilla o máquinas (tienen español). Frecciarossa de las ~9:26.",
+          "place": {
+            "name": "Estación Venezia Santa Lucia",
+            "q": "Stazione Venezia Santa Lucia"
+          },
+          "go": "walking",
+          "train": true,
+          "sug": true
+        },
+        {
+          "t": "20:00",
+          "icon": "🍝",
+          "title": "Cena reservada",
+          "detail": "Vini da Gigio o Antiche Carampane (reservar solo una).",
+          "place": {
+            "name": "Vini da Gigio",
+            "q": "Vini da Gigio, Calle Stua 3628A, Venezia"
+          },
+          "go": "walking",
+          "sug": true
         }
       ],
-      "notes": [
-        "Revisar el pronóstico de acqua alta (marea alta) por la mañana: ver Consejos."
+      "tips": [
+        "Revisen la marea alta (acqua alta) en la mañana: ver Ayuda → Venecia.",
+        "Es una sugerencia: hagan lo que les provoque."
       ],
       "bring": [
-        "Zapatos cómodos y antideslizantes",
-        "Abono de vaporetto (se compra en la parada o en la app)"
+        "Zapatos cómodos",
+        "Pase de vaporetto"
       ]
     },
     {
       "date": "2026-10-17",
       "city": "florencia",
-      "title": "Venecia → Florencia",
+      "title": "Tren a Florencia",
       "hotel": "club",
       "events": [
         {
-          "time": "",
-          "text": "Desayuno y check-out del NH."
+          "t": "08:00",
+          "icon": "☕",
+          "title": "Desayuno y salida del hotel",
+          "detail": "Check-out hasta las 12:00.",
+          "sug": true
         },
         {
-          "time": "09:26",
-          "text": "Frecciarossa desde Venezia Santa Lucia (llega ~11:39 a Firenze S. M. Novella).",
-          "place": "Stazione Venezia Santa Lucia",
-          "note": "Asiento asignado; no hay que validar el tiquete. Llegar 20 min antes y mirar el andén (binario) en las pantallas."
+          "t": "09:26",
+          "icon": "🚆",
+          "title": "Tren Frecciarossa a Florencia",
+          "detail": "Asiento asignado; no hay que validar. Lleguen 20 min antes y busquen el andén (binario) en las pantallas. Llega a las ~11:39.",
+          "place": {
+            "name": "Estación Venezia Santa Lucia",
+            "q": "Stazione Venezia Santa Lucia"
+          },
+          "go": "walking",
+          "train": true
         },
         {
-          "time": "11:39",
-          "text": "Llegada a Firenze Santa Maria Novella. Caminar 200 m al hotel.",
-          "place": "c-hotels Club, Via Santa Caterina da Siena 11, Firenze"
+          "t": "11:39",
+          "icon": "🏨",
+          "title": "Llegan a Florencia: maletas al hotel",
+          "detail": "El c-hotels Club queda a 200 m de la estación. Guardan las maletas; check-in a las 15:00.",
+          "place": {
+            "name": "c-hotels Club",
+            "q": "c-hotels Club, Via Santa Caterina da Siena 11, Firenze"
+          },
+          "go": "walking",
+          "pass": "hotel-club",
+          "call": "club"
         },
         {
-          "time": "",
-          "text": "Dejar las maletas en el c-hotels Club (check-in 15:00)."
+          "t": "12:30",
+          "icon": "🥘",
+          "title": "Almuerzo en el Mercato Centrale",
+          "detail": "Primer piso: muchos puestos, todos los días de 9:00 a 23:00.",
+          "place": {
+            "name": "Mercato Centrale",
+            "q": "Mercato Centrale Firenze, Via dell'Ariento"
+          },
+          "go": "walking",
+          "sug": true
         },
         {
-          "time": "",
-          "text": "Tarde libre: almuerzo en el Mercato Centrale, Duomo por fuera, descanso."
+          "t": "15:00",
+          "icon": "🔑",
+          "title": "Check-in y descanso",
+          "detail": "Tasa de 56 € solo con tarjeta. Pregunten si el desayuno está incluido.",
+          "place": {
+            "name": "c-hotels Club",
+            "q": "c-hotels Club, Via Santa Caterina da Siena 11, Firenze"
+          },
+          "go": "walking"
+        },
+        {
+          "t": "17:30",
+          "icon": "⛪",
+          "title": "Paseo: Duomo y Ponte Vecchio (por fuera)",
+          "place": {
+            "name": "Duomo de Florencia",
+            "q": "Cattedrale di Santa Maria del Fiore, Firenze"
+          },
+          "go": "walking",
+          "sug": true
         }
       ],
-      "notes": [
+      "tips": [
         "Mañana se madruga: la cita en la Academia es a las 8:40."
       ],
       "bring": [
-        "Tiquetes del tren en el celular o impresos"
+        "Tiquetes del tren",
+        "Tarjeta con la que se pagó el hotel"
       ]
     },
     {
       "date": "2026-10-18",
       "city": "florencia",
-      "title": "Florencia: Academia, Uffizi y Corredor Vasariano",
+      "title": "Academia, Uffizi y Corredor Vasariano",
       "hotel": "club",
       "events": [
         {
-          "time": "08:40",
-          "text": "Puerta n.º 39 de la Galería de la Academia. Tour en español a las 8:56 (1 h).",
-          "place": "Galleria dell'Accademia, Via Ricasoli 58, Firenze",
-          "note": "Llevar el QR en el celular."
+          "t": "08:40",
+          "icon": "🗿",
+          "title": "Galería de la Academia: puerta n.º 39",
+          "detail": "Tour en español a las 8:56 (1 h). El David de Miguel Ángel.",
+          "place": {
+            "name": "Galleria dell'Accademia",
+            "q": "Galleria dell'Accademia, Via Ricasoli 58, Firenze"
+          },
+          "go": "walking",
+          "pass": "academia",
+          "taxi": true
         },
         {
-          "time": "11:00",
-          "text": "Entrar a los Uffizi (entre 11:00 y 11:45).",
-          "place": "Galleria degli Uffizi, Piazzale degli Uffizi 6, Firenze"
+          "t": "11:00",
+          "icon": "🖼️",
+          "title": "Entrar a los Uffizi (entre 11:00 y 11:45)",
+          "place": {
+            "name": "Galleria degli Uffizi",
+            "q": "Galleria degli Uffizi, Piazzale degli Uffizi 6, Firenze"
+          },
+          "go": "walking",
+          "pass": "uffizi"
         },
         {
-          "time": "13:45",
-          "text": "EN PUNTO en la sala D19 de los Uffizi: Corredor Vasariano.",
-          "note": "No llegar tarde. El corredor termina del lado del Palacio Pitti / Jardín de Bóboli."
+          "t": "13:45",
+          "icon": "⏰",
+          "title": "EN PUNTO en la sala D19: Corredor Vasariano",
+          "detail": "No lleguen tarde. El corredor termina en el Palacio Pitti / Jardín de Bóboli.",
+          "pass": "uffizi"
         },
         {
-          "time": "",
-          "text": "Tarde libre en el Oltrarno: almuerzo tardío, Bóboli o descanso.",
-          "place": "Palazzo Pitti, Firenze"
+          "t": "15:00",
+          "icon": "🍝",
+          "title": "Almuerzo en el Oltrarno",
+          "detail": "Trattoria 4 Leoni, al lado del Pitti, abierta todo el día.",
+          "place": {
+            "name": "Trattoria 4 Leoni",
+            "q": "Trattoria 4 Leoni, Via de' Vellutini 1r, Firenze"
+          },
+          "go": "walking",
+          "sug": true
         },
         {
-          "time": "",
-          "text": "Comprar en la estación SMN el tren de mañana a Roma (11:14 o 11:48).",
-          "place": "Stazione Firenze Santa Maria Novella",
-          "note": "Importante: se compra hoy."
+          "t": "17:00",
+          "icon": "🚆",
+          "title": "Comprar el tren de mañana a Roma",
+          "detail": "En la estación SMN (al lado del hotel): tren de las 11:14 (o 11:48).",
+          "place": {
+            "name": "Estación Firenze Santa Maria Novella",
+            "q": "Stazione Firenze Santa Maria Novella"
+          },
+          "go": "walking",
+          "train": true,
+          "sug": true
         },
         {
-          "time": "",
-          "text": "Cena reservada: Il Latini (bistecca alla fiorentina; de los pocos abiertos el domingo).",
-          "place": "Il Latini, Via dei Palchetti 6r, Firenze"
+          "t": "20:00",
+          "icon": "🥩",
+          "title": "Cena reservada: Il Latini",
+          "detail": "Bistecca alla fiorentina. De los pocos abiertos el domingo.",
+          "place": {
+            "name": "Il Latini",
+            "q": "Il Latini, Via dei Palchetti 6r, Firenze"
+          },
+          "go": "walking",
+          "sug": true
         }
       ],
-      "notes": [
-        "Día largo de museos: tomar agua y sentarse cuando se pueda."
+      "tips": [
+        "Día largo de museos: tomen agua y siéntense cuando puedan."
       ],
       "bring": [
-        "QR de Academia, Uffizi y Corredor descargados en el celular",
         "Pasaporte",
         "Botella de agua pequeña"
       ]
@@ -277,139 +479,259 @@
     {
       "date": "2026-10-19",
       "city": "roma",
-      "title": "Florencia → Roma",
+      "title": "Tren a Roma",
       "hotel": "lux",
+      "reminders": [
+        "Llevar 72 € en EFECTIVO para la tasa del hotel de Roma."
+      ],
       "events": [
         {
-          "time": "",
-          "text": "Desayuno; check-out antes de las 11:00."
+          "t": "10:30",
+          "icon": "🧳",
+          "title": "Salida del hotel (check-out antes de las 11:00)",
+          "place": {
+            "name": "c-hotels Club",
+            "q": "c-hotels Club, Via Santa Caterina da Siena 11, Firenze"
+          },
+          "sug": true
         },
         {
-          "time": "11:14",
-          "text": "Tren a Roma Termini (llega 12:40). Alternativa: 11:48 → 13:25.",
-          "place": "Stazione Firenze Santa Maria Novella"
+          "t": "11:14",
+          "icon": "🚆",
+          "title": "Tren a Roma Termini (llega 12:40)",
+          "detail": "Alternativa: 11:48 → 13:25.",
+          "place": {
+            "name": "Estación Firenze Santa Maria Novella",
+            "q": "Stazione Firenze Santa Maria Novella"
+          },
+          "go": "walking",
+          "train": true
         },
         {
-          "time": "12:40",
-          "text": "Taxi oficial (blanco) en la fila de taxis de Termini al hotel Lux of the Vatican.",
-          "place": "Lux of the Vatican, Viale Vaticano 71, Roma",
-          "note": "Cuidado con carteristas en Termini."
+          "t": "12:40",
+          "icon": "🚕",
+          "title": "Taxi de Termini al hotel",
+          "detail": "Solo en la fila oficial de taxis blancos. Cuidado con carteristas en Termini.",
+          "place": {
+            "name": "Lux of the Vatican",
+            "q": "Lux of the Vatican, Viale Vaticano 71, Roma"
+          },
+          "go": "driving",
+          "taxi": true
         },
         {
-          "time": "13:30",
-          "text": "Dejar las maletas en la zona de equipaje del hotel; check-in 15:00."
+          "t": "13:30",
+          "icon": "🏨",
+          "title": "Dejar las maletas en el Lux of the Vatican",
+          "detail": "Check-in a las 15:00. Tasa: 72 € en efectivo.",
+          "place": {
+            "name": "Lux of the Vatican",
+            "q": "Lux of the Vatican, Viale Vaticano 71, Roma"
+          },
+          "pass": "hotel-lux",
+          "call": "lux"
         },
         {
-          "time": "16:00",
-          "text": "Opcional: Museos Vaticanos (entradas NO compradas: comprar solo en el sitio oficial) o paseo por Prati y Castel Sant'Angelo por fuera.",
-          "place": "Musei Vaticani, Viale Vaticano, Roma",
-          "note": "Castel Sant'Angelo (el museo) cierra los lunes. Museos Vaticanos: última entrada 18:00."
+          "t": "16:00",
+          "icon": "🏛️",
+          "title": "Opcional: Museos Vaticanos",
+          "detail": "Entradas NO compradas: solo en el sitio oficial (25 € en línea). Última entrada 18:00. O paseo por Prati y Castel Sant'Angelo por fuera (cierra los lunes).",
+          "place": {
+            "name": "Museos Vaticanos",
+            "q": "Musei Vaticani, Viale Vaticano, Roma"
+          },
+          "go": "walking",
+          "link": {
+            "label": "Comprar entradas (oficial)",
+            "url": "https://tickets.museivaticani.va/"
+          }
         }
       ],
-      "notes": [
-        "Pagar la tasa turística (72 €) solo en efectivo."
+      "tips": [
+        "Cena tranquila en Prati, cerca del hotel: ver Explorar → Roma."
       ],
       "bring": [
-        "72 € en efectivo para la tasa turística",
+        "72 € en efectivo",
         "Tiquetes del tren"
-      ],
-      "reminders": [
-        "Llevar 72 € en EFECTIVO para la tasa turística del hotel: no aceptan tarjeta."
       ]
     },
     {
       "date": "2026-10-20",
       "city": "roma",
-      "title": "Roma: Cúpula de San Pedro",
+      "title": "Cúpula de San Pedro",
       "hotel": "lux",
+      "reminders": [
+        "Cúpula: después del ascensor quedan 320 escalones. No hay guardarropa: vayan sin bolsos grandes.",
+        "Hombros y rodillas cubiertos."
+      ],
       "events": [
         {
-          "time": "",
-          "text": "Mañana libre: Castel Sant'Angelo, Piazza Navona y Pantheon (7 €), o descanso en Prati."
+          "t": "09:00",
+          "who": "papas",
+          "icon": "📲",
+          "title": "Check-in en línea del vuelo de regreso",
+          "detail": "Se abre 48 h antes del vuelo de las 9:00 del jueves."
         },
         {
-          "time": "14:30",
-          "text": "Cúpula de San Pedro con ascensor + Basílica.",
-          "place": "Cupola di San Pietro, Città del Vaticano",
-          "note": "La hora de la Basílica es 1 h antes o después (viene en el correo con los QR). Después del ascensor hay 320 escalones. No hay guardarropa: ir sin bolsos grandes."
+          "t": "10:00",
+          "icon": "🌳",
+          "title": "Mañana libre",
+          "detail": "Castel Sant'Angelo (18 €), Piazza Navona y el Pantheon (7 €). O descanso en Prati.",
+          "place": {
+            "name": "Castel Sant'Angelo",
+            "q": "Castel Sant'Angelo, Roma"
+          },
+          "go": "walking",
+          "sug": true
         },
         {
-          "time": "15:00",
-          "text": "Recoger las entradas de la audiencia en la Puerta de Bronce (columnata derecha). Abre 8:30–13:00 y 15:00–19:00.",
-          "place": "Portone di Bronzo, Città del Vaticano"
+          "t": "12:30",
+          "icon": "🍕",
+          "title": "Almuerzo: Pizzarium Bonci",
+          "detail": "Pizza al taglio, a pocas cuadras del hotel. De pie.",
+          "place": {
+            "name": "Pizzarium",
+            "q": "Pizzarium Bonci, Via della Meloria 43, Roma"
+          },
+          "go": "walking",
+          "sug": true
+        },
+        {
+          "t": "14:30",
+          "icon": "⛪",
+          "title": "Cúpula con ascensor + Basílica de San Pedro",
+          "detail": "La hora de la Basílica es 1 h antes o después (está en el pase).",
+          "place": {
+            "name": "Cúpula de San Pedro",
+            "q": "Cupola di San Pietro, Città del Vaticano"
+          },
+          "go": "walking",
+          "pass": "cupula"
+        },
+        {
+          "t": "15:30",
+          "icon": "🎟️",
+          "title": "Recoger las entradas de la audiencia",
+          "detail": "Puerta de Bronce, bajo la columnata derecha. Abre de 15:00 a 19:00.",
+          "place": {
+            "name": "Puerta de Bronce",
+            "q": "Portone di Bronzo, Città del Vaticano"
+          },
+          "go": "walking",
+          "pass": "audiencia",
+          "sug": true
         }
       ],
-      "notes": [
-        "Código de vestimenta: hombros y rodillas cubiertos.",
-        "Hacer el check-in en línea de Avianca (regreso) desde hoy."
-      ],
+      "tips": [],
       "bring": [
-        "QR de Cúpula y Basílica",
         "Ropa que cubra hombros y rodillas",
         "Pasaportes"
-      ],
-      "reminders": [
-        "Cúpula: después del ascensor quedan 320 escalones. No hay guardarropa: ir sin bolsos grandes."
       ]
     },
     {
       "date": "2026-10-21",
       "city": "roma",
-      "title": "Roma: audiencia del Papa y Coliseo",
+      "title": "Audiencia del Papa y Coliseo",
       "hotel": "lux",
+      "reminders": [
+        "Coliseo: entradas nominativas. Cada uno lleva su PASAPORTE ORIGINAL.",
+        "Lleven algo de comer: no hay tiempo de almorzar antes del Coliseo."
+      ],
       "events": [
         {
-          "time": "07:30",
-          "text": "Llegar a la Plaza de San Pedro (entre 7:30 y 8:00) para el control de seguridad.",
-          "place": "Piazza San Pietro, Città del Vaticano"
+          "t": "07:30",
+          "icon": "🚶",
+          "title": "Llegar a la Plaza de San Pedro (7:30–8:00)",
+          "detail": "Control de seguridad tipo aeropuerto.",
+          "place": {
+            "name": "Plaza de San Pedro",
+            "q": "Piazza San Pietro, Città del Vaticano"
+          },
+          "go": "walking",
+          "pass": "audiencia"
         },
         {
-          "time": "10:00",
-          "text": "Audiencia general del Papa (10:00)."
+          "t": "10:00",
+          "icon": "🙏",
+          "title": "Audiencia general del Papa"
         },
         {
-          "time": "12:00",
-          "text": "Taxi del Vaticano al Coliseo (~25 min).",
-          "note": "Llevar algo de comer (fruta, barras, un panino): no hay tiempo de almorzar antes del Coliseo."
+          "t": "10:35",
+          "who": "tios",
+          "icon": "📲",
+          "title": "Check-in en línea del vuelo de regreso",
+          "detail": "ITA a Miami: se abre 24 h antes."
         },
         {
-          "time": "12:45",
-          "text": "Estar en la entrada Piazza del Colosseo – Valadier (15 min antes).",
-          "place": "Colosseo, Piazza del Colosseo, Roma",
-          "note": "Cada uno con su PASAPORTE ORIGINAL: las entradas son nominativas."
+          "t": "12:00",
+          "icon": "🚕",
+          "title": "Taxi del Vaticano al Coliseo (~25 min)",
+          "place": {
+            "name": "Coliseo (entrada Valadier)",
+            "q": "Colosseo, Piazza del Colosseo, Roma"
+          },
+          "go": "driving",
+          "taxi": true
         },
         {
-          "time": "13:00",
-          "text": "Coliseo Full Experience con arena."
+          "t": "12:45",
+          "icon": "🛂",
+          "title": "Entrada Piazza del Colosseo – Valadier",
+          "detail": "15 min antes. Cada uno con su pasaporte original.",
+          "place": {
+            "name": "Coliseo (entrada Valadier)",
+            "q": "Colosseo, Piazza del Colosseo, Roma"
+          },
+          "go": "walking",
+          "pass": "coliseo"
         },
         {
-          "time": "",
-          "text": "Foro Romano y Palatino (incluidos ese día)."
+          "t": "13:00",
+          "icon": "🏟️",
+          "title": "Coliseo Full Experience con arena",
+          "detail": "Después: Foro Romano y Palatino (incluidos ese día)."
         },
         {
-          "time": "15:30",
-          "text": "Almuerzo tardío (15:30–16:00) en un lugar abierto toda la tarde: La Bottega del Caffè o Antico Forno ai Serpenti (Monti), o Mercato Centrale (Termini).",
-          "note": "La mayoría de las trattorias cierran la cocina hacia las 15:00. Ver Comer → Roma."
+          "t": "15:30",
+          "icon": "🥪",
+          "title": "Almuerzo tardío",
+          "detail": "La Bottega del Caffè o Antico Forno ai Serpenti (Monti), abiertos toda la tarde. Si se hace tarde: Mercato Centrale (Termini).",
+          "place": {
+            "name": "La Bottega del Caffè",
+            "q": "La Bottega del Caffè, Piazza della Madonna dei Monti 5, Roma"
+          },
+          "go": "walking"
         },
         {
-          "time": "",
-          "text": "Cena de despedida (reservada): Armando al Pantheon o Roscioli.",
-          "note": "Pedir en recepción el taxi para mañana a las 6:15 y preguntar el precio. Hacer el check-in en línea del vuelo de ITA."
+          "t": "20:00",
+          "icon": "🥂",
+          "title": "Cena de despedida (reservada)",
+          "detail": "Armando al Pantheon o Roscioli.",
+          "place": {
+            "name": "Armando al Pantheon",
+            "q": "Armando al Pantheon, Salita de' Crescenzi 31, Roma"
+          },
+          "go": "driving",
+          "taxi": true,
+          "sug": true
+        },
+        {
+          "t": "22:00",
+          "icon": "🔔",
+          "title": "Pedir en recepción el taxi de mañana a las 6:15",
+          "detail": "Pregunten el precio (con taxímetro suele estar entre 50 y 70 €).",
+          "call": "lux",
+          "sug": true
         }
       ],
-      "notes": [
-        "Día exigente: zapatos cómodos, agua, protector solar y sombrero."
+      "tips": [
+        "Día exigente: zapatos cómodos, agua y protector solar."
       ],
       "bring": [
-        "Algo de comer para el mediodía",
-        "Entradas de la audiencia (en papel)",
+        "Entradas de la audiencia (papel)",
         "Pasaporte original (cada uno)",
-        "QR del Coliseo",
+        "Algo de comer",
         "Agua"
-      ],
-      "reminders": [
-        "Coliseo: las entradas son nominativas. Cada uno lleva su PASAPORTE ORIGINAL.",
-        "Llevar algo de comer: no hay tiempo de almorzar antes del Coliseo."
       ]
     },
     {
@@ -419,26 +741,39 @@
       "hotel": null,
       "events": [
         {
-          "time": "06:15",
-          "text": "Taxi al aeropuerto de Fiumicino (pedido la noche anterior).",
-          "note": "Preguntar el precio ANTES de subir: el hotel (Viale Vaticano, Prati) probablemente queda fuera de las murallas Aurelianas, así que la tarifa fija de 55 € puede no aplicar; con taxímetro suele estar entre 50 y 70 €. Pedirlo en recepción la noche anterior para las 6:15. Dejar las llaves del hotel en la caja fuerte especial."
+          "t": "06:15",
+          "icon": "🚕",
+          "title": "Taxi al aeropuerto de Fiumicino",
+          "detail": "Llaves del hotel en la caja fuerte especial. Revisen la caja fuerte de la habitación.",
+          "place": {
+            "name": "Aeropuerto de Roma Fiumicino",
+            "q": "Aeroporto di Roma Fiumicino"
+          },
+          "go": "driving"
         },
         {
-          "time": "09:00",
-          "text": "Edver y Marcela: Fiumicino → Barcelona → Bogotá."
+          "t": "09:00",
+          "who": "papas",
+          "icon": "✈️",
+          "title": "Vuelo AZ74 Roma → Barcelona",
+          "detail": "Luego AV19 Barcelona 13:50 → Bogotá (llega 17:45).",
+          "pass": "vuelo-edver",
+          "pass2": "vuelo-marcela"
         },
         {
-          "time": "10:35",
-          "text": "Olga y Santiago: Fiumicino → Miami."
+          "t": "10:35",
+          "who": "tios",
+          "icon": "✈️",
+          "title": "Vuelo AZ630 Roma → Miami (ITA)",
+          "detail": "Llega a Miami a las 15:15."
         }
       ],
-      "notes": [
-        "¡Buen viaje de regreso!"
+      "tips": [
+        "¡Buen viaje de regreso! 💛"
       ],
       "bring": [
         "Pasaportes",
-        "Pases de abordar en el celular",
-        "Revisar la caja fuerte de la habitación antes de salir"
+        "Pases de abordar en el celular"
       ]
     }
   ],
@@ -449,7 +784,7 @@
     },
     {
       "id": "tarjetas",
-      "text": "Tarjetas (y avisar al banco del viaje)"
+      "text": "Tarjetas (incluida la que pagó cada hotel)"
     },
     {
       "id": "adaptador",
@@ -457,59 +792,59 @@
     },
     {
       "id": "efectivo72",
-      "text": "72 € en efectivo para la tasa de Roma"
+      "text": "72 € en efectivo para la tasa de Roma",
+      "due": "2026-10-19"
     },
     {
       "id": "res-venecia",
-      "text": "Reservar cena del viernes 16 en Venecia (Vini da Gigio o Antiche Carampane)"
+      "text": "Reservar cena del viernes 16 (Vini da Gigio o Antiche Carampane)",
+      "due": "2026-10-16"
     },
     {
       "id": "res-latini",
-      "text": "Reservar Il Latini para el domingo 18 (Florencia)"
+      "text": "Reservar Il Latini para el domingo 18",
+      "due": "2026-10-18"
     },
     {
       "id": "res-despedida",
-      "text": "Reservar cena de despedida del miércoles 21 (Armando en línea o Roscioli)"
+      "text": "Reservar cena de despedida del miércoles 21",
+      "due": "2026-10-21"
     },
     {
       "id": "tren17",
-      "text": "Comprar el tren del sábado 17 (el viernes 16, en la estación de Venecia)"
+      "text": "Comprar el tren del sábado 17 (el viernes, en la estación)",
+      "due": "2026-10-16"
     },
     {
       "id": "tren19",
-      "text": "Comprar el tren del lunes 19 (el domingo 18, en la estación de Florencia)"
+      "text": "Comprar el tren del lunes 19 (el domingo, en la estación)",
+      "due": "2026-10-18"
     },
     {
-      "id": "qr-academia",
-      "text": "QR de la Academia descargado en el celular"
-    },
-    {
-      "id": "qr-uffizi",
-      "text": "QR de los Uffizi y del Corredor descargados"
-    },
-    {
-      "id": "qr-cupula",
-      "text": "QR de la Cúpula y la Basílica descargados"
-    },
-    {
-      "id": "qr-coliseo",
-      "text": "QR del Coliseo descargado"
+      "id": "pases",
+      "text": "Abrir la sección Pases una vez con internet (para tenerlos sin datos)"
     },
     {
       "id": "audiencia",
-      "text": "Recoger entradas de la audiencia (martes 20, desde las 15:00)"
+      "text": "Recoger entradas de la audiencia (martes 20, desde las 15:00)",
+      "due": "2026-10-20"
     },
     {
-      "id": "checkin-avianca",
-      "text": "Check-in en línea Avianca (desde el martes 20)"
+      "id": "checkin-papas",
+      "who": "papas",
+      "text": "Check-in en línea del regreso (desde el martes 20, 9:00)",
+      "due": "2026-10-20"
     },
     {
-      "id": "checkin-ita",
-      "text": "Check-in en línea ITA (desde el miércoles 21)"
+      "id": "checkin-tios",
+      "who": "tios",
+      "text": "Check-in en línea ITA a Miami (desde el miércoles 21, 10:35)",
+      "due": "2026-10-21"
     },
     {
       "id": "taxi22",
-      "text": "Taxi al aeropuerto pedido en recepción para el jueves 22 a las 6:15 (preguntar el precio)"
+      "text": "Taxi del jueves 6:15 pedido en recepción (preguntar precio)",
+      "due": "2026-10-21"
     }
   ],
   "food": {
@@ -2232,5 +2567,212 @@
     ],
     "verifiedOn": "2026-10-14"
   },
-  "tipsVerifiedOn": "2026-10-14"
+  "tipsVerifiedOn": "2026-10-14",
+  "people": {
+    "papas": {
+      "name": "Edver y Marcela",
+      "hello": "Edver y Marcela"
+    },
+    "tios": {
+      "name": "Olga y Santiago",
+      "hello": "Olga y Santiago"
+    }
+  },
+  "passMeta": {
+    "vuelo-edver": {
+      "title": "Tiquete de Edver",
+      "icon": "✈️",
+      "who": "papas"
+    },
+    "vuelo-marcela": {
+      "title": "Tiquete de Marcela",
+      "icon": "✈️",
+      "who": "papas"
+    },
+    "hotel-nh": {
+      "title": "Hotel Venecia",
+      "icon": "🏨"
+    },
+    "hotel-club": {
+      "title": "Hotel Florencia",
+      "icon": "🏨"
+    },
+    "hotel-lux": {
+      "title": "Hotel Roma",
+      "icon": "🏨"
+    },
+    "academia": {
+      "title": "Academia (David)",
+      "icon": "🗿"
+    },
+    "uffizi": {
+      "title": "Uffizi + Corredor",
+      "icon": "🖼️"
+    },
+    "cupula": {
+      "title": "Cúpula + Basílica",
+      "icon": "⛪"
+    },
+    "audiencia": {
+      "title": "Audiencia del Papa",
+      "icon": "🙏"
+    },
+    "coliseo": {
+      "title": "Coliseo",
+      "icon": "🏟️",
+      "missing": "Aún no está cargada en la app: búsquenla en el correo o en el WhatsApp del grupo."
+    }
+  },
+  "rides": {
+    "venecia": {
+      "intro": "En Venecia NO hay carros ni taxis normales: todo es a pie o en barco.",
+      "steps": [
+        "Para moverse: vaporetto (bus acuático). La parada Ferrovia queda frente al hotel.",
+        "Compren el pase de 24 h (25 €) en la máquina de la parada o en la app AVM Venezia, y validen la tarjeta en cada subida.",
+        "Taxi acuático: solo si hay mucha maleta. Se paga por barco y es caro (guías hablan de 40–70 € dentro del centro: verificar). Acuerden el precio antes de subir."
+      ],
+      "phones": [
+        {
+          "name": "Taxi acuático (Consorzio Motoscafi Venezia)",
+          "number": "+39 041 522 2303"
+        }
+      ],
+      "apps": [
+        {
+          "name": "AVM Venezia (tiquetes de vaporetto)",
+          "url": "https://apps.apple.com/app/id1051672947"
+        },
+        {
+          "name": "Venezia Unica (web oficial de tiquetes)",
+          "url": "https://www.veneziaunica.it/"
+        }
+      ],
+      "uber": null,
+      "stands": [
+        {
+          "name": "Parada de vaporetto Ferrovia",
+          "q": "Ferrovia vaporetto stop, Venezia"
+        }
+      ],
+      "sources": [
+        "https://www.reidsitaly.com/destinations/veneto/venice/planning/around_by_water_taxi.html",
+        "https://www.veneziaunica.it/",
+        "https://actv.avmspa.it/en/content/transport-fares-0"
+      ]
+    },
+    "florencia": {
+      "intro": "Los taxis son blancos. No se paran en la calle: se piden por teléfono o app, o se toman en una parada.",
+      "steps": [
+        "Lo más fácil: la parada de taxis de la estación Santa Maria Novella (al lado del hotel).",
+        "O llamen: digan la dirección donde están (\"Sono in Via ...\"). Les dicen el número del taxi y en cuántos minutos llega.",
+        "La app de Uber también sirve: pidan la opción \"Taxi\" (en Italia no hay UberX)."
+      ],
+      "phones": [
+        {
+          "name": "Taxi 4390 (Co.Ta.Fi.)",
+          "number": "055 4390"
+        },
+        {
+          "name": "Radio Taxi SOCOTA",
+          "number": "055 4242"
+        }
+      ],
+      "apps": [
+        {
+          "name": "TaxiMove (de 4390)",
+          "url": "https://www.4390.it/"
+        },
+        {
+          "name": "itTaxi",
+          "url": "https://www.ittaxi.it/"
+        }
+      ],
+      "uber": "Taxi",
+      "stands": [
+        {
+          "name": "Parada de taxis de la estación SMN",
+          "q": "Taxi Stazione Santa Maria Novella, Firenze"
+        }
+      ],
+      "sources": [
+        "https://www.4390.it/",
+        "https://en.comune.fi.it/OLD/mobility/transport.html",
+        "https://www.ittaxi.it/"
+      ]
+    },
+    "roma": {
+      "intro": "Usen solo taxis oficiales BLANCOS con letrero TAXI y el escudo de Roma en la puerta. No acepten a quien los aborde ofreciendo transporte.",
+      "steps": [
+        "Lo más fácil: la parada de taxis de Piazza Risorgimento (a 10 min del hotel) o la de Termini.",
+        "O llamen al número oficial 06 0609: digan calle y número donde están; les confirman el taxi.",
+        "Apps: Freenow o itTaxi (pagan en la app). En Uber pidan la opción \"Taxi\" (no hay UberX; Uber Black es mucho más caro).",
+        "Antes de subir, pregunten el precio aproximado si el viaje es largo."
+      ],
+      "phones": [
+        {
+          "name": "Número oficial de taxis de Roma",
+          "number": "06 0609"
+        },
+        {
+          "name": "Radio Taxi 3570",
+          "number": "06 3570"
+        },
+        {
+          "name": "Pronto Taxi 6645",
+          "number": "06 6645"
+        }
+      ],
+      "apps": [
+        {
+          "name": "Freenow",
+          "url": "https://www.free-now.com/it/"
+        },
+        {
+          "name": "itTaxi",
+          "url": "https://www.ittaxi.it/"
+        }
+      ],
+      "uber": "Taxi",
+      "stands": [
+        {
+          "name": "Parada de taxis Piazza Risorgimento (Vaticano)",
+          "q": "Taxi Piazza del Risorgimento, Roma"
+        },
+        {
+          "name": "Parada de taxis de Termini",
+          "q": "Taxi Stazione Termini Piazza dei Cinquecento, Roma"
+        }
+      ],
+      "sources": [
+        "https://turismoroma.it/it/pagina/taxi",
+        "https://www.3570.it/",
+        "https://www.6645.it/",
+        "https://www.free-now.com/it/",
+        "https://www.uber.com/global/en/cities/rome/"
+      ]
+    }
+  },
+  "trains": {
+    "intro": "Los trenes rápidos (Frecciarossa e Italo) tienen asiento asignado y NO hay que validar el tiquete.",
+    "steps": [
+      "En la estación: máquinas verdes de Trenitalia (tienen español) o la taquilla (\"Biglietteria\").",
+      "Miren en el tiquete si es Trenitalia (Frecciarossa) o Italo: son empresas distintas.",
+      "Lleguen 20 minutos antes y busquen su tren en las pantallas: \"Binario\" es el andén.",
+      "Suban al vagón (\"carrozza\") y al asiento (\"posto\") que dice el tiquete."
+    ],
+    "links": [
+      {
+        "name": "Trenitalia (Frecciarossa)",
+        "url": "https://www.trenitalia.com/en.html"
+      },
+      {
+        "name": "Italo",
+        "url": "https://www.italotreno.com/"
+      }
+    ],
+    "sources": [
+      "https://www.trenitalia.com/en.html",
+      "https://www.italotreno.com/"
+    ]
+  }
 }

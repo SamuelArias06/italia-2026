@@ -1,5 +1,5 @@
 // Bump VERSION whenever any file changes so phones pick up the new copy.
-const VERSION = "italia2026-v1";
+const VERSION = "italia2026-v2";
 const FILES = [
   "./",
   "index.html",
@@ -13,8 +13,9 @@ const FILES = [
   "icons/icon-512.png",
   "fonts/atkinson-400.woff2",
   "fonts/atkinson-700.woff2",
-  "fonts/bodoni.woff2",
-  "fonts/bodoni-italic.woff2"
+  "fonts/fraunces.woff2",
+  "fonts/fraunces-italic.woff2",
+  "pases.bin"
 ];
 
 self.addEventListener("install", (e) => {

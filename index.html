@@ -5,39 +5,39 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
   <title>Italia 2026</title>
   <meta name="description" content="Guía de viaje de la familia: Venecia, Florencia y Roma, del 14 al 22 de octubre de 2026.">
-  <meta name="theme-color" content="#f7f1e6" media="(prefers-color-scheme: light)">
-  <meta name="theme-color" content="#17130f" media="(prefers-color-scheme: dark)">
+  <meta name="theme-color" content="#fbf4e8" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#1a1511" media="(prefers-color-scheme: dark)">
   <meta name="robots" content="noindex">
   <link rel="manifest" href="manifest.webmanifest">
   <link rel="icon" href="icons/icon.svg" type="image/svg+xml">
   <link rel="apple-touch-icon" href="icons/icon-180.png">
   <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-title" content="Italia 2026">
   <link rel="preload" href="fonts/atkinson-400.woff2" as="font" type="font/woff2" crossorigin>
-  <link rel="preload" href="fonts/bodoni.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="fonts/fraunces.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="stylesheet" href="styles.css">
 </head>
 <body data-city="viaje">
-  <header class="top">
-    <div class="top-inner">
-      <p class="eyebrow">14 – 22 de octubre de 2026</p>
-      <h1 class="brand">Italia <em>en familia</em></h1>
-      <p class="clock" id="clock" aria-live="polite"></p>
-    </div>
-  </header>
-
   <main id="app" tabindex="-1">
     <p class="loading">Cargando la guía…</p>
   </main>
 
-  <nav class="tabbar" aria-label="Secciones">
-    <a href="#hoy" data-tab="hoy"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4.5"/><path d="M12 2v2.5M12 19.5V22M2 12h2.5M19.5 12H22M4.9 4.9l1.8 1.8M17.3 17.3l1.8 1.8M4.9 19.1l1.8-1.8M17.3 6.7l1.8-1.8"/></svg><span>Hoy</span></a>
-    <a href="#itinerario" data-tab="itinerario"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3.5" y="5" width="17" height="15.5" rx="2"/><path d="M3.5 10h17M8 3v4M16 3v4"/></svg><span>Itinerario</span></a>
-    <a href="#comer" data-tab="comer"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 3v8a2 2 0 0 0 2 2v8M5 3v6M9 3v6M17 21V3c-2.2 0-3.5 2.5-3.5 6.5S15 14 17 14"/></svg><span>Comer</span></a>
-    <a href="#ver" data-tab="ver"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 21h18M5 21V10M19 21V10M9 21v-7M15 21v-7M3 10l9-6 9 6"/></svg><span>Ver</span></a>
-    <a href="#consejos" data-tab="consejos"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 18h6M10 21h4M12 3a6 6 0 0 0-3.5 10.9c.6.5 1 1.2 1 2V16h5v-.1c0-.8.4-1.5 1-2A6 6 0 0 0 12 3z"/></svg><span>Consejos</span></a>
-    <a href="#sos" data-tab="sos" class="sos"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3l9.5 17h-19z"/><path d="M12 10v4.5M12 17.5v.01"/></svg><span>SOS</span></a>
+  <nav class="tabbar hidden" id="tabbar" aria-label="Secciones">
+    <a href="#hoy" data-tab="hoy"><span class="ti" aria-hidden="true">☀️</span><span>Hoy</span></a>
+    <a href="#dias" data-tab="dias"><span class="ti" aria-hidden="true">🗓️</span><span>Días</span></a>
+    <a href="#pases" data-tab="pases"><span class="ti" aria-hidden="true">🎟️</span><span>Pases</span></a>
+    <a href="#explorar" data-tab="explorar"><span class="ti" aria-hidden="true">🍝</span><span>Comer y ver</span></a>
+    <a href="#ayuda" data-tab="ayuda"><span class="ti" aria-hidden="true">🆘</span><span>Ayuda</span></a>
   </nav>
+
+  <div id="sheet" class="sheet hidden" role="dialog" aria-modal="true" aria-labelledby="sheet-title">
+    <div class="sheet-backdrop" data-close></div>
+    <div class="sheet-panel">
+      <button class="sheet-close" type="button" data-close aria-label="Cerrar">✕ Cerrar</button>
+      <div id="sheet-body"></div>
+    </div>
+  </div>
 
   <script src="app.js"></script>
 </body>
