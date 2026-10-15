@@ -238,7 +238,8 @@
           "place": {
             "name": "Aeropuerto Marco Polo de Venecia",
             "q": "Aeroporto di Venezia Marco Polo"
-          }
+          },
+          "guide": "venecia"
         },
         {
           "t": "18:50",
@@ -254,7 +255,8 @@
             "q": "Piazzale Roma, Venezia"
           },
           "go": "transit",
-          "sug": true
+          "sug": true,
+          "guide": "venecia"
         },
         {
           "t": "19:20",
@@ -272,7 +274,8 @@
             "q": "NH Venezia Santa Lucia, Lista di Spagna 116/A, Venezia"
           },
           "go": "walking",
-          "sug": true
+          "sug": true,
+          "guide": "venecia"
         },
         {
           "t": "19:45",
@@ -314,7 +317,8 @@
         "Maletas entregadas ANTES de las 16:40 en los mostradores 21–24 de ITA.",
         "La puerta del avión cierra a las 17:05: después del control de seguridad, vayan directo a la puerta.",
         "En Venecia: bus ATVO hasta Piazzale Roma + vaporetto UNA parada hasta Ferrovia. Abajo está paso a paso."
-      ]
+      ],
+      "guide": "venecia"
     },
     {
       "date": "2026-10-16",
@@ -2893,5 +2897,227 @@
       "https://www.trenitalia.com/en.html",
       "https://www.italotreno.com/"
     ]
+  },
+  "guides": {
+    "venecia": {
+      "title": "Llegada a Venecia, paso a paso",
+      "intro": "Del avión al hotel son unos 60–75 minutos. Son 6 pasos. Toquen 🔊 para escuchar cómo se dice cada frase, o 📱 para mostrársela en grande a la persona.",
+      "videos": [
+        {
+          "title": "El bus del aeropuerto al Piazzale Roma",
+          "by": "Info Viajera (en español)",
+          "len": "2 min",
+          "url": "https://www.youtube.com/watch?v=QGfazNJ0qZQ"
+        },
+        {
+          "title": "Cómo ir del aeropuerto de Venecia al centro (fácil)",
+          "by": "SeguirViajando (en español)",
+          "len": "4 min",
+          "url": "https://www.youtube.com/watch?v=eNcw-QKeZO0"
+        },
+        {
+          "title": "Cómo comprar tiquetes de vaporetto",
+          "by": "My Venice Dream (en español)",
+          "len": "6 min",
+          "url": "https://www.youtube.com/watch?v=j8gSP1iKOtA"
+        },
+        {
+          "title": "Del Piazzale Roma a Ferrovia en vaporetto",
+          "by": "Venice Channel (sin hablar, solo imágenes)",
+          "len": "2 min",
+          "url": "https://www.youtube.com/watch?v=uGeAdR5qtAg"
+        }
+      ],
+      "steps": [
+        {
+          "icon": "🛬",
+          "title": "Bajar del avión y recoger las maletas",
+          "do": [
+            "Sigan a la gente y los letreros amarillos hasta la banda de las maletas.",
+            "En las pantallas busquen el vuelo **AZ1467 Roma** para ver el número de la banda."
+          ],
+          "signs": [
+            [
+              "Ritiro bagagli",
+              "Recoger maletas"
+            ],
+            [
+              "Arrivi",
+              "Llegadas"
+            ],
+            [
+              "Uscita",
+              "Salida"
+            ]
+          ],
+          "say": [
+            [
+              "Scusi, dov'è il ritiro bagagli?",
+              "SCÚ-si, do-VÉ il ri-TÍ-ro ba-GÁ-lli",
+              "Perdón, ¿dónde se recogen las maletas?"
+            ]
+          ]
+        },
+        {
+          "icon": "🎫",
+          "title": "Comprar 4 tiquetes de bus ATVO",
+          "do": [
+            "Antes de salir, en la misma sala de maletas o en la sala de llegadas, busquen el **mostrador azul de ATVO** o sus máquinas.",
+            "Pidan **4 tiquetes a Piazzale Roma**. Se paga con tarjeta. Cuesten lo que cuesten (unos 10–12 € c/u, verificar), es este.",
+            "Guarden los tiquetes: los van a mostrar al subir."
+          ],
+          "signs": [
+            [
+              "Biglietteria",
+              "Taquilla (donde venden tiquetes)"
+            ],
+            [
+              "Biglietti",
+              "Tiquetes"
+            ],
+            [
+              "Bus / Autobus",
+              "Bus"
+            ]
+          ],
+          "say": [
+            [
+              "Buonasera. Quattro biglietti per Piazzale Roma, per favore.",
+              "bu-o-na-SÉ-ra. CUÁ-tro bi-LLÉ-ti per pia-TSÁ-le RÓ-ma, per fa-VÓ-re",
+              "Buenas noches. Cuatro tiquetes para Piazzale Roma, por favor."
+            ],
+            [
+              "Dove si prende l'autobus?",
+              "DÓ-ve si PRÉN-de LÁU-to-bus",
+              "¿Dónde se toma el bus?"
+            ]
+          ]
+        },
+        {
+          "icon": "🚌",
+          "title": "Tomar el bus a Piazzale Roma (20 min)",
+          "do": [
+            "Salgan del edificio por la puerta de salida: las paradas de bus están al frente, cruzando.",
+            "Busquen el bus **azul de ATVO** que diga **Venezia – Piazzale Roma** (\"Venezia Express\"). Si dudan, muéstrenle el tiquete al chofer.",
+            "Si el tiquete es de papel, márquenlo en la **maquinita** de la parada o del bus (si no, hay multa).",
+            "Las maletas grandes van abajo, en el maletero del bus.",
+            "Bájense en la **última parada**: ahí se bajan todos."
+          ],
+          "signs": [
+            [
+              "Fermata",
+              "Parada"
+            ],
+            [
+              "Piazzale Roma",
+              "A donde van"
+            ],
+            [
+              "Convalida / Obliterare",
+              "Marcar el tiquete"
+            ]
+          ],
+          "say": [
+            [
+              "Questo autobus va a Piazzale Roma?",
+              "CUÉS-to ÁU-to-bus va a pia-TSÁ-le RÓ-ma",
+              "¿Este bus va a Piazzale Roma?"
+            ]
+          ]
+        },
+        {
+          "icon": "⛴️",
+          "title": "En Piazzale Roma: comprar el vaporetto",
+          "do": [
+            "Aquí ya no hay carros. Caminen hacia el agua (el Gran Canal): ahí están las paradas del vaporetto, con letreros amarillos **ACTV**.",
+            "Compren **4 tiquetes sencillos** en la taquilla ACTV o en la máquina (unos 9,50 € c/u, verificar). La máquina tiene español.",
+            "Antes de entrar al muelle, **acerquen cada tiquete al lector** (lettore) hasta que suene o se ponga verde."
+          ],
+          "signs": [
+            [
+              "Biglietteria ACTV",
+              "Taquilla de vaporetto"
+            ],
+            [
+              "Linea 1",
+              "Línea 1"
+            ],
+            [
+              "Convalida",
+              "Validar"
+            ]
+          ],
+          "say": [
+            [
+              "Quattro biglietti per Ferrovia, per favore.",
+              "CUÁ-tro bi-LLÉ-ti per fe-rro-VÍ-a, per fa-VÓ-re",
+              "Cuatro tiquetes para Ferrovia (la estación), por favor."
+            ],
+            [
+              "Da quale fermata parte la linea 1?",
+              "da CUÁ-le fer-MÁ-ta PÁR-te la LÍ-ne-a UNO",
+              "¿De qué muelle sale la línea 1?"
+            ]
+          ]
+        },
+        {
+          "icon": "🚤",
+          "title": "Vaporetto UNA parada, hasta Ferrovia",
+          "do": [
+            "Suban a la **línea 1** (o la 2 si el letrero del muelle dice que la siguiente parada es Ferrovia).",
+            "Antes de subir pregunten: \"Ferrovia?\" — los marineros ayudan con las maletas.",
+            "Es **solo una parada**, unos 5 minutos: bájense en **Ferrovia** (se ve la estación de tren, un edificio grande y blanco)."
+          ],
+          "signs": [
+            [
+              "Ferrovia",
+              "La estación de tren (aquí se bajan)"
+            ],
+            [
+              "Santa Lucia",
+              "Nombre de la estación"
+            ]
+          ],
+          "say": [
+            [
+              "Questo va a Ferrovia?",
+              "CUÉS-to va a fe-rro-VÍ-a",
+              "¿Este va a Ferrovia?"
+            ]
+          ]
+        },
+        {
+          "icon": "🏨",
+          "title": "Caminar al hotel (5 min) y check-in",
+          "do": [
+            "Toquen **📍 Cómo llegar** (abajo) y sigan el mapa caminando.",
+            "El hotel está en la calle **Lista di Spagna, número 116/A**, muy cerca de la estación. No hay que cruzar puentes.",
+            "En recepción: pasaportes de los 4 + la tarjeta con la que se pagó. Pagan la tasa de la ciudad (unos 36 €)."
+          ],
+          "signs": [
+            [
+              "Lista di Spagna",
+              "La calle del hotel"
+            ],
+            [
+              "NH Venezia Santa Lucia",
+              "El hotel"
+            ]
+          ],
+          "say": [
+            [
+              "Buonasera, abbiamo una prenotazione su Booking.",
+              "bu-o-na-SÉ-ra, a-BIÁ-mo U-na pre-no-ta-TSIÓ-ne su BÚ-king",
+              "Buenas noches, tenemos una reserva de Booking."
+            ]
+          ],
+          "map": true
+        }
+      ],
+      "help": {
+        "it": "Buonasera! Non parliamo italiano, solo spagnolo. Dobbiamo andare all'hotel NH Venezia Santa Lucia, Rio Terà Lista di Spagna 116/A. Ci può aiutare, per favore? Grazie mille!",
+        "es": "¡Buenas noches! No hablamos italiano, solo español. Tenemos que ir al hotel NH Venezia Santa Lucia, Lista di Spagna 116/A. ¿Nos puede ayudar, por favor? ¡Muchas gracias!"
+      }
+    }
   }
 }

@@ -190,6 +190,49 @@
     </div>`, true);
   }
 
+  // ---------- arrival guides (step by step + phrases to hear or show) ----------
+  function speak(text) {
+    try {
+      if (!("speechSynthesis" in window)) return false;
+      speechSynthesis.cancel();
+      const u = new SpeechSynthesisUtterance(text);
+      u.lang = "it-IT"; u.rate = 0.8;
+      const v = speechSynthesis.getVoices().find((x) => /^it/i.test(x.lang));
+      if (v) u.voice = v;
+      speechSynthesis.speak(u);
+      return true;
+    } catch { return false; }
+  }
+  const sayBtns = (it, es) => `<div class="say-btns">${btn(`data-say="${esc(it)}"`, "🔊 Escuchar")}${btn(`data-show='${esc(JSON.stringify({ it, es }))}'`, "📱 Mostrar")}</div>`;
+
+  function guideSheet(key) {
+    const g = D.guides[key];
+    if (!g) return;
+    const h = D.hotels.nh;
+    openSheet(`<p class="label" style="margin-top:4px">🧭 Guía</p><h2>${esc(g.title)}</h2>
+      <p>${mark(g.intro)}</p>
+      <button type="button" class="act main help-big" data-show='${esc(JSON.stringify(g.help))}'>🆘 Pantalla de ayuda: "no hablamos italiano"</button>
+      ${g.steps.map((s, i) => `<section class="gstep">
+        <h3><span class="gnum">${i + 1}</span>${esc(s.icon)} ${esc(s.title)}</h3>
+        <ul>${s.do.map((x) => `<li>${mark(x)}</li>`).join("")}</ul>
+        ${s.signs ? `<p class="small muted">Letreros que van a ver:</p><div class="signs">${s.signs.map(([it, es]) => `<span class="sign"><b>${esc(it)}</b><small>${esc(es)}</small></span>`).join("")}</div>` : ""}
+        ${(s.say || []).map(([it, pron, es]) => `<div class="phrase"><p class="it">${esc(it)}</p><p class="pr">Se dice: ${esc(pron)}</p><p class="es">${esc(es)}</p>${sayBtns(it, es)}</div>`).join("")}
+        ${s.map ? `<div class="actions">${ext(mapsRoute(h.mapsQuery, "walking"), "📍 Cómo llegar al hotel", "act main")}<a class="act" href="${telHref(h.phone)}">📞 Llamar al hotel</a>${btn('data-pass="hotel-nh"', "🎟️ Ver reserva")}</div>` : ""}
+      </section>`).join("")}
+      ${g.videos ? `<h3 style="margin-top:22px">▶️ Videos para verlo antes (con wifi)</h3><p class="small muted">Videos de otros viajeros en YouTube; los precios que digan pueden haber cambiado.</p>
+        ${g.videos.map((v) => `<a class="video" href="${esc(v.url)}" target="_blank" rel="noopener"><span class="vplay">▶</span><span><b>${esc(v.title)}</b><small>${esc(v.by)} · ${esc(v.len)}</small></span></a>`).join("")}` : ""}
+      <p class="small muted" style="margin-top:16px">Si se pierden: muestren la pantalla de ayuda a alguien del aeropuerto, de ATVO o del vaporetto, o llamen al hotel: ${esc(h.phone)}.</p>`);
+  }
+
+  function showSheet(p) {
+    openSheet(`<div class="taxista">
+      <p class="muted">Muestren esta pantalla 👇</p>
+      <p class="dest" style="font-size:1.9rem">${esc(p.it)}</p>
+      <p class="muted" style="margin-top:22px">(${esc(p.es)})</p>
+      <div class="actions" style="justify-content:center;margin-top:20px">${btn(`data-say="${esc(p.it)}"`, "🔊 Escuchar")}</div>
+    </div>`, true);
+  }
+
   function trainSheet() {
     const t = D.trains;
     openSheet(`<p class="label" style="margin-top:4px">🚆 Trenes</p><h2>Comprar y tomar el tren</h2>
@@ -268,6 +311,7 @@
     if (ev.pass) a.push(btn(`data-pass="${esc(ev.pass)}"`, ev.pass2 ? `🎟️ Pase de ${esc(names[0])}` : ev.pass.startsWith("hotel") ? "🎟️ Ver reserva" : "🎟️ Ver entrada"));
     if (ev.pass2) a.push(btn(`data-pass="${esc(ev.pass2)}"`, `🎟️ Pase de ${esc(names[1] || names[0])}`));
     if (ev.taxi && pl) a.push(btn(`data-ride="${city}" data-dest='${esc(JSON.stringify({ name: pl.name, q: pl.q }))}'`, "🚕 Taxi"));
+    if (ev.guide) a.push(btn(`data-guide="${esc(ev.guide)}"`, "🧭 Guía paso a paso"));
     if (ev.train) a.push(btn(`data-train="1"`, "🚆 Tren"));
     if (ev.call && D.hotels[ev.call]?.phone) a.push(`<a class="act" href="${telHref(D.hotels[ev.call].phone)}">📞 Llamar al hotel</a>`);
     if (ev.link) a.push(ext(ev.link.url, "🔗 " + esc(ev.link.label)));
@@ -342,6 +386,7 @@
       ${btn(`data-go="#explorar/${city}/comer"`, `<span class="qi">🍝</span>Comer cerca<small>Restaurantes buenos</small>`, "qa")}
     </div>`;
     h += (day.reminders || []).map((r) => `<div class="reminder" role="note"><span>⚠️</span><span>${mark(r)}</span></div>`).join("");
+    if (day.guide && D.guides[day.guide]) h += btn(`data-guide="${day.guide}"`, `<span class="qi">🧭</span><span><b>${esc(D.guides[day.guide].title)}</b><small>Qué hacer, qué decir en italiano y videos</small></span>`, "guide-cta");
 
     const evs = eventsFor(day);
     let nowIdx = evs.findIndex((e) => { const m = toMin(e.t); return m !== null && m >= n.min - 20; });
@@ -480,6 +525,7 @@
       ${btn(`data-phrases="1"`, `<span class="qi">🗣️</span>Frases<small>Italiano fácil</small>`, "qa")}
       ${btn(`data-hotels="1"`, `<span class="qi">🏨</span>Hoteles<small>Los tres</small>`, "qa")}
     </div>`;
+    h += btn(`data-guide="venecia"`, `<span class="qi">🧭</span><span><b>Llegada a Venecia paso a paso</b><small>Del aeropuerto al hotel, con frases y videos</small></span>`, "guide-cta c-venecia");
     h += `<h2>✅ Lista de chequeo</h2><div class="card"><ul class="check">${D.checklist.filter(forMe).map((c) => checkItem(c, st)).join("")}</ul></div>`;
     h += `<h2>💡 Consejos</h2>`;
     const icons = { Transporte: "🚆", Dinero: "💶", Seguridad: "👜", Vaticano: "⛪", Venecia: "🛶", "Agua y salud": "💧", Enchufes: "🔌", Clima: "🌤️", Vuelos: "✈️" };
@@ -536,7 +582,7 @@
 
   // ---------- events ----------
   document.addEventListener("click", async (ev) => {
-    const el = ev.target.closest("[data-close],[data-go],[data-hotel],[data-pass],[data-ride],[data-taxista],[data-train],[data-phrases],[data-hotels],[data-whosheet],[data-setwho],[data-togglepast],[data-forget]");
+    const el = ev.target.closest("[data-close],[data-go],[data-hotel],[data-pass],[data-ride],[data-taxista],[data-train],[data-phrases],[data-hotels],[data-whosheet],[data-setwho],[data-togglepast],[data-forget],[data-guide],[data-say],[data-show]");
     if (!el) return;
     const ds = el.dataset;
     if ("close" in ds) { closeSheet(); return; }
@@ -549,6 +595,9 @@
     if (ds.taxista) { taxistaSheet(JSON.parse(ds.taxista)); return; }
     if (ds.train) { trainSheet(); return; }
     if (ds.phrases) { phrasesSheet(); return; }
+    if (ds.guide) { guideSheet(ds.guide); return; }
+    if (ds.say) { if (!speak(ds.say)) showSheet({ it: ds.say, es: "Este celular no puede leer en voz alta: muestren esta pantalla." }); return; }
+    if (ds.show) { showSheet(JSON.parse(ds.show)); return; }
     if (ds.hotels) { hotelsSheet(); return; }
     if (ds.whosheet) { whoSheet(); return; }
     if (ds.togglepast) { showPast = !showPast; render(true); return; }
