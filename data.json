@@ -158,25 +158,97 @@
         },
         {
           "t": "14:00",
-          "icon": "🧳",
-          "title": "Recoger maletas y volver a facturar con ITA",
-          "detail": "El vuelo a Venecia es aparte: hay que pasar otra vez por el mostrador de ITA.",
+          "icon": "🤝",
+          "title": "Reunirse y recoger las maletas",
+          "detail": "Los tíos esperan a Edver y Marcela. Con las maletas, suban a **Salidas (Partenze)**: el vuelo a Venecia es aparte y hay que volver a entregarlas.",
           "place": {
             "name": "Aeropuerto de Roma Fiumicino",
             "q": "Aeroporto di Roma Fiumicino"
           }
         },
         {
+          "t": "16:00",
+          "who": "papas",
+          "icon": "🧳",
+          "title": "Entregar las maletas para Venecia (máximo 16:40)",
+          "steps": [
+            "En las pantallas busquen el vuelo **AZ1467 a Venezia**.",
+            "Vayan a los **mostradores 21 a 24 de ITA** con el pasaporte y el pase de abordar (botones de abajo).",
+            "Entreguen las maletas grandes. Cada uno puede llevar un bolso y una maleta pequeña de mano (8 kg).",
+            "Pasen el control de seguridad y busquen la puerta (gate) en las pantallas: en el pase todavía dice A00 porque no la han asignado."
+          ],
+          "place": {
+            "name": "Aeropuerto de Roma Fiumicino",
+            "q": "Aeroporto di Roma Fiumicino"
+          },
+          "pass": "azvce-edver",
+          "pass2": "azvce-marcela"
+        },
+        {
+          "t": "16:00",
+          "who": "tios",
+          "icon": "🧳",
+          "title": "Entregar las maletas para Venecia (máximo 16:40)",
+          "steps": [
+            "En las pantallas busquen el vuelo **AZ1467 a Venezia**.",
+            "Vayan a los **mostradores 21 a 24 de ITA** con el pasaporte y el pase de abordar (botones de abajo).",
+            "Entreguen las maletas grandes. Cada uno puede llevar un bolso y una maleta pequeña de mano (8 kg).",
+            "Pasen el control de seguridad y busquen la puerta (gate) en las pantallas: en el pase todavía dice A00 porque no la han asignado."
+          ],
+          "place": {
+            "name": "Aeropuerto de Roma Fiumicino",
+            "q": "Aeroporto di Roma Fiumicino"
+          },
+          "pass": "azvce-olga",
+          "pass2": "azvce-santiago"
+        },
+        {
+          "t": "16:50",
+          "who": "papas",
+          "icon": "🛫",
+          "title": "Abordaje del vuelo AZ1467",
+          "detail": "La puerta cierra a las **17:05**: estén ahí desde antes. Muestren el pase y el pasaporte. Grupo 3.",
+          "pass": "azvce-edver",
+          "pass2": "azvce-marcela"
+        },
+        {
+          "t": "16:50",
+          "who": "tios",
+          "icon": "🛫",
+          "title": "Abordaje del vuelo AZ1467",
+          "detail": "La puerta cierra a las **17:05**: estén ahí desde antes. Muestren el pase y el pasaporte. Grupo 3.",
+          "pass": "azvce-olga",
+          "pass2": "azvce-santiago"
+        },
+        {
           "t": "17:20",
           "icon": "✈️",
           "title": "Vuelo ITA Roma → Venecia",
-          "detail": "Llega a las 18:25."
+          "detail": "Llega al aeropuerto Marco Polo de Venecia a las 18:25."
         },
         {
-          "t": "18:45",
+          "t": "18:25",
+          "icon": "🛬",
+          "title": "Llegan a Venecia: maletas y tiquetes de bus",
+          "steps": [
+            "Sigan los letreros **Ritiro bagagli / Baggage claim** y recojan las maletas.",
+            "Ahí mismo (o al salir, en la sala de llegadas) está el mostrador o las máquinas de **ATVO**. Compren **4 tiquetes de bus a \"Venezia Piazzale Roma\"** (unos 10–12 € cada uno, verificar). Se puede pagar con tarjeta.",
+            "Si el tiquete es de papel, márquenlo en la maquinita antes de subir al bus (si no, hay multa)."
+          ],
+          "place": {
+            "name": "Aeropuerto Marco Polo de Venecia",
+            "q": "Aeroporto di Venezia Marco Polo"
+          }
+        },
+        {
+          "t": "18:50",
           "icon": "🚌",
-          "title": "Del aeropuerto al Piazzale Roma",
-          "detail": "Bus (ATVO o Aerobus ACTV, unos 10 €, 20 min) o lancha Alilaguna línea naranja (18 €, para cerca del hotel en Guglie).",
+          "title": "Bus al Piazzale Roma (unos 20 min)",
+          "steps": [
+            "Salgan del edificio: las paradas de bus están al frente. Busquen el bus azul **ATVO \"Venezia Express\" – Piazzale Roma**.",
+            "Las maletas grandes van en el maletero de abajo del bus.",
+            "Bájense en la **última parada: Piazzale Roma**. Ahí se acaban los carros: de aquí en adelante todo es a pie o en barco."
+          ],
           "place": {
             "name": "Piazzale Roma",
             "q": "Piazzale Roma, Venezia"
@@ -185,10 +257,28 @@
           "sug": true
         },
         {
-          "t": "20:00",
+          "t": "19:20",
+          "icon": "⛴️",
+          "title": "Del Piazzale Roma al hotel: vaporetto una parada",
+          "steps": [
+            "Caminen hasta la parada de vaporetto de **Piazzale Roma** (a la orilla del canal, a pocos metros de donde los deja el bus).",
+            "En la máquina compren **4 tiquetes sencillos** (unos 9,50 € cada uno, verificar) y acerquen cada tarjeta al lector antes de subir.",
+            "Suban a la **línea 1 o 2** y bájense en la **siguiente parada: Ferrovia** (la estación de tren).",
+            "Del muelle al hotel son unos 5 min a pie, por la calle **Lista di Spagna**: usen el botón Cómo llegar.",
+            "Otra opción, sin barco: cruzar a pie el puente moderno de vidrio (Ponte della Costituzione), unos 10 min, pero tiene escalones; con maletas pesadas es mejor el vaporetto."
+          ],
+          "place": {
+            "name": "NH Venezia Santa Lucia",
+            "q": "NH Venezia Santa Lucia, Lista di Spagna 116/A, Venezia"
+          },
+          "go": "walking",
+          "sug": true
+        },
+        {
+          "t": "19:45",
           "icon": "🏨",
           "title": "Check-in en el NH Santa Lucia",
-          "detail": "Caminando desde Piazzale Roma: unos 10 min cruzando el puente hacia la estación.",
+          "detail": "Pasaporte de cada uno + la tarjeta con la que se pagó. La tasa municipal (unos 36 €) se paga aquí.",
           "place": {
             "name": "NH Venezia Santa Lucia",
             "q": "NH Venezia Santa Lucia, Lista di Spagna 116/A, Venezia"
@@ -201,7 +291,7 @@
           "t": "21:00",
           "icon": "🍷",
           "title": "Algo de comer cerca del hotel",
-          "detail": "Al Timon (cicchetti, abierto hasta tarde). Sin reserva.",
+          "detail": "Si hay energía: Al Timon (cicchetti, unos 15 min a pie). Si están cansados: cualquier lugar de la Lista di Spagna, al lado del hotel.",
           "place": {
             "name": "Al Timon",
             "q": "Al Timon, Fondamenta dei Ormesini 2754, Venezia"
@@ -211,11 +301,19 @@
         }
       ],
       "tips": [
+        "Los pases de abordar están en la sección Pases (suban el brillo para que lean el código).",
         "Hora de los relojes: Italia va 7 horas adelante de Bogotá y 6 de Miami."
       ],
       "bring": [
         "Pasaporte a mano",
-        "Tarjeta con la que se pagó el hotel"
+        "Pase de abordar en el celular",
+        "Tarjeta con la que se pagó el hotel",
+        "Algo de efectivo en euros"
+      ],
+      "reminders": [
+        "Maletas entregadas ANTES de las 16:40 en los mostradores 21–24 de ITA.",
+        "La puerta del avión cierra a las 17:05: después del control de seguridad, vayan directo a la puerta.",
+        "En Venecia: bus ATVO hasta Piazzale Roma + vaporetto UNA parada hasta Ferrovia. Abajo está paso a paso."
       ]
     },
     {
@@ -677,7 +775,7 @@
           "t": "12:45",
           "icon": "🛂",
           "title": "Entrada Piazza del Colosseo – Valadier",
-          "detail": "15 min antes. Cada uno con su pasaporte original.",
+          "detail": "15 min antes. Cada uno con su pasaporte original. Las entradas están en Pases (una por persona).",
           "place": {
             "name": "Coliseo (entrada Valadier)",
             "q": "Colosseo, Piazza del Colosseo, Roma"
@@ -689,7 +787,7 @@
           "t": "13:00",
           "icon": "🏟️",
           "title": "Coliseo Full Experience con arena",
-          "detail": "Después: Foro Romano y Palatino (incluidos ese día)."
+          "detail": "Visita de 90 min, en un solo sentido; los baños están solo al comienzo. Sin mochilas ni maletas. Después: Foro Romano y Palatino (incluidos, una entrada)."
         },
         {
           "t": "15:30",
@@ -2589,6 +2687,26 @@
       "icon": "✈️",
       "who": "papas"
     },
+    "azvce-edver": {
+      "title": "Vuelo a Venecia · Edver",
+      "icon": "🛫",
+      "who": "papas"
+    },
+    "azvce-marcela": {
+      "title": "Vuelo a Venecia · Marcela",
+      "icon": "🛫",
+      "who": "papas"
+    },
+    "azvce-olga": {
+      "title": "Vuelo a Venecia · Olga",
+      "icon": "🛫",
+      "who": "tios"
+    },
+    "azvce-santiago": {
+      "title": "Vuelo a Venecia · Santiago",
+      "icon": "🛫",
+      "who": "tios"
+    },
     "hotel-nh": {
       "title": "Hotel Venecia",
       "icon": "🏨"
@@ -2619,14 +2737,14 @@
     },
     "coliseo": {
       "title": "Coliseo",
-      "icon": "🏟️",
-      "missing": "Aún no está cargada en la app: búsquenla en el correo o en el WhatsApp del grupo."
+      "icon": "🏟️"
     }
   },
   "rides": {
     "venecia": {
       "intro": "En Venecia NO hay carros ni taxis normales: todo es a pie o en barco.",
       "steps": [
+        "Desde el aeropuerto: bus ATVO \"Venezia Express\" hasta Piazzale Roma (unos 20 min) y de ahí vaporetto línea 1 o 2, una parada, hasta Ferrovia.",
         "Para moverse: vaporetto (bus acuático). La parada Ferrovia queda frente al hotel.",
         "Compren el pase de 24 h (25 €) en la máquina de la parada o en la app AVM Venezia, y validen la tarjeta en cada subida.",
         "Taxi acuático: solo si hay mucha maleta. Se paga por barco y es caro (guías hablan de 40–70 € dentro del centro: verificar). Acuerden el precio antes de subir."
@@ -2655,9 +2773,10 @@
         }
       ],
       "sources": [
+        "https://actv.avmspa.it/en/content/transport-fares-0",
+        "https://europeforvisitors.com/venice/articles/venice_airport_buses_atvo.htm",
         "https://www.reidsitaly.com/destinations/veneto/venice/planning/around_by_water_taxi.html",
-        "https://www.veneziaunica.it/",
-        "https://actv.avmspa.it/en/content/transport-fares-0"
+        "https://www.veneziaunica.it/"
       ]
     },
     "florencia": {

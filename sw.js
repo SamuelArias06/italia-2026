@@ -1,5 +1,5 @@
 // Bump VERSION whenever any file changes so phones pick up the new copy.
-const VERSION = "italia2026-v2";
+const VERSION = "italia2026-v3";
 const FILES = [
   "./",
   "index.html",

@@ -14,7 +14,7 @@
 
   // ---------- helpers ----------
   const esc = (s) => String(s ?? "").replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
-  const mark = (s) => esc(s).replace(/(verificar)/gi, '<span class="verify">$1</span>');
+  const mark = (s) => esc(s).replace(/\*\*(.+?)\*\*/g, "<b>$1</b>").replace(/(verificar)/gi, '<span class="verify">$1</span>');
   const enc = encodeURIComponent;
   const mapsSearch = (q) => "https://www.google.com/maps/search/?api=1&query=" + enc(q);
   const mapsRoute = (q, mode = "walking") => `https://www.google.com/maps/dir/?api=1&destination=${enc(q)}&travelmode=${mode}`;
@@ -260,8 +260,9 @@
     const a = [];
     const pl = placeFrom(ev);
     if (pl) a.push(ext(mapsRoute(pl.q, ev.go || "walking"), "📍 Cómo llegar", "act main"));
-    if (ev.pass) a.push(btn(`data-pass="${esc(ev.pass)}"`, ev.pass2 ? "🎟️ Pase de Edver" : ev.pass.startsWith("hotel") ? "🎟️ Ver reserva" : "🎟️ Ver entrada"));
-    if (ev.pass2) a.push(btn(`data-pass="${esc(ev.pass2)}"`, "🎟️ Pase de Marcela"));
+    const names = (D.people[ev.who] || D.people[who()] || { name: "Edver y Marcela" }).name.split(" y ");
+    if (ev.pass) a.push(btn(`data-pass="${esc(ev.pass)}"`, ev.pass2 ? `🎟️ Pase de ${esc(names[0])}` : ev.pass.startsWith("hotel") ? "🎟️ Ver reserva" : "🎟️ Ver entrada"));
+    if (ev.pass2) a.push(btn(`data-pass="${esc(ev.pass2)}"`, `🎟️ Pase de ${esc(names[1] || names[0])}`));
     if (ev.taxi && pl) a.push(btn(`data-ride="${city}" data-dest='${esc(JSON.stringify({ name: pl.name, q: pl.q }))}'`, "🚕 Taxi"));
     if (ev.train) a.push(btn(`data-train="1"`, "🚆 Tren"));
     if (ev.call && D.hotels[ev.call]?.phone) a.push(`<a class="act" href="${telHref(D.hotels[ev.call].phone)}">📞 Llamar al hotel</a>`);
@@ -277,6 +278,7 @@
         <div><span class="step-time">${esc(time)}</span>${state === "now" ? '<span class="pill now">Lo próximo</span>' : ""}${ev.sug ? '<span class="pill">sugerencia</span>' : ""}${whoPill}</div>
         <div class="step-title">${mark(ev.title)}</div>
         ${ev.detail ? `<div class="step-detail">${mark(ev.detail)}</div>` : ""}
+        ${ev.steps ? `<ol class="step-steps">${ev.steps.map((x) => `<li>${mark(x)}</li>`).join("")}</ol>` : ""}
       </div></div>
       ${stepActions(ev, city)}
     </article>`;
