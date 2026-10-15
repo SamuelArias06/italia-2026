@@ -213,8 +213,9 @@
   }
 
   // ---------- passes ----------
-  async function decryptPasses(pw) {
-    const buf = new Uint8Array(await (await fetch("pases.bin")).arrayBuffer());
+  // fresh=true skips the cached copy (used when a pass listed in data.json is not in the cached file yet).
+  async function decryptPasses(pw, fresh) {
+    const buf = new Uint8Array(await (await fetch("pases.bin", fresh ? { cache: "reload" } : {})).arrayBuffer());
     if (String.fromCharCode(...buf.slice(0, 4)) !== "IT26") throw new Error("formato");
     const base = await crypto.subtle.importKey("raw", new TextEncoder().encode(pw), "PBKDF2", false, ["deriveKey"]);
     const key = await crypto.subtle.deriveKey({ name: "PBKDF2", salt: buf.slice(4, 20), iterations: 600000, hash: "SHA-256" }, base, { name: "AES-GCM", length: 256 }, false, ["decrypt"]);
@@ -222,11 +223,11 @@
     const data = JSON.parse(new TextDecoder().decode(plain));
     return Object.fromEntries(data.passes.map((p) => [p.id, p]));
   }
-  async function ensurePasses() {
-    if (PASSES) return true;
+  async function ensurePasses(fresh) {
+    if (PASSES && !fresh) return true;
     const pw = store.get(K.key, null);
     if (!pw) return false;
-    try { PASSES = await decryptPasses(pw); return true; } catch { return false; }
+    try { PASSES = await decryptPasses(pw, fresh); return true; } catch { return false; }
   }
   const normKey = (s) => String(s || "").trim().toLowerCase().replace(/\s+/g, "-");
 
@@ -244,9 +245,12 @@
   async function openPass(id) {
     const meta = D.passMeta[id] || {};
     if (meta.missing) { openSheet(`<h2>${esc(meta.icon || "🎟️")} ${esc(meta.title)}</h2><div class="card"><p>${mark(meta.missing)}</p></div>`); return; }
+    // Decrypting takes a few seconds the first time: show feedback right away.
+    if (!PASSES && store.get(K.key, null)) openSheet(`<div class="viewer loading"><h2>${esc(meta.icon || "🎟️")} ${esc(meta.title || "Pase")}</h2><p class="lines">⏳ Abriendo el pase… la primera vez puede tardar unos segundos.</p></div>`, true);
     if (!(await ensurePasses())) { openSheet(unlockForm(id)); return; }
-    const p = PASSES[id];
-    if (!p) { openSheet(`<h2>${esc(meta.title || "Pase")}</h2><p>Este pase no está en el archivo.</p>`); return; }
+    if (!PASSES[id]) await ensurePasses(true);
+    const p = PASSES && PASSES[id];
+    if (!p) { openSheet(`<h2>${esc(meta.title || "Pase")}</h2><div class="card"><p>No se pudo abrir este pase. Conéctense a internet, cierren la app y vuelvan a abrirla.</p></div>`); return; }
     openSheet(`<div class="viewer">
       <h2 style="clear:none">${esc(meta.icon || "🎟️")} ${esc(p.title)}</h2>
       ${p.lines.length ? `<div class="lines">${p.lines.map((l) => `<p>${esc(l)}</p>`).join("")}</div>` : ""}
@@ -399,6 +403,7 @@
     return `<button type="button" class="pass" data-pass="${esc(id)}"><span class="pi">${esc(m.icon)}</span><span><span class="pt">${esc(m.title)}</span><span class="ps">${esc(sub)}</span></span><span class="go">Ver ›</span></button>`;
   }
 
+  const isFlight = (id) => id.startsWith("vuelo") || id.startsWith("azvce");
   function viewPases() {
     setCity(currentCity());
     let h = topbar("Pases");
@@ -408,7 +413,7 @@
     if (!store.get(K.key, null)) h += unlockForm("");
     else h += `<p class="muted">Funcionan sin internet. Toquen un pase para verlo en grande.</p>`;
     if (todayIds.length) h += `<p class="label">⭐ Para hoy</p>` + todayIds.map(passButton).join("");
-    const groups = [["✈️ Vuelos", (id) => id.startsWith("vuelo")], ["🏨 Hoteles", (id) => id.startsWith("hotel")], ["🎟️ Entradas", (id) => !id.startsWith("vuelo") && !id.startsWith("hotel")]];
+    const groups = [["✈️ Vuelos", isFlight], ["🏨 Hoteles", (id) => id.startsWith("hotel")], ["🎟️ Entradas", (id) => !isFlight(id) && !id.startsWith("hotel")]];
     groups.forEach(([label, fn]) => { const g = ids.filter(fn); if (g.length) h += `<p class="label">${label}</p>` + g.map(passButton).join(""); });
     if (who() === "tios") h += `<div class="card tint"><p>✈️ Sus tiquetes de ITA (Miami) no están cargados aquí: búsquenlos en el correo o en la app de ITA Airways.</p></div>`;
     if (store.get(K.key, null)) h += `<p class="small muted" style="margin-top:16px">Los pases están cifrados: sin la clave familiar nadie más puede verlos. <a href="#" data-forget="1">Olvidar la clave en este celular</a></p>`;

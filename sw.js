@@ -1,5 +1,5 @@
 // Bump VERSION whenever any file changes so phones pick up the new copy.
-const VERSION = "italia2026-v3";
+const VERSION = "italia2026-v4";
 const FILES = [
   "./",
   "index.html",
@@ -19,7 +19,7 @@ const FILES = [
 ];
 
 self.addEventListener("install", (e) => {
-  e.waitUntil(caches.open(VERSION).then((c) => c.addAll(FILES)).then(() => self.skipWaiting()));
+  e.waitUntil(caches.open(VERSION).then((c) => c.addAll(FILES.map((f) => new Request(f, { cache: "reload" })))).then(() => self.skipWaiting()));
 });
 
 self.addEventListener("activate", (e) => {
@@ -34,11 +34,12 @@ self.addEventListener("activate", (e) => {
 self.addEventListener("fetch", (e) => {
   const url = new URL(e.request.url);
   if (e.request.method !== "GET" || url.origin !== location.origin) return;
-  const fresh = e.request.mode === "navigate" || url.pathname.endsWith("data.json");
+  // The app asks for cache: "reload" when the cached pases.bin is older than data.json.
+  const fresh = e.request.mode === "navigate" || url.pathname.endsWith("data.json") || e.request.cache === "reload";
   if (fresh) {
     e.respondWith(
       fetch(e.request)
-        .then((res) => { const copy = res.clone(); caches.open(VERSION).then((c) => c.put(e.request, copy)); return res; })
+        .then((res) => { if (!res.ok) return res; const copy = res.clone(); caches.open(VERSION).then((c) => c.put(e.request, copy)); return res; })
         .catch(() => caches.match(e.request, { ignoreSearch: true }).then((r) => r || caches.match("index.html")))
     );
   } else {
